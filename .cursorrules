@@ -1,0 +1,63 @@
+# 项目背景
+这是一个开源的无数据库架构的开发者工具导航网站，利用 GitHub 进行内容存储和管理，使用 Next.js 进行服务器端渲染，支持 Markdown 编写内容，Tailwind CSS 实现响应式设计，并集成了国际化和广告支持。
+
+# 项目特性
+- 无数据库架构：利用 GitHub 进行内容存储和管理。
+- 动态内容：使用 Next.js 服务器端渲染动态渲染内容。
+- Markdown 支持：使用 Markdown 格式编写内容，便于编辑和版本控制。
+- 管理界面：内置管理面板用于内容管理。
+- 响应式设计：使用 Tailwind CSS 实现完全响应式设计。
+- SEO 友好：通过动态元数据优化搜索引擎。
+- 易于部署：简单的 Vercel 部署流程。
+- 内置分析支持：集成分析支持脚本，兼容 Google Analytics 和 Plausible Analytics。
+- 国际化：支持多语言，可轻松扩展以支持更多语言。
+- 深色模式：支持深色模式，可轻松扩展以支持更多主题。
+- 广告支持：支持 Google Adsense 和可以轻松扩展以支持更多广告。
+
+# 编码标准
+- 使用函数式组件和 Hooks，避免类组件
+- 变量声明优先使用 const，而不是 let
+- 变量和函数名使用 camelCase 规范，组件名使用 PascalCase
+
+# 首选的库
+- 使用 Next.js 进行导航和服务器端渲染
+- 使用 Tailwind CSS 进行响应式设计
+- 使用 Shadcn/UI 作为 UI 组件库
+- 使用 Next-Intl 进行国际化支持
+
+# 文件结构
+- messages: 多语言翻译json文件
+- src/components: 可复用的 UI 组件
+- src/app/[locale]: 支持多语言的Next.js 页面
+- src/app/api: 存放 API 服务函数
+- src/lib: 存放工具函数
+- data: 存放 JSON 和 Markdown 文件，用于内容管理
+- public: 静态资源
+- styles: Tailwind CSS 配置和全局样式
+
+# 性能优化指南
+- 对纯函数组件使用 React.memo
+- 路由组件实现懒加载
+- 优化 useEffect 依赖，防止不必要的重新渲染
+
+# 测试要求
+- 使用 Jest 和 React Testing Library 编写单元测试
+- 测试覆盖率应至少达到 80%
+- 对 UI 组件使用快照测试 (Snapshot Testing)
+
+# 文档规范
+- 使用 JSDoc 格式编写函数和组件的注释
+- 组件必须包含 PropTypes 验证
+- 每个主要目录必须包含 README.md 文件
+- 同时提供英语和中文版本的 README.md 文件
+
+# 错误处理
+- 使用 try/catch 块处理异步操作
+- 实现全局错误边界组件
+
+# 国际化
+- 支持多语言，可轻松扩展以支持更多语言
+- 使用 Next-Intl 进行国际化支持
+
+# 广告支持
+- 支持 Google Adsense 和可以轻松扩展以支持更多广告
