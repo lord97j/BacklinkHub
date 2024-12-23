@@ -1,8 +1,8 @@
 🌍 *[English](README.md) ∙ [简体中文](README.zh.md)*
 
-# DevToolset
+# SitemapHunt
 
-[DevToolset](https://DevToolset.net/) 是一个开源的无数据库架构的开发者工具导航网站
+[SitemapHunt](https://SitemapHunt.net/) 是一个开源的无数据库架构的开发者工具导航网站
 
 ## Star 历史
 
@@ -11,7 +11,7 @@
 
 ## 预览
 
-![DevToolset](https://img.magicbox.tools/screenshot_img/devtoolset_zh.png?version=081702)
+![SitemapHunt](https://img.magicbox.tools/screenshot_img/devtoolset_zh.png?version=081702)
 
 ## 特性
 
@@ -40,9 +40,9 @@
 ---
 
 
-## 向 DevToolset 添加新的开发者工具
+## 向 SitemapHunt 添加新的开发者工具
 
-想要将您的网站添加到 DevToolset 吗？
+想要将您的网站添加到 SitemapHunt 吗？
 
 ### 提交您网站的两种方式
 1. 通过 [GitHub Issues](https://github.com/iamcorey/devtoolset/issues) 提交您的网站，获得免费的 dofollow 链接。
@@ -69,7 +69,7 @@
 
 
 
-## 部署您自己的 DevToolset
+## 部署您自己的 SitemapHunt
 
 ### 在 Vercel 上部署
 
@@ -125,7 +125,7 @@
    yarn run dev
    ```
 
-访问 `http://localhost:3000` 查看您的 DevToolset 实例在本地运行。
+访问 `http://localhost:3000` 查看您的 SitemapHunt 实例在本地运行。
 
 ## 部署
 
@@ -166,11 +166,11 @@
 
 ## 贡献
 
-我们欢迎对 DevToolset 的贡献！请阅读我们的[投稿指南](/data/md/add-new-developer-tools.md)，了解我们的行为准则和提交拉取请求的流程。
+我们欢迎对 SitemapHunt 的贡献！请阅读我们的[投稿指南](/data/md/add-new-developer-tools.md)，了解我们的行为准则和提交拉取请求的流程。
 
 ## 许可证
 
-DevToolset 是根据 [MIT 许可证](./LICENSE) 授权的开源软件。
+SitemapHunt 是根据 [MIT 许可证](./LICENSE) 授权的开源软件。
 
 
 ## SOP

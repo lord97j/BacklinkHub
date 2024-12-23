@@ -22,16 +22,16 @@ const sansFont = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'DevToolset: Open-Source Database-free Developer Tools Navigator',
-    template: '%s | DevToolset'
+    default: 'SitemapHunt: Free Online Sitemap Monitoring & Change Detection Tool',
+    template: '%s | SitemapHunt'
   },
-  description: 'Explore Every Essential Developer Tools You Need For Your Development Journey',
-  authors: { name: 'DevToolset', url: 'https://DevToolset.net/' },
+  description: 'Track website changes easily with our free sitemap monitoring tool. Automatic sitemap tracking, change detection, and markdown report generation',
+  authors: { name: 'SitemapHunt', url: 'https://SitemapHunt.net/' },
   keywords: 'developer tools, dev tools, develop tool',
   alternates: {
-    canonical: "https://DevToolset.net/", languages: {
-      "en-US": "https://DevToolset.net/en/",
-      "zh-CN": "https://DevToolset.net/zh/",
+    canonical: "https://SitemapHunt.net/", languages: {
+      "en-US": "https://SitemapHunt.net/en/",
+      "zh-CN": "https://SitemapHunt.net/zh/",
     }
   },
   icons: [

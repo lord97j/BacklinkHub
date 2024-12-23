@@ -1,13 +1,13 @@
 <!-- 🌍 *[English](README.md) ∙ [简体中文](README.zh.md)* -->
 
-# GitBasePro
+# SitemapHunt
 
-[GitBasePro](https://GitBasePro.net/) 一个开源的无数据库架构与AI驱动的自动化导航资源网站
+[SitemapHunt](https://SitemapHunt.net/) SitemapHunt - 智能Sitemap监控工具 | 自动检测 | 变更追踪
 
 
 <!-- ## 预览 -->
 <!-- 
-![GitBasePro](https://img.magicbox.tools/screenshot_img/GitBasePro_zh.png?version=081702) -->
+![SitemapHunt](https://img.magicbox.tools/screenshot_img/SitemapHunt_zh.png?version=081702) -->
 
 ## 特性
 
@@ -36,12 +36,12 @@
 ---
 
 
-## 向 GitBasePro 添加新的资源数据
+## 向 SitemapHunt 添加新的资源数据
 
-想要将您的网站添加到 GitBasePro 吗？
+想要将您的网站添加到 SitemapHunt 吗？
 
 ### 提交您网站的两种方式
-1. 通过 [GitHub Issues](https://github.com/iamcorey/GitBasePro/issues) 提交您的网站，获得免费的 dofollow 链接。
+1. 通过 [GitHub Issues](https://github.com/iamcorey/SitemapHunt/issues) 提交您的网站，获得免费的 dofollow 链接。
 
 2. 或者您也可以通过更改 `data/json/[locale]` 文件夹中的 jsonc 文件并创建拉取请求来提交您的网站。
 （请阅读我们的[投稿指南](/data/md/add-new-developer-tools.md)了解详情）
@@ -65,11 +65,11 @@
 
 
 
-## 部署您自己的 GitBasePro
+## 部署您自己的 SitemapHunt
 
 ### 在 Vercel 上部署
 
-[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FiAmCorey%2FGitBasePro&project-name=GitBasePro&repository-name=GitBasePro&external-id=https%3A%2F%2Fgithub.com%2FiAmCoreye%2FGitBasePro%2Ftree%2Fmain)
+[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FiAmCorey%2FSitemapHunt&project-name=SitemapHunt&repository-name=SitemapHunt&external-id=https%3A%2F%2Fgithub.com%2FiAmCoreye%2FSitemapHunt%2Ftree%2Fmain)
 
 
 
@@ -85,8 +85,8 @@
 
 1. 克隆仓库：
    ```
-   git clone https://github.com/iAmCorey/GitBasePro
-   cd GitBasePro
+   git clone https://github.com/iAmCorey/SitemapHunt
+   cd SitemapHunt
    ```
 
 2. 安装依赖：
@@ -121,7 +121,7 @@
    yarn run dev
    ```
 
-访问 `http://localhost:3000` 查看您的 GitBasePro 实例在本地运行。
+访问 `http://localhost:3000` 查看您的 SitemapHunt 实例在本地运行。
 
 ## 部署
 
@@ -139,7 +139,7 @@
    - `DOMAIN`(localhost / 你的域名)
 4. 部署项目。
 
-有关详细的部署指南，请参阅我们的[安装和部署指南](/data/md/deploy-own-GitBasePro.md)。
+有关详细的部署指南，请参阅我们的[安装和部署指南](/data/md/deploy-own-SitemapHunt.md)。
 
 ## 使用
 ### 手动
@@ -162,11 +162,11 @@
 
 ## 贡献
 
-我们欢迎对 GitBasePro 的贡献！请阅读我们的[投稿指南](/data/md/add-new-developer-tools.md)，了解我们的行为准则和提交拉取请求的流程。
+我们欢迎对 SitemapHunt 的贡献！请阅读我们的[投稿指南](/data/md/add-new-developer-tools.md)，了解我们的行为准则和提交拉取请求的流程。
 
 ## 许可证
 
-GitBasePro 是根据 [MIT 许可证](./LICENSE) 授权的开源软件。
+SitemapHunt 是根据 [MIT 许可证](./LICENSE) 授权的开源软件。
 
 
 ## SOP
