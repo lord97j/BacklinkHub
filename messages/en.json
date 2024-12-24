@@ -79,5 +79,10 @@
   "articleList": {
     "h2": "Monitoring Guides",
     "moreArticles": "More guides"
+  },
+  "sitemap": {
+    "input_placeholder": "Enter website URL (e.g., example.com)",
+    "check_button": "Check Sitemap",
+    "error_message": "Failed to fetch sitemap"
   }
 }

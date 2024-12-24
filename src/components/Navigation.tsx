@@ -166,10 +166,10 @@ export const Navigation = ({ categories }: navigationProp ) => {
                           </a>
                         </NavigationMenuLink>
                       </li>
-                      <ListItem href="/article/add-new-developer-tools" title="Add Tools">
+                      <ListItem href="/article/add-new-website-sitemap" title="Add Tools">
                         {t('article1Title')}
                       </ListItem>
-                      <ListItem href="/article/deploy-own-devtoolset" title={`Deploy ${siteConfig.name2}`}>
+                      <ListItem href="/article/deploy-own-sitemaphunt" title={`Deploy ${siteConfig.name2}`}>
                         {t('article2Title')}
                       </ListItem>
                       <ListItem href="/article" title={t('moreArticleBtn')} className='border border-muted  bg-gradient-to-b  from-muted/50 to-muted/20'>

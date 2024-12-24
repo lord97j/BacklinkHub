@@ -9,6 +9,7 @@ import { ArticleList } from '@/components/ArticleList'
 import { Search } from '@/components/Search';
 import { getTranslations, getLocale } from 'next-intl/server';
 import { siteConfig } from '@/lib/config';
+import { SitemapTool } from '@/components/Tool';
 
 export async function generateMetadata() {
   const t = await getTranslations('home');
@@ -48,8 +49,15 @@ export default async function Home() {
         <p className="mx-auto max-w-[700px] md:text-xl tracking-tight">
           {t("description")}
         </p>
-        <div className='w-full px-2 pt-10 lg:w-1/2'>
-          <Search />
+        
+        <div className="w-full max-w-4xl mx-auto px-4 space-y-6">
+          <div className="relative w-full max-w-2xl mx-auto">
+            <Search />
+          </div>
+          
+          <div className="w-full bg-card rounded-lg shadow-sm">
+            <SitemapTool className="w-full" />
+          </div>
         </div>
       </section>
       

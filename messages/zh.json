@@ -79,5 +79,10 @@
   "articleList": {
     "h2": "监控指南",
     "moreArticles": "更多指南"
+  },
+  "sitemap": {
+    "input_placeholder": "输入网站地址（如：example.com）",
+    "check_button": "检查 Sitemap",
+    "error_message": "获取 Sitemap 失败"
   }
 }
