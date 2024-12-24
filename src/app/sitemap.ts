@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import { siteConfig } from '@/lib/config';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapRoutes: MetadataRoute.Sitemap = [
@@ -38,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const routeUrl = route.url === '' ? '' : `/${route.url}`;
     return {
         ...route,
-        url: `https://SitemapHunt.net${routeUrl}`,
+        url: `${siteConfig.base_url}${routeUrl}`,
       };
     }
   );

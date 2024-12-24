@@ -4,6 +4,7 @@ import React from 'react'; // 确保导入 React
 import Image from "next/image";
 import IconImage from "../../public/favicon.svg";
 import {useTranslations} from 'next-intl';
+import { siteConfig } from '@/lib/config';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -22,7 +23,7 @@ export function Footer() {
                   height={size}
                   alt="DomainScore"
                 />
-                <span className="inline-block font-bold">Sitemap Hunt</span>
+                <span className="inline-block font-bold">{siteConfig.name}</span>
               </Link>
             </h3>
             <p className="mt-4 text-xs ">
@@ -90,7 +91,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t pt-8">
           <p className="text-base text-center">
-            &copy; {new Date().getFullYear()} SitemapHunt. {t('copyright')}
+            &copy; {new Date().getFullYear()} {siteConfig.name}. {t('copyright')}
           </p>
         </div>
       </div>

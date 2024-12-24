@@ -13,6 +13,7 @@ import { cn } from "@/lib/utils";
 
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import { siteConfig } from '@/lib/config';
 
 const inter = Inter({ subsets: ['latin'] })
 const sansFont = DM_Sans({
@@ -22,16 +23,16 @@ const sansFont = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'SitemapHunt: Free Online Sitemap Monitoring & Change Detection Tool',
-    template: '%s | SitemapHunt'
+    default: siteConfig.title,
+    template: '%s | ' + siteConfig.title
   },
-  description: 'Track website changes easily with our free sitemap monitoring tool. Automatic sitemap tracking, change detection, and markdown report generation',
-  authors: { name: 'SitemapHunt', url: 'https://SitemapHunt.net/' },
-  keywords: 'developer tools, dev tools, develop tool',
+  description: siteConfig.description,
+  authors: { name: siteConfig.authors, url: siteConfig.base_url },
+  keywords: '',
   alternates: {
-    canonical: "https://SitemapHunt.net/", languages: {
-      "en-US": "https://SitemapHunt.net/en/",
-      "zh-CN": "https://SitemapHunt.net/zh/",
+    canonical: siteConfig.base_url, languages: {
+      "en-US": siteConfig.base_url + "/en/",
+      "zh-CN": siteConfig.base_url + "/zh/",
     }
   },
   icons: [

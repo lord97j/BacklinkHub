@@ -10,7 +10,8 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 
-import {getTranslations} from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
+import { siteConfig } from '@/lib/config';
 
 type PostParams = {
   params: { slug: string }
@@ -20,7 +21,7 @@ export async function generateMetadata({ params }: PostParams) {
   const postData = await getPostData(params.slug);
   return {
     title: `${postData.title}`,
-    description: postData.description || `Read about ${postData.title} on SitemapHunt`,
+    description: postData.description || `Read about ${postData.title} on ${siteConfig.name}`,
   };
 }
 
