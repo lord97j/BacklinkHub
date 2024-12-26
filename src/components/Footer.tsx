@@ -4,6 +4,7 @@ import React from 'react'; // 确保导入 React
 import Image from "next/image";
 import IconImage from "../../public/favicon.svg";
 import {useTranslations} from 'next-intl';
+import { siteConfig } from '@/lib/config';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -22,7 +23,7 @@ export function Footer() {
                   height={size}
                   alt="DomainScore"
                 />
-                <span className="inline-block font-bold">Dev Toolset</span>
+                <span className="inline-block font-bold">{siteConfig.name2}</span>
               </Link>
             </h3>
             <p className="mt-4 text-xs ">
@@ -80,7 +81,7 @@ export function Footer() {
             <h3 className="text-sm font-semibold tracking-wider uppercase">{t('connect')}</h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <Link href={"mailto:iamcoreychiu+devtoolsetsupport@gmail.com"} className="text-base">
+                <Link href={`mailto:${siteConfig.email}`} className="text-base">
                   {t('support')}
                 </Link>
               </li>
@@ -90,7 +91,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t pt-8">
           <p className="text-base text-center">
-            &copy; {new Date().getFullYear()} DevToolset. {t('copyright')}
+            &copy; {new Date().getFullYear()} {siteConfig.name}. {t('copyright')}
           </p>
         </div>
       </div>

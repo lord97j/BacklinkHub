@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
+import { siteConfig } from '@/lib/config';
 
-const BASE_URL = 'https://DevToolset.net';
+const BASE_URL = siteConfig.base_url;
 
 export default function robots(): MetadataRoute.Robots {
   return {
