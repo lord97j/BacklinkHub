@@ -1,70 +1,70 @@
 {
   "home": {
-    "meta_title": "SitemapHunt: Free Online Sitemap Monitoring & Change Detection Tool",
-    "meta_description": "Track website changes easily with our free sitemap monitoring tool. Automatic sitemap tracking, change detection, and markdown report generation.",
-    "h2": "Simple & Powerful Sitemap Monitoring Tool",
-    "description": "Track Website Changes Easily with Automated Sitemap Monitoring"
+    "meta_title": "DevToolset: Open-Source Database-free Developer Tools Navigator",
+    "meta_description": "Find Every Essential Developer Tools You Need For Your Development Journey",
+    "h2": "Open-Source & Database-Free Developer Tools Navigator",
+    "description": "Find Every Essential Developer Tools You Need for Your Development Journey"
   },
   "category": {
-    "meta_title": "SitemapHunt Features - Website Monitoring Tools & Resources",
-    "meta_description": "Discover SitemapHunt's powerful features for sitemap monitoring, website change detection, and automated reporting.",
+    "meta_title": "Category",
+    "meta_description": "Find Every Essential Developer Tools You Need For Your Development Journey",
     "homeBtn": "Home",
-    "categoryBtn": "Features",
-    "h1": "Sitemap Monitoring Features",
-    "h2": "Everything You Need for Website Change Detection",
-    "h2description": "Explore our comprehensive sitemap monitoring features"
+    "categoryBtn": "Category",
+    "h1": "Develop Tools Category",
+    "h2": "Find Every Developer Tools You Need Here",
+    "h2description": "All developer tools are sorted alphabetically"
   },
   "article": {
-    "meta_title": "SitemapHunt Blog - Sitemap Monitoring Guides & Best Practices",
-    "meta_description": "Learn about website monitoring, sitemap tracking, and change detection best practices.",
-    "h1": "Sitemap Monitoring Guide",
-    "h2": "Learn More About Website Monitoring",
+    "meta_title": "Article",
+    "meta_description": "Read our latest articles on newest developer tools and best practices.",
+    "h1": "Articles",
+    "h2": "Read More About DevToolset",
     "homeBtn": "Home",
-    "articleBtn": "Guides",
-    "backToArticles": "Back to guides"
+    "articleBtn": "Article",
+    "backToArticles": "Back to articles"
   },
   "changelog": {
-    "meta_title": "SitemapHunt Changelog - Latest Updates & Improvements",
-    "meta_description": "Stay updated with the latest features and improvements in SitemapHunt's sitemap monitoring tool",
+    "meta_title": "Changelog",
+    "meta_description": "Stay up to date with the latest updates in DevToolset.net",
     "h1": "Changelog",
-    "h2": "Latest Updates & Improvements",
+    "h2": "Stay up to date with the latest updates in DevToolset.net",
     "homeBtn": "Home",
-    "changelogBtn": "Updates"
+    "changelogBtn": "Changelog"
   },
   "tools": {
-    "meta_description": "Discover powerful sitemap monitoring and website change detection tools",
-    "h2_1": "Website monitoring tools for",
+    "meta_description": "Find Every Essential Developer Tools You Need For Your Development Journey",
+    "h2_1": "All developer tools related to",
     "h2_2": "",
     "homeBtn": "Home"
   },
   "search": {
-    "input_placeholder": "Search monitoring features or guides...",
-    "heading": "Popular Features",
-    "more": "View All",
+    "input_placeholder": "Search tools by name / tags...",
+    "heading": "Suggestions",
+    "more": "More",
     "button": "Search"
   },
   "navigation": {
     "homeBtn": "Home",
-    "categoryBtn": "Features",
+    "categoryBtn": "Category",
     "moreCategoryBtn": "More",
-    "moreCategoryDescription": "More Features",
-    "articleBtn": "Guides",
-    "articleDescription": "Free Online Sitemap Monitoring Tool",
-    "article1Title": "Getting Started with SitemapHunt",
-    "article2Title": "Advanced Sitemap Monitoring Guide",
+    "moreCategoryDescription": "More Categories",
+    "articleBtn": "Article",
+    "articleDescription": "Open-Source Database-free Developer Tools Navigator",
+    "article1Title": "Adding New Developer Tools to DevToolset",
+    "article2Title": "Deploy your own DevToolset",
     "moreArticleBtn": "More",
-    "moreArticleDescription": "More guides",
-    "changelogBtn": "Updates",
-    "submitToolBtn": "Try Now"
+    "moreArticleDescription": "More articles",
+    "changelogBtn": "Changelog",
+    "submitToolBtn": "Submit Tool"
   },
   "footer": {
-    "description": "Free Online Sitemap Monitoring & Change Detection Tool",
+    "description": "OpenSource & Database-free Developer Tools Navigator",
     "builtWith": "Built with",
     "quickLinks": "Quick Links",
     "home": "Home",
-    "category": "Features",
-    "article": "Guides",
-    "changelog": "Updates",
+    "category": "Category",
+    "article": "Article",
+    "changelog": "Changelog",
     "privacy": "Privacy",
     "termsOfService": "Terms of Service",
     "legal": "Legal",
@@ -74,15 +74,10 @@
   },
   "toolsList": {
     "more": "More",
-    "tools": "features"
+    "tools": "tools"
   },
   "articleList": {
-    "h2": "Monitoring Guides",
-    "moreArticles": "More guides"
-  },
-  "sitemap": {
-    "input_placeholder": "Enter website URL (e.g., example.com)",
-    "check_button": "Check Sitemap",
-    "error_message": "Failed to fetch sitemap"
+    "h2": "Articles",
+    "moreArticles": "More articles"
   }
 }

@@ -19,9 +19,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { ThemeModeButton } from "@/components/ThemeModeButton";
 import { LocaleButton } from "@/components/LocaleButton";
-import { useTranslations } from 'next-intl';
-import { siteConfig } from '@/lib/config';
-
+import {useTranslations} from 'next-intl';
 type categoriesType = {
   name: string,
   src: string,
@@ -109,7 +107,7 @@ export const Navigation = ({ categories }: navigationProp ) => {
               height={size}
               alt="DomainScore"
             />
-            <span className="inline-block font-bold">{siteConfig.name2}</span>
+            <span className="inline-block font-bold">Dev Toolset</span>
           </Link>
           <nav className="hidden md:flex gap-6">
             <NavigationMenu>
@@ -158,7 +156,7 @@ export const Navigation = ({ categories }: navigationProp ) => {
                             href="/"
                           >
                             <div className="mb-2 mt-4 text-lg font-medium">
-                              {siteConfig.name2}
+                              Dev Toolset
                             </div>
                             <p className="text-xs leading-tight text-muted-foreground">
                               {t('articleDescription')}
@@ -166,10 +164,10 @@ export const Navigation = ({ categories }: navigationProp ) => {
                           </a>
                         </NavigationMenuLink>
                       </li>
-                      <ListItem href="/article/add-new-website-sitemap" title="Add Tools">
+                      <ListItem href="/article/add-new-developer-tools" title="Add Tools">
                         {t('article1Title')}
                       </ListItem>
-                      <ListItem href="/article/deploy-own-sitemaphunt" title={`Deploy ${siteConfig.name2}`}>
+                      <ListItem href="/article/deploy-own-devtoolset" title="Deploy DevToolset">
                         {t('article2Title')}
                       </ListItem>
                       <ListItem href="/article" title={t('moreArticleBtn')} className='border border-muted  bg-gradient-to-b  from-muted/50 to-muted/20'>

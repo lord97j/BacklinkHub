@@ -13,7 +13,6 @@ import { cn } from "@/lib/utils";
 
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import { siteConfig } from '@/lib/config';
 
 const inter = Inter({ subsets: ['latin'] })
 const sansFont = DM_Sans({
@@ -23,16 +22,16 @@ const sansFont = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.title,
-    template: '%s | ' + siteConfig.title
+    default: 'DevToolset: Open-Source Database-free Developer Tools Navigator',
+    template: '%s | DevToolset'
   },
-  description: siteConfig.description,
-  authors: { name: siteConfig.authors, url: siteConfig.base_url },
-  keywords: '',
+  description: 'Explore Every Essential Developer Tools You Need For Your Development Journey',
+  authors: { name: 'DevToolset', url: 'https://DevToolset.net/' },
+  keywords: 'developer tools, dev tools, develop tool',
   alternates: {
-    canonical: siteConfig.base_url, languages: {
-      "en-US": siteConfig.base_url + "/en/",
-      "zh-CN": siteConfig.base_url + "/zh/",
+    canonical: "https://DevToolset.net/", languages: {
+      "en-US": "https://DevToolset.net/en/",
+      "zh-CN": "https://DevToolset.net/zh/",
     }
   },
   icons: [

@@ -7,9 +7,7 @@ import { ToolsList } from '@/components/ToolsList';
 import { ArticleList } from '@/components/ArticleList'
 
 import { Search } from '@/components/Search';
-import { getTranslations, getLocale } from 'next-intl/server';
-import { siteConfig } from '@/lib/config';
-import { SitemapTool } from '@/components/Tool';
+import {getTranslations, getLocale} from 'next-intl/server';
 
 export async function generateMetadata() {
   const t = await getTranslations('home');
@@ -43,21 +41,14 @@ export default async function Home() {
     <div className="container mx-auto py-12 space-y-16 ">
       <section className="flex flex-col items-center justify-center text-center space-y-6">
         <h1 className="mx-auto max-w-3xl text-3xl font-bold lg:text-7xl tracking-tighter">
-          <span className="inline-block">{siteConfig.name2}</span>
+          <span className="inline-block">Dev Toolset</span>
         </h1>
         <h2 className="text-2xl tracking-tight sm:text-3xl md:text-3xl lg:text-3xl">{t("h2")}</h2>
         <p className="mx-auto max-w-[700px] md:text-xl tracking-tight">
           {t("description")}
         </p>
-        
-        <div className="w-full max-w-4xl mx-auto px-4 space-y-6">
-          <div className="relative w-full max-w-2xl mx-auto">
-            <Search />
-          </div>
-          
-          <div className="w-full bg-card rounded-lg shadow-sm">
-            <SitemapTool className="w-full" />
-          </div>
+        <div className='w-full px-2 pt-10 lg:w-1/2'>
+          <Search />
         </div>
       </section>
       

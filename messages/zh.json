@@ -1,88 +1,83 @@
 {
   "home": {
-    "meta_title": "SitemapHunt：免费在线站点地图监控和变更检测工具",
-    "meta_description": "通过我们的免费站点地图监控工具轻松追踪网站变更。自动sitemap跟踪、变更检测和markdown报告生成。",
-    "h2": "简单而强大的站点地图监控工具",
-    "description": "通过自动化站点地图监控轻松跟踪网站变更"
+    "meta_title": "DevToolset: 开源、无数据库架构的开发者工具资源导航平台",
+    "meta_description": "在这里找到您在开发旅程中需要的每一种开发者工具",
+    "h2": "开源、无数据库架构的开发者工具资源导航平台",
+    "description": "在这里找到您在开发旅程中需要的每一种开发者工具"
   },
   "category": {
-    "meta_title": "SitemapHunt功能 - 网站监控工具与资源",
-    "meta_description": "探索SitemapHunt强大的站点地图监控、网站变更检测和自动报告功能。",
+    "meta_title": "分类",
+    "meta_description": "在这里找到您在开发旅程中需要的每一种开发者工具",
     "homeBtn": "首页",
-    "categoryBtn": "功能",
-    "h1": "站点地图监控功能",
-    "h2": "网站变更检测的所有必备功能",
-    "h2description": "探索我们全面的站点地图监控功能"
+    "categoryBtn": "分类",
+    "h1": "开发工具分类",
+    "h2": "在这里找到您在开发旅程中需要的每一种开发者工具",
+    "h2description": "所有开发者工具按字母顺序排列"
   },
   "article": {
-    "meta_title": "SitemapHunt博客 - 站点地图监控指南与最佳实践",
-    "meta_description": "学习网站监控、站点地图跟踪和变更检测的最佳实践。",
-    "h1": "站点地图监控指南",
-    "h2": "深入了解网站监控",
+    "meta_title": "文章",
+    "meta_description": "阅读文章，了解最新的开发者工具以及开发经验、技巧和最佳实践",
     "homeBtn": "首页",
-    "articleBtn": "指南",
-    "backToArticles": "返回指南列表"
+    "articleBtn": "文章",
+    "h1": "文章",
+    "h2": "阅读更多有关DevToolset的文章",
+    "backToArticles": "返回文章列表"
   },
   "changelog": {
-    "meta_title": "SitemapHunt更新日志 - 最新功能与改进",
-    "meta_description": "及时了解SitemapHunt站点地图监控工具的最新功能和改进",
+    "meta_title": "更新日志",
+    "meta_description": "查看DevToolset的更新日志",
     "h1": "更新日志",
-    "h2": "最新功能与改进",
+    "h2": "查看DevToolset的更新日志",
     "homeBtn": "首页",
-    "changelogBtn": "更新"
+    "changelogBtn": "更新日志"
   },
   "tools": {
-    "meta_description": "发现强大的站点地图监控和网站变更检测工具",
-    "h2_1": "适用于以下场景的网站监控工具",
-    "h2_2": "",
+    "meta_description": "Find Every Essential Developer Tools You Need For Your Development Journey",
+    "h2_1": "所有与 ",
+    "h2_2": " 相关的开发者工具",
     "homeBtn": "首页"
   },
   "search": {
-    "input_placeholder": "搜索监控功能或指南...",
-    "heading": "热门功能",
-    "more": "查看全部",
+    "input_placeholder": "输入名词、关键词等搜索相关工具",
+    "heading": "建议",
+    "more": "更多",
     "button": "搜索"
   },
-  "navigation": {
+  "navigation": { 
     "homeBtn": "首页",
-    "categoryBtn": "功能",
+    "categoryBtn": "分类",
     "moreCategoryBtn": "更多",
-    "moreCategoryDescription": "更多功能",
-    "articleBtn": "指南",
-    "articleDescription": "免费在线站点地图监控工具",
-    "article1Title": "SitemapHunt入门指南",
-    "article2Title": "高级站点地图监控指南",
+    "moreCategoryDescription": "更多分类",
+    "articleBtn": "文章",
+    "articleDescription": "开源、无数据库架构的开发者工具资源导航平台",
+    "article1Title": "添加新的开发者工具到DevToolset",
+    "article2Title": "部署你自己的DevToolset",
     "moreArticleBtn": "更多",
-    "moreArticleDescription": "更多指南",
-    "changelogBtn": "更新",
-    "submitToolBtn": "立即体验"
+    "moreArticleDescription": "更多文章",
+    "changelogBtn": "更新日志",
+    "submitToolBtn": "提交工具"
   },
-  "footer": {
-    "description": "免费在线站点地图监控与变更检测工具",
-    "builtWith": "技术支持",
+  "footer": { 
+    "description": "开源、无数据库架构的开发者工具资源导航平台",
+    "builtWith": "基于",
     "quickLinks": "快速链接",
     "home": "首页",
-    "category": "功能",
-    "article": "指南",
-    "changelog": "更新",
+    "category": "分类",
+    "article": "文章",
+    "changelog": "更新日志",
     "privacy": "隐私政策",
     "termsOfService": "服务条款",
     "legal": "法律声明",
-    "connect": "关注我们",
-    "support": "技术支持",
-    "copyright": "版权所有"
+    "connect": "联系我们",
+    "support": "支持",
+    "copyright": "版权所有。"
   },
   "toolsList": {
     "more": "更多",
-    "tools": "功能"
+    "tools": "工具"
   },
   "articleList": {
-    "h2": "监控指南",
-    "moreArticles": "更多指南"
-  },
-  "sitemap": {
-    "input_placeholder": "输入网站地址（如：example.com）",
-    "check_button": "检查 Sitemap",
-    "error_message": "获取 Sitemap 失败"
+    "h2": "文章",
+    "moreArticles": "更多文章"
   }
 }
