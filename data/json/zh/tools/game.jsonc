@@ -1,27 +1,5 @@
-// 示例数据
-// {
-//   "name": "Tailwind CSS",
-//   "description": "一个实用优先的 CSS 框架",
-//   "url": "https://tailwindcss.com/",
-//   "tags": ["a", "b"], (可选，最多3个标签)
-//   "add_date": "yyyy-MM-dd" (可选) 
-//   ...如果需要可以添加其他键
-// }
-// 
-// 注意：
-// 1. 所有数据应按字母顺序排序。
-// 2. 不允许使用联盟链接
-// 3. 请勿提交与开发无关的工具。
-
-
 [
   // A
-  {
-    "name": "Amazon RDS",
-    "description": "AWS提供的托管关系型数据库服务，支持多种数据库引擎，如MySQL、PostgreSQL和MariaDB。",
-    "url": "https://aws.amazon.com/rds/",
-    "tags": ["关系型", "多引擎", "AWS"]
-  },
   // B
   // C
   // D
@@ -30,44 +8,56 @@
   // G
   // H
   // I
+  {
+    "name": "Incredibox",
+    "description": "Incredibox 是一个有趣且富有创意的音乐游戏！通过拖放来制作节拍，创作朗朗上口的音乐。免费在线体验 Incredibox - 适合所有年龄段的玩家！",
+    "url": "https://incredibox-game.io/home",
+    "tags": ["incredibox", "457.2K"]
+  },
+  {
+    "name": "Incredibox Sprunki 游戏",
+    "description": "Incredibox Sprunki 是一个粉丝制作的模组，它在保留 Incredibox 核心玩法的基础上，加入了全新的音效、Sprunki 角色和视觉元素。",
+    "url": "https://incrediboxsprunki.com/mods/",
+    "tags": ["incredibox", "sprunki", "118.8K"]
+  },
   // J
   // K
   // L
   // M
-  {
-    "name": "MongoDB Atlas",
-    "description": "MongoDB提供的全托管云数据库服务，提供高级安全性、可扩展性和灵活性。",
-    "url": "https://www.mongodb.com/cloud/atlas",
-    "tags": ["NoSQL", "可扩展性", "灵活性"]
-  },
   // N
   // O
   // P
-  {
-    "name": "PlanetScale",
-    "description": "一个与MySQL兼容的无服务器数据库平台，专为需要可扩展性和性能的开发者设计。",
-    "url": "https://planetscale.com/",
-    "tags": ["无服务器", "MySQL", "可扩展性"]
-  },
   // Q
   // R
-  {
-    "name": "Redis",
-    "description": "一个内存数据结构存储，用作数据库、缓存和消息代理，具有高性能和可扩展性。",
-    "url": "https://redis.io/",
-    "tags": ["NoSQL", "键值对", "高性能"]
-  },
   // S
   {
-    "name": "Supabase",
-    "description": "一个开源的Firebase替代品，提供实时数据库、身份验证和存储服务。",
-    "url": "https://supabase.com/",
-    "tags": ["开源", "PostgreSQL", "实时"]
+    "name": "Sprunki",
+    "description": "西瓜游戏（Suika Game）在英语中也被称为 Watermelon game。这是一款水果俄罗斯方块游戏。在游戏中，你需要通过触碰相同的水果来合成更大的水果。",
+    "url": "https://sprunki.org/online/",
+    "tags": ["sprunki", "8.5M"]
+  },
+  {
+    "name": "Suika",
+    "description": "西瓜游戏（Suika Game）也被称为合成大西瓜：你需要将水果放入盒子中，当两个相同的水果相碰时，它们会合并成一个更大的水果。",
+    "url": "https://suikagame.io/",
+    "tags": ["Suika", "196K"]
   },
   // T
+  {
+    "name": "thatsnotmyneighbor",
+    "description": "《那不是我的邻居》是一款独特的2D恐怖游戏，为职业模拟类游戏带来了新的玩法。游戏于2024年2月发布，你将扮演1955年一栋公寓楼的门卫，面对离奇的情况。",
+    "url": "https://thatsnotmyneighbor.org/",
+    "tags": ["that's not my neighbor", "448.5K"]
+  },
   // U
   // V
   // W
+  {
+    "name": "Wordle2",
+    "description": "Wordle 2 - 玩转并征服 Wordle 游戏的挑战，无次数限制，可以持续游玩，与朋友一起挑战，享受轻松愉快的时光。",
+    "url": "https://wordle2.io/",
+    "tags": ["wordle", "763.8K"]
+  }
   // X
   // Y
   // Z
