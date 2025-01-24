@@ -1,9 +1,877 @@
 [
   {
-    "title": "Add New Developer Tools To DevToolset",
+    "title": "Add New Cursor Rules To CursorRules.org",
     "description": "How to add new developer tools to DevToolset",
     "date": "2024-08-14T13:14:40.737Z",
-    "lastModified": "2024-08-14T13:14:40Z",
-    "path": "data/md/add-new-developer-tools.md"
+    "lastModified": "2025-01-24T08:33:12Z",
+    "path": "data/md/add-new-cursor-rules.md"
+  },
+  {
+    "title": "Android Native (Jetpack Compose)",
+    "description": "Best practices and guidelines for Android Native development using Jetpack Compose, including project architecture, UI guidelines, testing, and performance optimization.",
+    "date": "2025-01-23T18:51:09.492Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/android-jetpack-compose-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Angular (Novo Elements)",
+    "description": "A comprehensive guide and rules for integrating Novo Elements with Angular using standalone components, ensuring clean, maintainable, and efficient code.",
+    "date": "2025-01-23T18:31:11.973Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/angular-novo-elements-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Angular (TypeScript)",
+    "description": "Expert Angular programming using TypeScript, Angular 18, and Jest, focusing on clear, readable, and maintainable code.",
+    "date": "2025-01-23T18:31:29.226Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/angular-typescript-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "ASCII Simulation Game",
+    "description": "A turn-based ASCII simulation game where players observe the rise and fall of ancient nations. The game features a 10x10 grid with nested 10x10 sub-grids, random map generation, resource management, and dynamic nation interactions including trade, war, and peace. The game is designed to be balanced, with no technology tree, and focuses on strategic resource allocation and territorial expansion.",
+    "date": "2025-01-23T19:05:54.575Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/ascii-simulation-game-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Astro (TypeScript)",
+    "description": "Comprehensive guidelines for developing and maintaining an Astro project using TypeScript and TailwindCSS.",
+    "date": "2025-01-23T18:31:42.355Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/astro-typescript-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Chrome Extension (JavaScript/TypeScript)",
+    "description": "Comprehensive guidelines for developing Chrome Extensions using JavaScript and TypeScript, focusing on best practices, security, performance, and maintainability.",
+    "date": "2025-01-23T18:55:00.969Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/chrome-extension-dev-js-typescript-cursorrules-pro.md"
+  },
+  {
+    "title": "A Comprehensive Guide to Using .cursorrules for Optimized AI-assisted Programming",
+    "description": "Learn how to optimize AI-assisted programming with .cursorrules. Define coding standards, preferred libraries, and file structures to enhance AI-generated code. Improve performance, testing, and documentation while ensuring consistency and efficiency in your projects. Empower your AI assistant with precise, project-specific rules.",
+    "date": "2025-01-20T23:14:40.737Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/comprehensive-guide-cursorrules-optimized-ai-programming.md"
+  },
+  {
+    "title": "Cursor AI (React, TypeScript, shadcn/ui)",
+    "description": "An advanced AI programming assistant specializing in React and TypeScript, leveraging shadcn/ui for modern UI development. Ensures clean, maintainable, and high-performance code using the latest technologies and best practices.",
+    "date": "2025-01-23T18:31:59.164Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/cursor-ai-react-typescript-shadcn-ui-cursorrules-p.md"
+  },
+  {
+    "title": "Next.js 14 (Tailwind, SEO)",
+    "description": "A comprehensive guide and code generation rules for building modern, SEO-optimized web applications using Next.js 14, Tailwind CSS, and TypeScript. This template includes best practices for server-side rendering, responsive design, and performance optimization.",
+    "date": "2025-01-23T18:33:07.539Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/cursorrules-cursor-ai-nextjs-14-tailwind-seo-setup.md"
+  },
+  {
+    "title": "WordPress (macOS)",
+    "description": "PressThat is a macOS system tray application designed to streamline the process of managing and viewing draft posts on your WordPress website. It offers a seamless connection to your WordPress site, allowing you to quickly access and manage your content directly from your desktop.",
+    "date": "2025-01-23T18:49:39.900Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/cursorrules-cursor-ai-wordpress-draft-macos-prompt.md"
+  },
+  {
+    "title": "Python (FastAPI)",
+    "description": "Comprehensive guidelines for developing scalable, maintainable, and high-performance APIs using Python and FastAPI. Includes best practices for coding standards, error handling, performance optimization, and dependency management.",
+    "date": "2025-01-23T18:47:16.397Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/cursorrules-file-cursor-ai-python-fastapi-api.md"
+  },
+  {
+    "title": "Deno Integration",
+    "description": "This project provides automation scripts and workflows tailored for the @findhow packages, adapted from the original Deno automation repository. It aims to deliver consistent and efficient automation solutions for the @findhow ecosystem.",
+    "date": "2025-01-23T18:42:08.524Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/deno-integration-techniques-cursorrules-prompt-fil.md"
+  },
+  {
+    "title": "DragonRuby Best Practices",
+    "description": "Comprehensive guide to best practices for developing games using the DragonRuby Game Toolkit in Ruby. Covers code style, structure, naming conventions, syntax, error handling, and more.",
+    "date": "2025-01-23T19:24:16.189Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/dragonruby-best-practices-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Elixir Engineer Guidelines",
+    "description": "Comprehensive guidelines for Elixir engineers, covering best practices, tools, and workflows for building robust and scalable applications.",
+    "date": "2025-01-23T18:42:32.909Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/elixir-engineer-guidelines-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Elixir (Phoenix, Docker)",
+    "description": "Comprehensive guidelines and best practices for developing scalable and maintainable Elixir applications using Phoenix framework and Docker. Includes coding standards, preferred libraries, performance optimization, and testing strategies.",
+    "date": "2025-01-23T18:42:46.765Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/elixir-phoenix-docker-setup-cursorrules-prompt-fil.md"
+  },
+  {
+    "title": "ES Module (Node.js)",
+    "description": "Guidelines and best practices for using ES Modules in Node.js, focusing on modularity, performance, and security.",
+    "date": "2025-01-23T18:42:58.714Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/es-module-nodejs-guidelines-cursorrules-prompt-fil.md"
+  },
+  {
+    "title": "Flutter Expert",
+    "description": "Comprehensive .cursorrules for Flutter projects, including best practices, coding guidelines, and performance optimization techniques.",
+    "date": "2025-01-23T18:51:25.854Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/flutter-app-expert-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "GitHub Code Quality",
+    "description": "Comprehensive rules and best practices for maintaining high code quality on GitHub repositories.",
+    "date": "2025-01-23T18:55:17.912Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/github-code-quality-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Go Backend Scalability",
+    "description": "A comprehensive guide to building scalable backend systems using Go, covering best practices, performance optimization, and modern architectural patterns.",
+    "date": "2025-01-23T18:43:26.063Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/go-backend-scalability-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Go ServeMux REST API",
+    "description": "Comprehensive guide for building secure, scalable, and maintainable REST APIs using Go's net/http package and the new ServeMux introduced in Go 1.22. Follow best practices for RESTful API design, error handling, input validation, and concurrency.",
+    "date": "2025-01-23T18:43:44.111Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/go-servemux-rest-api-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Graphical Apps Development",
+    "description": "Pyllments is a Python library designed for building graphical and API-based LLM applications by chaining together Elements in a potentially cyclic graph. It emphasizes modularity, extensibility, and developer-friendly interfaces.",
+    "date": "2025-01-23T19:24:32.696Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/graphical-apps-development-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "HTMX (Basic Setup)",
+    "description": "A comprehensive guide to setting up HTMX with best practices, folder structure, and additional instructions for optimal performance and maintainability.",
+    "date": "2025-01-23T18:44:18.278Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/htmx-basic-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "HTMX (Django)",
+    "description": "Best practices and guidelines for integrating HTMX with Django to build dynamic web applications efficiently.",
+    "date": "2025-01-23T18:44:46.531Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/htmx-django-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "HTMX (Flask)",
+    "description": "A comprehensive guide to integrating HTMX with Flask, including best practices, folder structure, and additional instructions for building modern web applications.",
+    "date": "2025-01-23T18:44:30.649Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/htmx-flask-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Go (Basic Setup)",
+    "description": "A comprehensive guide to setting up a Go project with HTMX, including best practices, folder structure, and additional instructions for efficient development.",
+    "date": "2025-01-23T18:43:54.639Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/htmx-go-basic-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Go with Fiber",
+    "description": "Best practices and guidelines for integrating HTMX with Go and Fiber, including project structure, coding standards, and performance optimization.",
+    "date": "2025-01-23T18:44:07.491Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/htmx-go-fiber-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Java (Springboot, JPA)",
+    "description": "A comprehensive guide for Java developers using Spring Boot and JPA, focusing on best practices, SOLID principles, and OWASP security standards.",
+    "date": "2025-01-23T18:45:09.791Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/java-springboot-jpa-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "JavaScript (Astro, Tailwind CSS)",
+    "description": "Best practices and guidelines for building scalable, high-performance web applications using Astro and Tailwind CSS.",
+    "date": "2025-01-23T18:52:58.805Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/javascript-astro-tailwind-css-cursorrules-prompt-f.md"
+  },
+  {
+    "title": "JavaScript (Chrome APIs)",
+    "description": "Comprehensive guide to developing Chrome Extensions using JavaScript, HTML, CSS, and Chrome APIs. Learn best practices, performance optimization, security, and more.",
+    "date": "2025-01-23T18:57:50.227Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/javascript-chrome-apis-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "JavaScript/TypeScript Code Quality",
+    "description": "Comprehensive guidelines for writing clean, maintainable, and high-performance JavaScript/TypeScript code. Follow these best practices to ensure your code is simple, readable, and reusable.",
+    "date": "2025-01-23T18:57:34.746Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/javascript-typescript-code-quality-cursorrules-pro.md"
+  },
+  {
+    "title": "Knative (Istio, Typesense, GPU)",
+    "description": "A comprehensive guide for building scalable, serverless applications using Knative, Istio, Typesense, and GPU acceleration. This project focuses on creating a robust, efficient, and secure AI-powered search application with a responsive HTMX-based frontend.",
+    "date": "2025-01-23T18:45:28.742Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/knative-istio-typesense-gpu-cursorrules-prompt-fil.md"
+  },
+  {
+    "title": "Kubernetes (MkDocs Documentation)",
+    "description": "Comprehensive and user-friendly Kubernetes documentation created using MkDocs, focusing on cloud-native technologies, containerization, and orchestration best practices.",
+    "date": "2025-01-23T18:55:33.405Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/kubernetes-mkdocs-documentation-cursorrules-prompt.md"
+  },
+  {
+    "title": "Laravel (PHP 8.3)",
+    "description": "Comprehensive guide and best practices for developing Laravel packages using PHP 8.3, focusing on code quality, developer experience, and seamless integration.",
+    "date": "2025-01-23T18:45:44.273Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/laravel-php-83-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Laravel (TALL Stack)",
+    "description": "Comprehensive guide and best practices for building modern web applications using the TALL stack Laravel, Livewire, Alpine.js, and Tailwind CSS. This guide emphasizes Laravel and PHP best practices, performance optimization, and security measures.",
+    "date": "2025-01-23T18:46:11.232Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/laravel-tall-stack-best-practices-cursorrules-prom.md"
+  },
+  {
+    "title": "Linux (NVIDIA CUDA, Python)",
+    "description": "A streamlined pipeline for downloading, quantizing, and uploading models to Hugging Face repositories, optimized for Linux servers with NVIDIA CUDA and AMD ROCm GPU support.",
+    "date": "2025-01-23T18:55:49.217Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/linux-nvidia-cuda-python-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (Type LLM)",
+    "description": "Comprehensive rules for AI-assisted development in a Next.js project with TypeScript, shadcn/ui, Tailwind CSS, and LLM integration.",
+    "date": "2025-01-23T19:24:53.678Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/next-type-llm.md"
+  },
+  {
+    "title": "Next.js (App Router)",
+    "description": "Comprehensive guide and rules for implementing best practices in Next.js App Router projects, including folder structure, coding standards, and performance optimization.",
+    "date": "2025-01-23T18:36:49.908Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-app-router-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (Material UI, Tailwind CSS)",
+    "description": "A modern portfolio project built with Next.js, featuring Material UI, Tailwind CSS, and Shadcn/UI for a responsive and visually appealing design. This project supports TypeScript, App Router, and a structured `src/` directory for better organization.",
+    "date": "2025-01-23T18:37:11.372Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-material-ui-tailwind-css-cursorrules-prompt.md"
+  },
+  {
+    "title": "Next.js (React, Tailwind)",
+    "description": "A comprehensive guide and rules for developing modern web applications using Next.js, React, Tailwind CSS, and Shadcn UI. This setup emphasizes TypeScript, functional programming, and performance optimization.",
+    "date": "2025-01-23T18:33:23.467Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-react-tailwind-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (React, TypeScript)",
+    "description": "Comprehensive guide for developing with Next.js, React, and TypeScript, focusing on best practices, performance optimization, and modern web development techniques.",
+    "date": "2025-01-23T18:33:37.800Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-react-typescript-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (SEO Development)",
+    "description": "Comprehensive guide for SEO optimization in Next.js projects, including best practices, coding standards, and performance tips.",
+    "date": "2025-01-23T18:34:05.548Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-seo-dev-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (Supabase Todo App)",
+    "description": "A comprehensive guide and specifications for building a Todo application using Next.js and Supabase. This project leverages Supabase for backend services, Next.js for server-side rendering, and Tailwind CSS for styling.",
+    "date": "2025-01-23T18:34:19.110Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-supabase-todo-app-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (Tailwind, TypeScript)",
+    "description": "A comprehensive guide and rules for developing Next.js applications using Tailwind CSS for styling and TypeScript for type safety. This setup ensures a modern, efficient, and scalable web development environment.",
+    "date": "2025-01-23T18:34:33.414Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-tailwind-typescript-apps-cursorrules-prompt.md"
+  },
+  {
+    "title": "Next.js (TypeScript App)",
+    "description": "Astral is a Next.js and TypeScript-based block explorer for the Autonomys network, integrating state management, UI components, and data fetching libraries.",
+    "date": "2025-01-23T18:34:46.143Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-typescript-app-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (TypeScript)",
+    "description": "Comprehensive guide for building a full-stack application using Next.js with TypeScript, integrating modern UI libraries, and optimizing for performance and scalability.",
+    "date": "2025-01-23T18:35:04.402Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-typescript-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (TypeScript, Tailwind)",
+    "description": "Astral is the Block Explorer for the Autonomys Network, built with Next.js, TypeScript, and Tailwind CSS. It provides a responsive and accessible interface for exploring blockchain data, integrating advanced libraries for state management, UI components, and data fetching.",
+    "date": "2025-01-23T18:35:32.176Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-typescript-tailwind-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (Vercel, Supabase)",
+    "description": "BA Copilot is an AI-powered assistant designed to help business analysts create, modify, and iterate on BPMN diagrams with contextual suggestions, leveraging uploaded documents and user queries. Built with Next.js, Vercel, and Supabase, it offers a seamless workflow for business process modeling and documentation.",
+    "date": "2025-01-23T18:36:06.075Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-vercel-supabase-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js (Vercel, TypeScript)",
+    "description": "Comprehensive guide for integrating AI SDK RSC with Vercel middleware and KV database in a Next.js project using TypeScript, Tailwind CSS, and Shadcn UI.",
+    "date": "2025-01-23T18:36:36.908Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs-vercel-typescript-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Next.js 15 (React 19, Vercel AI, Tailwind)",
+    "description": "Comprehensive guide and best practices for building modern web applications using Next.js 15, React 19, Vercel AI SDK, and Tailwind CSS. Includes TypeScript, Shadcn UI, Radix UI, and performance optimization strategies.",
+    "date": "2025-01-23T18:32:35.388Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Node.js (MongoDB)",
+    "description": "A robust backend system built with Node.js and MongoDB for managing user pools, entries, picks, and scoring in a competitive gaming environment.",
+    "date": "2025-01-23T18:46:24.466Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nodejs-mongodb-cursorrules-prompt-file-tutorial.md"
+  },
+  {
+    "title": "Node.js (MongoDB, JWT, Express, React)",
+    "description": "A comprehensive full-stack application built with Node.js, MongoDB, JWT for authentication, Express.js for the backend, and React.js for the frontend. This project includes a robust admin panel, secure authentication, and efficient data management.",
+    "date": "2025-01-23T18:46:37.791Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/nodejs-mongodb-jwt-express-react-cursorrules-promp.md"
+  },
+  {
+    "title": "Optimize (DRY, SOLID Principles)",
+    "description": "Enhance code quality and maintainability by adhering to DRY (Don't Repeat Yourself) and SOLID (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) principles. This guide provides best practices for writing clean, efficient, and scalable code.",
+    "date": "2025-01-23T18:56:02.874Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/optimize-dry-solid-principles-cursorrules-prompt-f.md"
+  },
+  {
+    "title": "Optimize (Rell Blockchain Code)",
+    "description": "A comprehensive guide to writing clear, readable, and efficient Rell code for blockchain applications on the Chromia platform. Learn best practices, core concepts, and advanced features to optimize your Rell code.",
+    "date": "2025-01-23T18:58:22.470Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/optimize-rell-blockchain-code-cursorrules-prompt-f.md"
+  },
+  {
+    "title": "Pandas (scikit-learn Guide)",
+    "description": "A detailed guide on using Pandas and Scikit-learn for efficient data analysis, visualization, and machine learning workflows in Python. This guide emphasizes best practices, performance optimization, and reproducibility.",
+    "date": "2025-01-23T18:58:41.750Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/pandas-scikit-learn-guide-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Plasticode (Telegram API)",
+    "description": "Comprehensive guide for developing Telegram bots using Plasticode and PHP, focusing on best practices, coding standards, and dependency management.",
+    "date": "2025-01-23T18:58:53.966Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/plasticode-telegram-api-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Privacy Policy",
+    "description": "This privacy policy explains how we collect, use, and protect your personal information.",
+    "date": "2025-01-15T00:00:00.000Z",
+    "lastModified": "2025-01-24T08:40:53Z",
+    "path": "data/md/privacy-policy.md"
+  },
+  {
+    "title": "Python (FastAPI)",
+    "description": "Best practices and guidelines for developing scalable APIs using Python and FastAPI.",
+    "date": "2025-01-23T18:46:56.505Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/py-fast-api.md"
+  },
+  {
+    "title": "PyQt6 (EEG Processing)",
+    "description": "A comprehensive guide and AI system prompt for developing advanced EEG signal processing applications using PyQt6, focusing on creating user-friendly interfaces, robust backend processing, and efficient workflows.",
+    "date": "2025-01-23T18:59:11.148Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/pyqt6-eeg-processing-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Python/TypeScript Guide",
+    "description": "Comprehensive guide for Python and TypeScript development, focusing on best practices, modern frameworks, and efficient coding techniques.",
+    "date": "2025-01-23T18:59:23.322Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python--typescript-guide-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Python 3.12 (FastAPI Best Practices)",
+    "description": "Comprehensive best practices and guidelines for developing robust and maintainable Python 3.12 applications using FastAPI, Pydantic, SQLAlchemy, and other essential libraries.",
+    "date": "2025-01-23T18:47:35.087Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-312-fastapi-best-practices-cursorrules-prom.md"
+  },
+  {
+    "title": "Python Containerization",
+    "description": "Comprehensive guide on containerizing Python applications using Docker, Kubernetes, and best practices from Python's official documentation and PEPs.",
+    "date": "2025-01-23T18:56:18.679Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-containerization-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Python Best Practices",
+    "description": "Comprehensive guidelines for Python development, emphasizing modular design, robust error handling, and AI-friendly coding practices.",
+    "date": "2025-01-23T18:59:36.945Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-cursorrules-prompt-file-best-practices.md"
+  },
+  {
+    "title": "Python Developer",
+    "description": "Experienced Python developer specializing in command-line tools, file system operations, and performance optimization. Proven track record in debugging complex issues and delivering high-quality, maintainable code.",
+    "date": "2025-01-23T18:59:51.777Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-developer-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Python (Django Best Practices)",
+    "description": "Comprehensive guide on best practices for developing scalable and maintainable web applications using Python and Django.",
+    "date": "2025-01-23T18:47:56.068Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-django-best-practices-cursorrules-prompt-fi.md"
+  },
+  {
+    "title": "Python (FastAPI Best Practices)",
+    "description": "Comprehensive guide on best practices for developing scalable and efficient APIs using FastAPI, focusing on functional programming, modularization, and performance optimization.",
+    "date": "2025-01-23T18:48:13.701Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-fastapi-best-practices-cursorrules-prompt-f.md"
+  },
+  {
+    "title": "Python (FastAPI Scalable API)",
+    "description": "A comprehensive guide to building scalable APIs with Python and FastAPI, including best practices, project structure, and performance optimization techniques.",
+    "date": "2025-01-23T18:48:36.728Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-fastapi-scalable-api-cursorrules-prompt-fil.md"
+  },
+  {
+    "title": "Python (Flask JSON Guide)",
+    "description": "A comprehensive guide on integrating JSON data handling in Python using Flask, including examples and environment setup.",
+    "date": "2025-01-23T18:48:46.719Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-flask-json-guide-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Python (GitHub Setup)",
+    "description": "Comprehensive guidelines for setting up and developing Python projects on GitHub, including coding standards, testing, documentation, and deployment strategies.",
+    "date": "2025-01-23T18:56:41.878Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-github-setup-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Python LLM & ML Workflow",
+    "description": "Comprehensive guidelines and best practices for Python-based LLM (Large Language Models) and ML (Machine Learning) workflows. This document covers coding standards, technology stack, modular design, code quality, ML/AI-specific guidelines, performance optimization, and API development with FastAPI.",
+    "date": "2025-01-23T18:50:15.480Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-llm-ml-workflow-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Python Projects Guide",
+    "description": "Comprehensive guide for Python development focusing on project structure, modular design, configuration management, error handling, testing, documentation, dependency management, code style, CI/CD, and AI-friendly coding practices.",
+    "date": "2025-01-23T19:00:07.442Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/python-projects-guide-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "PyTorch (scikit-learn)",
+    "description": "Expert guidelines for developing machine learning models in chemistry using Python, focusing on scikit-learn and PyTorch. Emphasizes code readability, reproducibility, and scalability.",
+    "date": "2025-01-23T19:00:30.192Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/pytorch-scikit-learn-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Qwik (Basic Setup with TypeScript and Vite)",
+    "description": "Comprehensive guide for setting up Qwik.js with TypeScript and Vite, including best practices, folder structure, and performance optimization tips.",
+    "date": "2025-01-23T18:37:23.602Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/qwik-basic-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Qwik (with Tailwind CSS)",
+    "description": "A comprehensive guide and ruleset for developing Qwik applications with Tailwind CSS, TypeScript, and Vite. Includes best practices, folder structure, and additional instructions for optimal development.",
+    "date": "2025-01-23T18:37:37.351Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/qwik-tailwind-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "React (Chakra UI)",
+    "description": "A comprehensive guide for building React applications using Chakra UI, focusing on best practices, performance optimization, and maintainable code structure.",
+    "date": "2025-01-23T18:53:24.913Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-chakra-ui-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "React Components Creation",
+    "description": "Comprehensive guidelines for creating React components, including best practices, component structure, and integration with Tailwind CSS and TypeScript.",
+    "date": "2025-01-23T18:37:51.313Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-components-creation-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "GraphQL (Apollo Client)",
+    "description": "Best practices and guidelines for using GraphQL with Apollo Client in a React application.",
+    "date": "2025-01-23T18:54:12.915Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-graphql-apollo-client-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "React (MobX)",
+    "description": "Best practices and guidelines for using React with MobX for scalable and efficient state management.",
+    "date": "2025-01-23T18:53:50.615Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-mobx-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "React Native Expo",
+    "description": "Comprehensive guidelines and best practices for developing React Native applications using Expo. Includes coding standards, folder structure, and additional instructions for optimal development.",
+    "date": "2025-01-23T18:50:28.122Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-native-expo-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "React (Next.js UI Development)",
+    "description": "An expert AI programming assistant specializing in React and Next.js UI development, focusing on producing clear, readable, and efficient JavaScript code for the browser. Utilizes the latest versions of popular frameworks and libraries, ensuring accurate, factual, and thoughtful responses.",
+    "date": "2025-01-23T18:38:05.552Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-nextjs-ui-development-cursorrules-prompt-fil.md"
+  },
+  {
+    "title": "React (React Query)",
+    "description": "Best practices and guidelines for using React Query in React applications, including folder structure, coding standards, and performance optimization.",
+    "date": "2025-01-23T18:54:00.663Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-query-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "React (Redux, TypeScript)",
+    "description": "A comprehensive guide for developing React applications using Redux for state management and TypeScript for type safety. This includes best practices, folder structure, and coding standards.",
+    "date": "2025-01-23T18:53:38.639Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-redux-typescript-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "React (Styled Components)",
+    "description": "Optimize your React projects using Styled Components with best practices, folder structure, and coding standards.",
+    "date": "2025-01-23T18:53:10.586Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-styled-components-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "React (TypeScript, Next.js, Node.js)",
+    "description": "Comprehensive guidelines and best practices for developing React applications using TypeScript, Next.js, and Node.js. Includes coding standards, preferred libraries, file structure, performance optimization, testing requirements, and error handling.",
+    "date": "2025-01-23T18:38:31.458Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-typescript-nextjs-nodejs-cursorrules-prompt-.md"
+  },
+  {
+    "title": "React (TypeScript, Symfony)",
+    "description": "Comprehensive guide for full stack development using React, TypeScript, and Symfony. Learn best practices, coding standards, and performance optimization techniques.",
+    "date": "2025-01-23T18:38:46.391Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/react-typescript-symfony-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Solidity (Hardhat)",
+    "description": "Best practices and guidelines for developing secure and efficient Solidity smart contracts using Hardhat.",
+    "date": "2025-01-23T19:01:00.956Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/solidity-hardhat-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Solid.js (Basic Setup)",
+    "description": "A detailed guide for setting up and optimizing Solid.js projects, including best practices, folder structure, and performance tips.",
+    "date": "2025-01-23T18:38:57.812Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/solidjs-basic-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Solid.js (Tailwind CSS)",
+    "description": "Best practices and rules for integrating Solid.js with Tailwind CSS, including component structure, styling, and performance optimizations.",
+    "date": "2025-01-23T18:39:25.630Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/solidjs-tailwind-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Solid.js (TypeScript)",
+    "description": "Comprehensive .cursorrules for Solid.js projects using TypeScript, including best practices, folder structure, and coding standards.",
+    "date": "2025-01-23T18:39:11.517Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/solidjs-typescript-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Svelte 5 vs Svelte 4",
+    "description": "A comprehensive comparison between Svelte 5 and Svelte 4, highlighting the new features, syntax changes, and migration strategies for developers.",
+    "date": "2025-01-23T18:40:05.445Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/svelte-5-vs-svelte-4-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "SvelteKit (RESTful API, Tailwind CSS)",
+    "description": "A modern SvelteKit-based web application featuring a RESTful API, PostgreSQL database via Supabase, and styled with Tailwind CSS. Deployed on Vercel with Supabase Auth for authentication.",
+    "date": "2025-01-23T18:40:23.514Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/sveltekit-restful-api-tailwind-css-cursorrules-pro.md"
+  },
+  {
+    "title": "SvelteKit (Tailwind CSS, TypeScript)",
+    "description": "A comprehensive guide and coding standards for a SvelteKit project utilizing Tailwind CSS for styling and TypeScript for type safety. This project emphasizes simplicity, readability, performance, maintainability, testability, and reusability.",
+    "date": "2025-01-23T18:40:53.880Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/sveltekit-tailwindcss-typescript-cursorrules-promp.md"
+  },
+  {
+    "title": "SvelteKit (TypeScript Guide)",
+    "description": "A comprehensive guide to building modern web applications with SvelteKit, TypeScript, Supabase, and Drizzle. Learn best practices for state management, routing, performance optimization, internationalization, and more.",
+    "date": "2025-01-23T18:41:20.327Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/sveltekit-typescript-guide-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "SwiftUI Guidelines",
+    "description": "Comprehensive guidelines for developing maintainable and clean SwiftUI applications, focusing on the latest features and best practices as of August and September 2024.",
+    "date": "2025-01-23T18:50:42.850Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/swiftui-guidelines-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Tailwind CSS (Next.js Guide)",
+    "description": "A detailed guide for developing modern web applications using Tailwind CSS and Next.js, covering best practices, performance optimization, and advanced TypeScript techniques.",
+    "date": "2025-01-23T18:51:53.386Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/tailwind-css-nextjs-guide-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Tailwind (React, Firebase)",
+    "description": "Comprehensive guide and best practices for building high-quality, mobile-first web applications using Tailwind CSS, React, and Firebase. Includes design, performance, accessibility, and Firebase integration tips.",
+    "date": "2025-01-23T18:52:13.677Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/tailwind-react-firebase-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Tailwind (shadcn/ui Integration)",
+    "description": "A comprehensive guide on integrating Tailwind CSS with shadcn/ui in a Next.js project, focusing on best practices, performance optimization, and maintainability.",
+    "date": "2025-01-23T18:52:26.935Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/tailwind-shadcn-ui-integration-cursorrules-prompt-.md"
+  },
+  {
+    "title": "Tauri (Svelte, TypeScript Guide)",
+    "description": "Comprehensive guide for building secure, efficient, and scalable desktop applications using Tauri with Svelte and TypeScript. Includes best practices, performance optimization, and security considerations.",
+    "date": "2025-01-23T18:57:04.695Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/tauri-svelte-typescript-guide-cursorrules-prompt-f.md"
+  },
+  {
+    "title": "Terms of Service",
+    "description": "These terms of service explain the rules and conditions for using our services.",
+    "date": "2025-01-15T00:00:00.000Z",
+    "lastModified": "2025-01-24T08:40:53Z",
+    "path": "data/md/terms-of-service.md"
+  },
+  {
+    "title": "TypeScript (Axios)",
+    "description": "Comprehensive guide on integrating and utilizing Axios with TypeScript for efficient API communication in your projects.",
+    "date": "2025-01-23T18:54:28.696Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-axios-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (Clasp App Script)",
+    "description": "Comprehensive guide and rules for developing Google Apps Script projects using TypeScript and Clasp, focusing on best practices, performance optimization, and secure coding.",
+    "date": "2025-01-23T19:05:32.147Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-clasp-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript Code Convention",
+    "description": "Comprehensive guide for TypeScript code conventions, best practices, and performance optimization in modern web development using Node.js, Next.js App Router, React, Expo, tRPC, Shadcn UI, Radix UI, and Tailwind CSS.",
+    "date": "2025-01-23T18:57:18.210Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-code-convention-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (Expo, Jest, Detox)",
+    "description": "Comprehensive guide and rules for TypeScript-based mobile development using Expo, Jest, and Detox. Includes best practices for code style, UI/UX, performance, testing, and more.",
+    "date": "2025-01-23T18:54:40.478Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-expo-jest-detox-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (LLM Tech Stack)",
+    "description": "A comprehensive guide to implementing Large Language Model (LLM) architectures using TypeScript, focusing on functional programming, best practices, and developer-friendly APIs.",
+    "date": "2025-01-23T19:01:18.209Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-llm-tech-stack-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (NestJS Best Practices)",
+    "description": "Comprehensive guide and best practices for TypeScript development using the NestJS framework, focusing on clean code, design patterns, and efficient testing strategies.",
+    "date": "2025-01-23T18:49:10.350Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-nestjs-best-practices-cursorrules-promp.md"
+  },
+  {
+    "title": "TypeScript (Next.js)",
+    "description": "Comprehensive guide and rules for developing TypeScript applications using Next.js, focusing on best practices, performance optimization, and maintainability.",
+    "date": "2025-01-23T19:04:01.919Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-nextjs-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (Next.js, React)",
+    "description": "Comprehensive guide for developing with TypeScript, Next.js, React, and Tailwind CSS. Includes best practices for data fetching, rendering, routing, and handling AI interactions using Vercel AI SDK.",
+    "date": "2025-01-23T19:04:14.406Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-nextjs-react-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (Next.js, React, Tailwind, Supabase)",
+    "description": "A comprehensive guide and ruleset for building modern full-stack applications using TypeScript, Next.js, React, Tailwind CSS, and Supabase. This setup includes best practices for coding standards, performance optimization, and error handling.",
+    "date": "2025-01-23T19:04:27.463Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-nextjs-react-tailwind-supabase-cursorru.md"
+  },
+  {
+    "title": "TypeScript (Next.js, Supabase)",
+    "description": "Comprehensive guidelines for building scalable and maintainable TypeScript applications using Next.js, Supabase, and modern UI libraries like Shadcn UI and Radix UI.",
+    "date": "2025-01-23T19:04:48.627Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-nextjs-supabase-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (Node.js, Next.js, AI)",
+    "description": "Comprehensive guidelines for TypeScript development in Node.js and Next.js environments with AI integration, focusing on practical code solutions and clear explanations.",
+    "date": "2025-01-23T19:01:27.410Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-nodejs-nextjs-ai-cursorrules-prompt-fil.md"
+  },
+  {
+    "title": "TypeScript (Node.js, Next.js App)",
+    "description": "A comprehensive guide and rules for building a TypeScript-based Notes Application using Node.js, Next.js App Router, React, Shadcn UI, Radix UI, and Tailwind CSS. This application includes features like adding, editing, deleting notes, search, filter, sort, pagination, loading states, error handling, and drag-and-drop functionality.",
+    "date": "2025-01-23T19:05:05.201Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-nodejs-nextjs-app-cursorrules-prompt-fi.md"
+  },
+  {
+    "title": "TypeScript (Node.js, Next.js, React, UI, CSS)",
+    "description": "Comprehensive guide and rules for TypeScript development in Node.js, Next.js, React, and UI projects, focusing on best practices, performance optimization, and modern styling techniques.",
+    "date": "2025-01-23T19:01:48.446Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-nodejs-nextjs-react-ui-css-cursorrules-.md"
+  },
+  {
+    "title": "TypeScript (Node.js, React, Vite)",
+    "description": "Comprehensive guidelines and best practices for developing applications using TypeScript, Node.js, React, and Vite. Includes coding standards, performance optimization, and UI styling with Tailwind CSS.",
+    "date": "2025-01-23T19:02:06.852Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-nodejs-react-vite-cursorrules-prompt-fi.md"
+  },
+  {
+    "title": "TypeScript (React)",
+    "description": "Comprehensive guidelines for developing React applications using TypeScript, focusing on best practices, performance optimization, and maintainability.",
+    "date": "2025-01-23T19:05:18.699Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-react-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (React, Next.js, Cloudflare)",
+    "description": "Comprehensive guide for TypeScript development with React, Next.js, and Cloudflare, including best practices, coding standards, and performance optimization.",
+    "date": "2025-01-23T19:02:25.880Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-react-nextjs-cloudflare-cursorrules-pro.md"
+  },
+  {
+    "title": "TypeScript (React, NextUI, Supabase)",
+    "description": "A modern web application built with TypeScript, React, NextUI, and Supabase, featuring authentication, a responsive UI, and a dashboard for logged-in users.",
+    "date": "2025-01-23T19:02:45.373Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-react-nextui-supabase-cursorrules-promp.md"
+  },
+  {
+    "title": "TypeScript (shadcn/ui, Next.js)",
+    "description": "Comprehensive guide to TypeScript best practices using shadcn/ui and Next.js, focusing on code style, structure, performance optimization, and error handling.",
+    "date": "2025-01-23T19:02:59.721Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-shadcn-ui-nextjs-cursorrules-prompt-fil.md"
+  },
+  {
+    "title": "TypeScript (Vite, Tailwind)",
+    "description": "A comprehensive guide to building high-performance, maintainable, and scalable TypeScript applications using Vite, Vue.js, Tailwind CSS, and related technologies.",
+    "date": "2025-01-23T19:03:16.559Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-vite-tailwind-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (Vue.js)",
+    "description": "Comprehensive guidelines and best practices for using TypeScript with Vue.js, covering code style, structure, naming conventions, syntax, error handling, UI styling, and performance optimization.",
+    "date": "2025-01-23T19:03:30.973Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-vuejs-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "TypeScript (Zod, Tailwind, Next.js)",
+    "description": "A comprehensive guide to building scalable and maintainable TypeScript applications using Zod for validation, Tailwind CSS for styling, and Next.js for server-side rendering and routing.",
+    "date": "2025-01-23T19:03:46.020Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/typescript-zod-tailwind-nextjs-cursorrules-prompt-.md"
+  },
+  {
+    "title": "Unity (C#)",
+    "description": "A Unity-based tower defense game utilizing a Nintendo Ringcon as the controller. Players place turrets and use exercise to charge them. The project is currently being refactored for better scalability and maintainability.",
+    "date": "2025-01-23T19:25:05.456Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/unity-cursor-ai-c-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Vue 3 (Nuxt 3 Development)",
+    "description": "Comprehensive guidelines for developing with Vue 3 and Nuxt 3, focusing on best practices, performance, and maintainability.",
+    "date": "2025-01-23T18:41:39.273Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/vue-3-nuxt-3-development-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Vue 3 (Composition API)",
+    "description": "A comprehensive guide to Vue 3 Composition API best practices, project structure, and additional instructions for building scalable and maintainable Vue 3 applications.",
+    "date": "2025-01-23T18:41:56.190Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/vue3-composition-api-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "Web App Optimization",
+    "description": "Comprehensive guide for optimizing web applications using Svelte 5, SvelteKit, TypeScript, and modern web development practices. Includes best practices for performance, state management, routing, and internationalization.",
+    "date": "2025-01-23T19:25:50.937Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/web-app-optimization-cursorrules-prompt-file.md"
+  },
+  {
+    "title": "WordPress (PHP, Guzzle, Gutenberg)",
+    "description": "A comprehensive guide for developing WordPress plugins using PHP, Guzzle for HTTP requests, and Gutenberg for block editor integration. Follow best practices for coding standards, type hinting, and functional programming paradigms.",
+    "date": "2025-01-23T18:49:24.113Z",
+    "lastModified": "2025-01-24T03:26:14Z",
+    "path": "data/md/wordpress-php-guzzle-gutenberg-cursorrules-prompt-.md"
   }
 ]
