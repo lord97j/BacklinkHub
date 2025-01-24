@@ -1,7 +1,7 @@
 [
   {
     "name": "React Native Expo",
-    "description": "Comprehensive guidelines and best practices for developing React Native applications using Expo. Includes coding standards, folder structure, and additional instructions for optimal development.",
+    "description": "使用 Expo 开发 React Native 应用程序的综合指南和最佳实践。包括编码标准、文件夹结构和优化开发的附加说明。",
     "url": "http://localhost:3000/article/react-native-expo-cursorrules-prompt-file",
     "tags": [
       "React Native",
@@ -15,7 +15,7 @@
   },
   {
     "name": "SwiftUI Guidelines",
-    "description": "Comprehensive guidelines for developing maintainable and clean SwiftUI applications, focusing on the latest features and best practices as of August and September 2024.",
+    "description": "开发可维护和清晰的 SwiftUI 应用程序的综合指南，重点关注 2024 年 8 月和 9 月的最新功能和最佳实践。",
     "url": "http://localhost:3000/article/swiftui-guidelines-cursorrules-prompt-file",
     "tags": [
       "SwiftUI",
@@ -27,7 +27,7 @@
   },
   {
     "name": "TypeScript (Expo, Jest, Detox)",
-    "description": "Comprehensive guide and rules for developing mobile applications using TypeScript with Expo, Jest, and Detox. Includes coding standards, performance optimization, testing strategies, and more.",
+    "description": "使用 TypeScript、Expo、Jest 和 Detox 开发移动应用程序的综合指南和规则。包括编码标准、性能优化、测试策略等。",
     "url": "http://localhost:3000/article/typescript-expo-jest-detox-cursorrules-prompt-file",
     "tags": [
       "Expo",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Android Native (Jetpack Compose)",
-    "description": "Best practices and guidelines for Android Native development using Jetpack Compose, including project architecture, UI guidelines, testing, and performance optimization.",
+    "description": "使用 Jetpack Compose 进行 Android 原生开发的最佳实践和指南，包括项目架构、UI 指南、测试和性能优化。",
     "url": "http://localhost:3000/article/android-jetpack-compose-cursorrules-prompt-file",
     "tags": [
       "Jetpack Compose",
@@ -52,7 +52,7 @@
   },
   {
     "name": "Flutter Expert",
-    "description": "Comprehensive .cursorrules for Flutter projects, including best practices, coding guidelines, and performance optimization techniques.",
+    "description": "Flutter 项目的综合 .cursorrules，包括最佳实践、编码指南和性能优化技术。",
     "url": "http://localhost:3000/article/flutter-app-expert-cursorrules-prompt-file",
     "tags": [
       "Flutter",

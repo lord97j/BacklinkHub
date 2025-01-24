@@ -30,13 +30,13 @@ export function Search({ className }: { className?: string }) {
                 <CommandInput placeholder={t('input_placeholder')} value={search} onValueChange={setSearch} />
                 <CommandList>
                     <CommandGroup heading={t('heading')}>
-                        <CommandItem onSelect={() => window.location.href = '/tools/ai'}>
+                        <CommandItem onSelect={() => window.location.href = '/tools/python'}>
                             <LightningBoltIcon className="mr-2 h-4 w-4" />
-                            <span>AI</span>
+                            <span>Python</span>
                         </CommandItem>
-                        <CommandItem onSelect={() => window.location.href = '/tools/seo'}>
+                        <CommandItem onSelect={() => window.location.href = '/tools/next'}>
                             <GlobeIcon className="mr-2 h-4 w-4" />
-                            <span>SEO</span>
+                            <span>Next.js</span>
                         </CommandItem>
                         <CommandItem disabled>
                             <DotsHorizontalIcon className="mr-2 h-4 w-4" />

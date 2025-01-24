@@ -1,11 +1,11 @@
 [
   {
     "name": "Angular (Novo Elements)",
-    "description": "A comprehensive guide and rules for integrating Novo Elements with Angular using standalone components, ensuring clean, maintainable, and efficient code.",
+    "description": "使用独立组件集成 Novo Elements 和 Angular 的综合指南和规则，确保代码清晰、可维护和高效。",
     "url": "http://localhost:3000/article/angular-novo-elements-cursorrules-prompt-file",
     "tags": [
       "Angular",
-      "Novo Elements",
+      "Novo Elements", 
       "Standalone Components",
       "Clean Code",
       "Best Practices"
@@ -13,7 +13,7 @@
   },
   {
     "name": "Angular (TypeScript)",
-    "description": "Expert Angular programming using TypeScript, Angular 18, and Jest, focusing on clear, readable, and maintainable code.",
+    "description": "使用 TypeScript、Angular 18 和 Jest 进行专业的 Angular 编程，专注于清晰、可读和可维护的代码。",
     "url": "http://localhost:3000/article/angular-typescript-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Astro (TypeScript)",
-    "description": "Comprehensive guidelines for developing and maintaining an Astro project using TypeScript and TailwindCSS.",
+    "description": "使用 TypeScript 和 TailwindCSS 开发和维护 Astro 项目的综合指南。",
     "url": "http://localhost:3000/article/astro-typescript-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Cursor AI (React, TypeScript, shadcn/ui)",
-    "description": "An advanced AI programming assistant specializing in React and TypeScript, leveraging shadcn/ui for modern UI development. Ensures clean, maintainable, and high-performance code using the latest technologies and best practices.",
+    "description": "一个专门用于 React 和 TypeScript 的高级 AI 编程助手，利用 shadcn/ui 进行现代 UI 开发。使用最新技术和最佳实践确保代码清晰、可维护和高性能。",
     "url": "http://localhost:3000/article/cursor-ai-react-typescript-shadcn-ui-cursorrules-p",
     "tags": [
       "React",
@@ -51,7 +51,7 @@
   },
   {
     "name": "Next.js 15 (React 19, Vercel AI, Tailwind)",
-    "description": "Comprehensive guide and best practices for building modern web applications using Next.js 15, React 19, Vercel AI SDK, and Tailwind CSS. Includes TypeScript, Shadcn UI, Radix UI, and performance optimization strategies.",
+    "description": "使用 Next.js 15、React 19、Vercel AI SDK 和 Tailwind CSS 构建现代 Web 应用程序的综合指南和最佳实践。包括 TypeScript、Shadcn UI、Radix UI 和性能优化策略。",
     "url": "http://localhost:3000/article/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file",
     "tags": [
       "React 19",
@@ -67,7 +67,7 @@
   },
   {
     "name": "Next.js 14 (Tailwind, SEO)",
-    "description": "A comprehensive guide and code generation rules for building modern, SEO-optimized web applications using Next.js 14, Tailwind CSS, and TypeScript. This template includes best practices for server-side rendering, responsive design, and performance optimization.",
+    "description": "使用 Next.js 14、Tailwind CSS 和 TypeScript 构建现代、SEO 优化的 Web 应用程序的综合指南和代码生成规则。该模板包括服务器端渲染、响应式设计和性能优化的最佳实践。",
     "url": "http://localhost:3000/article/cursorrules-cursor-ai-nextjs-14-tailwind-seo-setup",
     "tags": [
       "Next.js",
@@ -80,7 +80,7 @@
   },
   {
     "name": "Next.js (React, Tailwind)",
-    "description": "A comprehensive guide and rules for developing modern web applications using Next.js, React, Tailwind CSS, and Shadcn UI. This setup emphasizes TypeScript, functional programming, and performance optimization.",
+    "description": "使用 Next.js、React、Tailwind CSS 和 Shadcn UI 开发现代 Web 应用程序的综合指南和规则。该设置强调 TypeScript、函数式编程和性能优化。",
     "url": "http://localhost:3000/article/nextjs-react-tailwind-cursorrules-prompt-file",
     "tags": [
       "Next.js",
@@ -93,7 +93,7 @@
   },
   {
     "name": "Next.js (React, TypeScript)",
-    "description": "Comprehensive guide for developing with Next.js, React, and TypeScript, focusing on best practices, performance optimization, and modern web development techniques.",
+    "description": "使用 Next.js、React 和 TypeScript 进行开发的综合指南，重点关注最佳实践、性能优化和现代 Web 开发技术。",
     "url": "http://localhost:3000/article/nextjs-react-typescript-cursorrules-prompt-file",
     "tags": [
       "React",
@@ -105,7 +105,7 @@
   },
   {
     "name": "Next.js (SEO Development)",
-    "description": "Comprehensive guide for SEO optimization in Next.js projects, including best practices, coding standards, and performance tips.",
+    "description": "Next.js 项目中 SEO 优化的综合指南，包括最佳实践、编码标准和性能提示。",
     "url": "http://localhost:3000/article/nextjs-seo-dev-cursorrules-prompt-file",
     "tags": [
       "SEO",
@@ -116,7 +116,7 @@
   },
   {
     "name": "Next.js (Supabase Todo App)",
-    "description": "A comprehensive guide and specifications for building a Todo application using Next.js and Supabase. This project leverages Supabase for backend services, Next.js for server-side rendering, and Tailwind CSS for styling.",
+    "description": "使用 Next.js 和 Supabase 构建待办事项应用程序的综合指南和规范。该项目利用 Supabase 作为后端服务，Next.js 用于服务器端渲染，Tailwind CSS 用于样式设计。",
     "url": "http://localhost:3000/article/nextjs-supabase-todo-app-cursorrules-prompt-file",
     "tags": [
       "Next.js",
@@ -128,7 +128,7 @@
   },
   {
     "name": "Next.js (Tailwind, TypeScript)",
-    "description": "A comprehensive guide and rules for developing Next.js applications using Tailwind CSS for styling and TypeScript for type safety. This setup ensures a modern, efficient, and scalable web development environment.",
+    "description": "使用 Tailwind CSS 进行样式设计和 TypeScript 进行类型安全的 Next.js 应用程序开发的综合指南和规则。该设置确保现代、高效和可扩展的 Web 开发环境。",
     "url": "http://localhost:3000/article/nextjs-tailwind-typescript-apps-cursorrules-prompt",
     "tags": [
       "Next.js",
@@ -141,7 +141,7 @@
   },
   {
     "name": "Next.js (TypeScript App)",
-    "description": "Astral is a Next.js and TypeScript-based block explorer for the Autonomys network, integrating state management, UI components, and data fetching libraries.",
+    "description": "Astral 是一个基于 Next.js 和 TypeScript 的 Autonomys 网络区块浏览器，集成了状态管理、UI 组件和数据获取库。",
     "url": "http://localhost:3000/article/nextjs-typescript-app-cursorrules-prompt-file",
     "tags": [
       "Next.js",
@@ -155,7 +155,7 @@
   },
   {
     "name": "Next.js (TypeScript)",
-    "description": "Comprehensive guide for building a full-stack application using Next.js with TypeScript, integrating modern UI libraries, and optimizing for performance and scalability.",
+    "description": "使用 Next.js 和 TypeScript 构建全栈应用程序的综合指南，集成现代 UI 库，并优化性能和可扩展性。",
     "url": "http://localhost:3000/article/nextjs-typescript-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
@@ -170,7 +170,7 @@
   },
   {
     "name": "Next.js (TypeScript, Tailwind)",
-    "description": "Astral is the Block Explorer for the Autonomys Network, built with Next.js, TypeScript, and Tailwind CSS. It provides a responsive and accessible interface for exploring blockchain data, integrating advanced libraries for state management, UI components, and data fetching.",
+    "description": "Astral 是 Autonomys 网络的区块浏览器，使用 Next.js、TypeScript 和 Tailwind CSS 构建。它为区块链数据探索提供了响应式和可访问的界面，集成了用于状态管理、UI 组件和数据获取的高级库。",
     "url": "http://localhost:3000/article/nextjs-typescript-tailwind-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
@@ -184,7 +184,7 @@
   },
   {
     "name": "Next.js (Vercel, Supabase)",
-    "description": "BA Copilot is an AI-powered assistant designed to help business analysts create, modify, and iterate on BPMN diagrams with contextual suggestions, leveraging uploaded documents and user queries. Built with Next.js, Vercel, and Supabase, it offers a seamless workflow for business process modeling and documentation.",
+    "description": "BA Copilot 是一个 AI 驱动的助手，旨在帮助业务分析师通过上下文建议创建、修改和迭代 BPMN 图表，利用上传的文档和用户查询。使用 Next.js、Vercel 和 Supabase 构建，为业务流程建模和文档提供无缝工作流程。",
     "url": "http://localhost:3000/article/nextjs-vercel-supabase-cursorrules-prompt-file",
     "tags": [
       "Next.js",
@@ -199,7 +199,7 @@
   },
   {
     "name": "Next.js (Vercel, TypeScript)",
-    "description": "Comprehensive guide for integrating AI SDK RSC with Vercel middleware and KV database in a Next.js project using TypeScript, Tailwind CSS, and Shadcn UI.",
+    "description": "在 Next.js 项目中集成 AI SDK RSC 与 Vercel 中间件和 KV 数据库的综合指南，使用 TypeScript、Tailwind CSS 和 Shadcn UI。",
     "url": "http://localhost:3000/article/nextjs-vercel-typescript-cursorrules-prompt-file",
     "tags": [
       "Next.js",
@@ -214,7 +214,7 @@
   },
   {
     "name": "Next.js (App Router)",
-    "description": "Comprehensive guide and rules for implementing best practices in Next.js App Router projects, including folder structure, coding standards, and performance optimization.",
+    "description": "在 Next.js App Router 项目中实施最佳实践的综合指南和规则，包括文件夹结构、编码标准和性能优化。",
     "url": "http://localhost:3000/article/nextjs-app-router-cursorrules-prompt-file",
     "tags": [
       "Next.js",
@@ -227,7 +227,7 @@
   },
   {
     "name": "Next.js (Material UI, Tailwind CSS)",
-    "description": "A modern portfolio project built with Next.js, featuring Material UI, Tailwind CSS, and Shadcn/UI for a responsive and visually appealing design. This project supports TypeScript, App Router, and a structured `src/` directory for better organization.",
+    "description": "使用 Next.js 构建的现代作品集项目，采用 Material UI、Tailwind CSS 和 Shadcn/UI 实现响应式和视觉吸引力的设计。该项目支持 TypeScript、App Router，并使用结构化的 `src/` 目录以获得更好的组织。",
     "url": "http://localhost:3000/article/nextjs-material-ui-tailwind-css-cursorrules-prompt",
     "tags": [
       "Next.js",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Qwik (Basic Setup with TypeScript and Vite)",
-    "description": "Comprehensive guide for setting up Qwik.js with TypeScript and Vite, including best practices, folder structure, and performance optimization tips.",
+    "description": "使用 TypeScript 和 Vite 设置 Qwik.js 的综合指南，包括最佳实践、文件夹结构和性能优化提示。",
     "url": "http://localhost:3000/article/qwik-basic-cursorrules-prompt-file",
     "tags": [
       "Qwik.js",
@@ -254,7 +254,7 @@
   },
   {
     "name": "Qwik (with Tailwind CSS)",
-    "description": "A comprehensive guide and ruleset for developing Qwik applications with Tailwind CSS, TypeScript, and Vite. Includes best practices, folder structure, and additional instructions for optimal development.",
+    "description": "使用 Tailwind CSS、TypeScript 和 Vite 开发 Qwik 应用程序的综合指南和规则集。包括最佳实践、文件夹结构和优化开发的附加说明。",
     "url": "http://localhost:3000/article/qwik-tailwind-cursorrules-prompt-file",
     "tags": [
       "Qwik",
@@ -266,7 +266,7 @@
   },
   {
     "name": "React Components Creation",
-    "description": "Comprehensive guidelines for creating React components, including best practices, component structure, and integration with Tailwind CSS and TypeScript.",
+    "description": "创建 React 组件的综合指南，包括最佳实践、组件结构以及与 Tailwind CSS 和 TypeScript 的集成。",
     "url": "http://localhost:3000/article/react-components-creation-cursorrules-prompt-file",
     "tags": [
       "React",
@@ -278,7 +278,7 @@
   },
   {
     "name": "React (Next.js UI Development)",
-    "description": "An expert AI programming assistant specializing in React and Next.js UI development, focusing on producing clear, readable, and efficient JavaScript code for the browser. Utilizes the latest versions of popular frameworks and libraries, ensuring accurate, factual, and thoughtful responses.",
+    "description": "专门从事 React 和 Next.js UI 开发的专家级 AI 编程助手，专注于为浏览器生产清晰、可读和高效的 JavaScript 代码。使用流行框架和库的最新版本，确保准确、真实和深思熟虑的响应。",
     "url": "http://localhost:3000/article/react-nextjs-ui-development-cursorrules-prompt-fil",
     "tags": [
       "Next.js",
@@ -292,7 +292,7 @@
   },
   {
     "name": "React (TypeScript, Next.js, Node.js)",
-    "description": "Comprehensive guidelines and best practices for developing React applications using TypeScript, Next.js, and Node.js. Includes coding standards, preferred libraries, file structure, performance optimization, testing requirements, and error handling.",
+    "description": "使用 TypeScript、Next.js 和 Node.js 开发 React 应用程序的综合指南和最佳实践。包括编码标准、首选库、文件结构、性能优化、测试要求和错误处理。",
     "url": "http://localhost:3000/article/react-typescript-nextjs-nodejs-cursorrules-prompt-",
     "tags": [
       "TypeScript",
@@ -310,7 +310,7 @@
   },
   {
     "name": "React (TypeScript, Symfony)",
-    "description": "Comprehensive guide for full stack development using React, TypeScript, and Symfony. Learn best practices, coding standards, and performance optimization techniques.",
+    "description": "使用 React、TypeScript 和 Symfony 进行全栈开发的综合指南。学习最佳实践、编码标准和性能优化技术。",
     "url": "http://localhost:3000/article/react-typescript-symfony-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
@@ -323,7 +323,7 @@
   },
   {
     "name": "Solid.js (Basic Setup)",
-    "description": "A detailed guide for setting up and optimizing Solid.js projects, including best practices, folder structure, and performance tips.",
+    "description": "设置和优化 Solid.js 项目的详细指南，包括最佳实践、文件夹结构和性能提示。",
     "url": "http://localhost:3000/article/solidjs-basic-cursorrules-prompt-file",
     "tags": [
       "Solid.js",
@@ -335,7 +335,7 @@
   },
   {
     "name": "Solid.js (TypeScript)",
-    "description": "Comprehensive .cursorrules for Solid.js projects using TypeScript, including best practices, folder structure, and coding standards.",
+    "description": "使用 TypeScript 的 Solid.js 项目的综合 .cursorrules，包括最佳实践、文件夹结构和编码标准。",
     "url": "http://localhost:3000/article/solidjs-typescript-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
@@ -347,7 +347,7 @@
   },
   {
     "name": "Solid.js (Tailwind CSS)",
-    "description": "Best practices and rules for integrating Solid.js with Tailwind CSS, including component structure, styling, and performance optimizations.",
+    "description": "将 Solid.js 与 Tailwind CSS 集成的最佳实践和规则，包括组件结构、样式和性能优化。",
     "url": "http://localhost:3000/article/solidjs-tailwind-cursorrules-prompt-file",
     "tags": [
       "Solid.js",
@@ -359,7 +359,7 @@
   },
   {
     "name": "Svelte 5 vs Svelte 4",
-    "description": "A comprehensive comparison between Svelte 5 and Svelte 4, highlighting the new features, syntax changes, and migration strategies for developers.",
+    "description": "Svelte 5 和 Svelte 4 之间的全面比较，突出新功能、语法变化和开发人员的迁移策略。",
     "url": "http://localhost:3000/article/svelte-5-vs-svelte-4-cursorrules-prompt-file",
     "tags": [
       "Svelte",
@@ -374,7 +374,7 @@
   },
   {
     "name": "SvelteKit (RESTful API, Tailwind CSS)",
-    "description": "A modern SvelteKit-based web application featuring a RESTful API, PostgreSQL database via Supabase, and styled with Tailwind CSS. Deployed on Vercel with Supabase Auth for authentication.",
+    "description": "基于 SvelteKit 的现代 Web 应用程序，具有 RESTful API、通过 Supabase 的 PostgreSQL 数据库，并使用 Tailwind CSS 进行样式设计。在 Vercel 上部署，使用 Supabase Auth 进行身份验证。",
     "url": "http://localhost:3000/article/sveltekit-restful-api-tailwind-css-cursorrules-pro",
     "tags": [
       "SvelteKit",
@@ -389,7 +389,7 @@
   },
   {
     "name": "SvelteKit (Tailwind CSS, TypeScript)",
-    "description": "A comprehensive guide and coding standards for a SvelteKit project utilizing Tailwind CSS for styling and TypeScript for type safety. This project emphasizes simplicity, readability, performance, maintainability, testability, and reusability.",
+    "description": "使用 Tailwind CSS 进行样式设计和 TypeScript 进行类型安全的 SvelteKit 项目的综合指南和编码标准。该项目强调简单性、可读性、性能、可维护性、可测试性和可重用性。",
     "url": "http://localhost:3000/article/sveltekit-tailwindcss-typescript-cursorrules-promp",
     "tags": [
       "SvelteKit",
@@ -401,7 +401,7 @@
   },
   {
     "name": "SvelteKit (TypeScript Guide)",
-    "description": "A comprehensive guide to building modern web applications with SvelteKit, TypeScript, Supabase, and Drizzle. Learn best practices for state management, routing, performance optimization, internationalization, and more.",
+    "description": "使用 SvelteKit、TypeScript、Supabase 和 Drizzle 构建现代 Web 应用程序的综合指南。学习状态管理、路由、性能优化、国际化等方面的最佳实践。",
     "url": "http://localhost:3000/article/sveltekit-typescript-guide-cursorrules-prompt-file",
     "tags": [
       "SvelteKit",
@@ -417,7 +417,7 @@
   },
   {
     "name": "Vue 3 (Nuxt 3 Development)",
-    "description": "Comprehensive guidelines for developing with Vue 3 and Nuxt 3, focusing on best practices, performance, and maintainability.",
+    "description": "使用 Vue 3 和 Nuxt 3 进行开发的综合指南，重点关注最佳实践、性能和可维护性。",
     "url": "http://localhost:3000/article/vue-3-nuxt-3-development-cursorrules-prompt-file",
     "tags": [
       "Vue 3",
@@ -430,7 +430,7 @@
   },
   {
     "name": "Vue 3 (Composition API)",
-    "description": "A comprehensive guide to Vue 3 Composition API best practices, project structure, and additional instructions for building scalable and maintainable Vue 3 applications.",
+    "description": "Vue 3 Composition API 最佳实践、项目结构的综合指南，以及构建可扩展和可维护的 Vue 3 应用程序的附加说明。",
     "url": "http://localhost:3000/article/vue3-composition-api-cursorrules-prompt-file",
     "tags": [
       "Vue 3",

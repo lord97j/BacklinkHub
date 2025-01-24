@@ -1,11 +1,11 @@
 [
   {
     "name": "GraphQL (Apollo Client)",
-    "description": "Best practices and guidelines for using GraphQL with Apollo Client in a React application.",
+    "description": "在 React 应用中使用 GraphQL 和 Apollo Client 的最佳实践和指南。",
     "url": "http://localhost:3000/article/react-graphql-apollo-client-cursorrules-prompt-file",
     "tags": [
       "GraphQL",
-      "Apollo Client",
+      "Apollo Client", 
       "React",
       "State Management",
       "Data Fetching"
@@ -13,7 +13,7 @@
   },
   {
     "name": "TypeScript (Axios)",
-    "description": "Comprehensive guide on integrating and utilizing Axios with TypeScript for efficient API communication in your projects.",
+    "description": "关于在项目中集成和使用 TypeScript 与 Axios 进行高效 API 通信的全面指南。",
     "url": "http://localhost:3000/article/typescript-axios-cursorrules-prompt-file",
     "tags": [
       "TypeScript",

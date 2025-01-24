@@ -1,7 +1,7 @@
 [
   {
     "name": "ASCII Simulation Game",
-    "description": "A turn-based ASCII simulation game where players observe the rise and fall of ancient nations. The game features a 10x10 grid with nested 10x10 sub-grids, random map generation, resource management, and dynamic nation interactions including trade, war, and peace. The game is designed to be balanced, with no technology tree, and focuses on strategic resource allocation and territorial expansion.",
+    "description": "一个基于回合制的ASCII模拟游戏，玩家可以观察古代国家的兴衰。游戏特点是10x10的网格，每个格子内还嵌套10x10的子网格，随机地图生成，资源管理，以及包括贸易、战争和和平在内的动态国家互动。游戏设计注重平衡性，没有科技树，主要关注战略性资源分配和领土扩张。",
     "url": "http://localhost:3000/article/ascii-simulation-game-cursorrules-prompt-file",
     "tags": [
       "simulation",
@@ -15,7 +15,7 @@
   },
   {
     "name": "DragonRuby Best Practices",
-    "description": "Comprehensive guide to best practices for developing games using the DragonRuby Game Toolkit in Ruby. Covers code style, structure, naming conventions, syntax, error handling, and more.",
+    "description": "使用DragonRuby游戏工具包进行游戏开发的综合最佳实践指南。涵盖代码风格、结构、命名约定、语法和错误处理等内容。",
     "url": "http://localhost:3000/article/dragonruby-best-practices-cursorrules-prompt-file",
     "tags": [
       "DragonRuby",
@@ -27,7 +27,7 @@
   },
   {
     "name": "Graphical Apps Development",
-    "description": "Pyllments is a Python library designed for building graphical and API-based LLM applications by chaining together Elements in a potentially cyclic graph. It emphasizes modularity, extensibility, and developer-friendly interfaces.",
+    "description": "Pyllments是一个Python库，专门用于通过在潜在循环图中链接Elements来构建图形和基于API的LLM应用程序。它强调模块化、可扩展性和开发者友好的接口。",
     "url": "http://localhost:3000/article/graphical-apps-development-cursorrules-prompt-file",
     "tags": [
       "Python",
@@ -42,7 +42,7 @@
   },
   {
     "name": "Next.js (Type LLM)",
-    "description": "Comprehensive rules for AI-assisted development in a Next.js project with TypeScript, shadcn/ui, Tailwind CSS, and LLM integration.",
+    "description": "针对在Next.js项目中进行AI辅助开发的综合规则，包括TypeScript、shadcn/ui、Tailwind CSS和LLM集成。",
     "url": "http://localhost:3000/article/next-type-llm",
     "tags": [
       "Next.js",
@@ -55,7 +55,7 @@
   },
   {
     "name": "Unity (C#)",
-    "description": "A Unity-based tower defense game utilizing a Nintendo Ringcon as the controller. Players place turrets and use exercise to charge them. The project is currently being refactored for better scalability and maintainability.",
+    "description": "一个基于Unity的塔防游戏，使用任天堂Ringcon作为控制器。玩家放置炮塔并通过运动为其充能。该项目目前正在进行重构以提高可扩展性和可维护性。",
     "url": "http://localhost:3000/article/unity-cursor-ai-c-cursorrules-prompt-file",
     "tags": [
       "Unity",
@@ -67,7 +67,7 @@
   },
   {
     "name": "Web App Optimization",
-    "description": "Comprehensive guide for optimizing web applications using Svelte 5, SvelteKit, TypeScript, and modern web development practices. Includes best practices for performance, state management, routing, and internationalization.",
+    "description": "使用Svelte 5、SvelteKit、TypeScript和现代Web开发实践优化Web应用程序的综合指南。包括性能、状态管理、路由和国际化的最佳实践。",
     "url": "http://localhost:3000/article/web-app-optimization-cursorrules-prompt-file",
     "tags": [
       "Svelte 5",

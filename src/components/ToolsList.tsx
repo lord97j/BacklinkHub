@@ -158,14 +158,27 @@ const ToolsPage = ({ category, locale }: { category: categoryProps, locale: stri
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
               >
-                <div className='border border-gray-200 p-1 rounded-md mr-1 bg-white'>
-                  {/* <img width="20" height="20" src={`https://favicon.im/${resource.url}?larger=true`} alt={`${resource.name} favicon`} /> */}
-                  { resource.icon_url ?
-                    <Image width={20} height={20} src={resource.icon_url}  alt={`${resource.name} favicon`} loading='lazy'/>
-                    :
-                    <img width="20" height="20" src={`https://favicon.im/${resource.url}?larger=true`} alt={`${resource.name} favicon`} loading='lazy'/>
-                  }
-                </div>
+               <div className='flex-shrink-0 w-8 h-8 flex items-center justify-center border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 overflow-hidden'>
+                {resource.icon_url ? (
+                  <Image 
+                    width={24} 
+                    height={24} 
+                    src={resource.icon_url} 
+                    alt={`${resource.name} favicon`} 
+                    className="object-contain"
+                    loading='lazy'
+                  />
+                ) : (
+                  <img 
+                    width={24} 
+                    height={24} 
+                    src={`https://favicon.im/${resource.url}?larger=true`} 
+                    alt={`${resource.name} favicon`} 
+                    className="object-contain"
+                    loading='lazy'
+                  />
+                )}
+              </div>
                 <CardTitle className='capitalize tracking-tighter'>{resource.name}</CardTitle>
                 <ExternalLink size={16} className='ml-1' />
               </a>
@@ -209,14 +222,27 @@ const SearchPage = ({ searchData }: searchPageProps) => {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
               >
-                <div className='border border-gray-200 p-1 rounded-md mr-1 bg-white'>
-                  {/* <img width="20" height="20" src={`https://favicon.im/${resource.url}?larger=true`} alt={`${resource.name} favicon`} /> */}
-                  { resource.icon_url ?
-                    <Image width={20} height={20} src={resource.icon_url}  alt={`${resource.name} favicon`} loading='lazy'/>
-                    :
-                    <img width="20" height="20" src={`https://favicon.im/${resource.url}?larger=true`} alt={`${resource.name} favicon`} loading='lazy'/>
-                  }
-                </div>
+                <div className='flex-shrink-0 w-8 h-8 flex items-center justify-center border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 overflow-hidden'>
+                {resource.icon_url ? (
+                  <Image 
+                    width={24} 
+                    height={24} 
+                    src={resource.icon_url} 
+                    alt={`${resource.name} favicon`} 
+                    className="object-contain"
+                    loading='lazy'
+                  />
+                ) : (
+                  <img 
+                    width={24} 
+                    height={24} 
+                    src={`https://favicon.im/${resource.url}?larger=true`} 
+                    alt={`${resource.name} favicon`} 
+                    className="object-contain"
+                    loading='lazy'
+                  />
+                )}
+              </div>
                 <CardTitle className='capitalize tracking-tighter'>{resource.name}</CardTitle>
                 <ExternalLink size={16} className='ml-1' />
               </a>
