@@ -30,11 +30,11 @@ export function Search({ className }: { className?: string }) {
                 <CommandInput placeholder={t('input_placeholder')} value={search} onValueChange={setSearch} />
                 <CommandList>
                     <CommandGroup heading={t('heading')}>
-                        <CommandItem onSelect={() => window.location.href = '/tools/python'}>
+                        <CommandItem onSelect={() => window.location.href = '/rules/python'}>
                             <LightningBoltIcon className="mr-2 h-4 w-4" />
                             <span>Python</span>
                         </CommandItem>
-                        <CommandItem onSelect={() => window.location.href = '/tools/next'}>
+                        <CommandItem onSelect={() => window.location.href = '/rules/next'}>
                             <GlobeIcon className="mr-2 h-4 w-4" />
                             <span>Next.js</span>
                         </CommandItem>
@@ -46,7 +46,7 @@ export function Search({ className }: { className?: string }) {
                 </CommandList>
             </Command>
             {search &&
-                <Button variant="outline" className='mt-6' onClick={() => window.location.href = `/tools/${encodeURIComponent(search)}`}>
+                <Button variant="outline" className='mt-6' onClick={() => window.location.href = `/rules/${encodeURIComponent(search)}`}>
                     <SearchIcon size={16} className='mr-2 opacity-80' />{t('button')}
                 </Button>}
         </div>

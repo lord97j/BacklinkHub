@@ -7,7 +7,7 @@ from datetime import datetime
 
 target_url = "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/refs/heads/main/README.md"
 rules_data_path = "awesome-cursorrules.md"
-category_path = "data/json/en/tools/category.jsonc"
+category_path = "data/json/en/rules/category.jsonc"
 rules_path = "data/md"
 DIFY_API_KEY = "app-gjiQByRG6rhkgMpWGAqX0GFh"  # 请替换为实际的API密钥
 DOMAIN = "http://localhost:3000"
@@ -170,7 +170,7 @@ def enhance_rule_with_ai(rule: Dict) -> Optional[Dict]:
                 "title": rule["title"],
                 "description": rule["description"],
                 "content": rule["content"],
-                "tags": ','.join(rule["tags"]),
+                "tags": ",".join(rule["tags"]),
             },
             "response_mode": "blocking",
             "user": "cursor-rules-enhancer",
@@ -200,7 +200,7 @@ def enhance_rule_with_ai(rule: Dict) -> Optional[Dict]:
                 # "title": ai_rule["title"],
                 "description": ai_rule["description"],
                 "content": ai_rule["content"],
-                "tags": ai_rule["tags"]
+                "tags": ai_rule["tags"],
             }
         )
 
@@ -378,6 +378,7 @@ def main():
         output_path_zh = os.path.join(rule_category_path_zh, filename)
         with open(output_path_zh, "w", encoding="utf-8") as f:
             json.dump(rules, f, indent=2)
+
 
 if __name__ == "__main__":
     main()

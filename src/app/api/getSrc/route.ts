@@ -12,7 +12,7 @@ const owner = process.env.GITHUB_OWNER;
 const repo = process.env.GITHUB_REPO;
 
 const githubBasePath = 'data/json/';
-const srcBashPath = '/tools/';
+const srcBashPath = '/rules/';
 
 async function getCategoryFromGitHub(locale: string, src: string) {
   try {
