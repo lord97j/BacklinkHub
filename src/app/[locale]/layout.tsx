@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import { Layout } from '@/components/Layout';
 import { Metadata } from 'next'
 import { GoogleAnalyticsScript } from "@/components/analytics/GoogleAnalyticsScript";
+import { CozeWebChatScript } from "@/components/analytics/CozeWebChatScript";
 import { PlausibleAnalyticsScript } from "@/components/analytics/PlausibleAnalyticsScript";
 import GoogleAdsenseScript from "@/components/ads/GoogleAdsenseScript";
 import { ThemeProvider } from "next-themes"
@@ -69,6 +70,7 @@ export default async function RootLayout({
               <GoogleAdsenseScript />
               <GoogleAnalyticsScript />
               <PlausibleAnalyticsScript />
+              <CozeWebChatScript />
             </ThemeProvider>
           </NextIntlClientProvider>
         </body>
