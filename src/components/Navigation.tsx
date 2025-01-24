@@ -190,7 +190,7 @@ export const Navigation = ({ categories }: navigationProp ) => {
           </nav>
         </div>
         <div className="flex items-center gap-3">
-          <Link href="/article/add-new-developer-tools" className='hidden md:block'>
+          <Link href="/article/add-new-cursor-rules" className='hidden md:block'>
             <Button variant="outline" className='text-sm tracking-tight'>{t('submitToolBtn')}</Button>
           </Link>
           <div className="flex items-center gap-1">
