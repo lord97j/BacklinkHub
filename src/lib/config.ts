@@ -5,7 +5,7 @@ export const siteConfig = {
     title: 'cursorrules: Optimize Your Coding with Cursor Rules for Developers',
     description: 'Discover CursorRules, a platform for custom AI rules tailored to your coding frameworks, boosting your development efficiency.',
     authors: 'GitBasePro',
-    email: 'iamcoreychiu+devtoolsetsupport@gmail.com',
+    email: 'Lord97Jchiu+devtoolsetsupport@gmail.com',
     github: 'https://github.com/lord97j/cursorrules',
     domain: 'cursorrules.org'
 } as const;

@@ -23,6 +23,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'llmgpuhelper.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
     ],
     // 允许加载svg图片
     dangerouslyAllowSVG: true,

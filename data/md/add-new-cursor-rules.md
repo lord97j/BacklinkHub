@@ -10,7 +10,7 @@ Follow these steps to add new cursor rules to CursorRules.org.
 
 ## Step 1: Add New Cursor Rules
 
-1. Open the CursorRules repository: [CursorRules](https://github.com/iAmCorey/cursorrules/)
+1. Open the CursorRules repository: [CursorRules](https://github.com/lord97j/cursorrules/)
 2. Open the corresponding JSONC file `/data/json/[locale]/rules/{category}.jsonc`
 3. Insert the new cursor rule in the file
 4. If the `{category}.jsonc` file doesn't exist, follow these steps:

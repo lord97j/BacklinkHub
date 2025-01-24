@@ -5,6 +5,7 @@ import { getCategories } from '@/lib/data';
 
 import { ToolsList } from '@/components/ToolsList';
 import { ArticleList } from '@/components/ArticleList'
+import FAQ from '@/components/FAQ'
 
 import { Search } from '@/components/Search';
 import {getTranslations, getLocale} from 'next-intl/server';
@@ -60,6 +61,7 @@ export default async function Home() {
       <Suspense fallback={<div>Loading editor...</div>}>
         <ArticleList articles={allPostsData} />
       </Suspense>
+      <FAQ />
     </div>
   )
 }

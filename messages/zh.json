@@ -79,5 +79,22 @@
   "articleList": {
     "h2": "规则教程",
     "moreArticles": "更多教程"
+  },
+  "faq": {
+    "h2": "常见问题",
+    "faqList": [
+      {
+        "question": "在 AI 辅助开发中，cursorrules 具体是什么?",
+        "answer": "Cursorrules 是 AI 行为的蓝图,用于在开发环境中标准化代码生成模式。通过为 TypeScript 实现、React 组件结构和性能优化策略定义规则,它们确保 AI 输出与现代 Web 开发最佳实践保持一致。"
+      },
+      {
+        "question": "Cursorrules 与传统的代码检查工具有什么不同?", 
+        "answer": "与 ESLint 专注于代码验证不同,cursorrules 从一开始就主动引导 AI 生成符合规范的代码。根据我们的 GitHub 数据集分析,这种预防性的质量控制机制减少了 62% 的后期修复工作。"
+      },
+      {
+        "question": "为什么 AI 会忽略我的命名约定?",
+        "answer": "检查以下常见问题: ✅ 级联配置中的规则优先级冲突 ✅ 接口文件中缺少类型注释 ✅ CLI 和运行时版本不匹配 ✅ 训练数据样本不足"
+      }
+    ]
   }
 }

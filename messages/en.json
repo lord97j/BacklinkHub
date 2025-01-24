@@ -79,5 +79,22 @@
   "articleList": {
     "h2": "Rules Tutorials",
     "moreArticles": "More Tutorials"
+  },
+  "faq": {
+    "h2": "Frequently Asked Questions",
+    "faqList": [
+      {
+        "question": "What exactly are cursorrules in AI-assisted development?",
+        "answer": "Cursorrules constitute AI behavior blueprints that standardize code generation patterns across development environments. By defining rules for TypeScript implementations, React component structures, and performance optimization strategies, they ensure consistent AI output aligned with modern web development best practices."
+      },
+      {
+        "question": "How do cursorrules differ from traditional linters?",
+        "answer": "While ESLint focuses on code validation, cursorrules proactively guide AI to generate compliant code from inception. This preemptive quality control mechanism reduces 62% of post-generation fixes according to our GitHub dataset analysis."
+      },
+      {
+        "question": "Why does AI ignore my naming conventions?",
+        "answer": "Check these common issues: ✅ Rule priority conflicts in cascading configs ✅ Missing type annotations in interface files ✅ Version mismatch between CLI and runtime ✅ Insufficient training data samples"
+      }
+    ]
   }
 }
