@@ -13,49 +13,84 @@
 // 2. 不允许使用联盟链接
 // 3. 请勿提交与开发无关的工具。
 
-
 [
   // A
-  {
-    "name": "AI工具",
-    "src": "ai-tools.jsonc",
-    "link": "ai-tools",
-    "description": "用于各种应用的人工智能工具"
-  },
   // B
+  {
+    "name": "后端开发",
+    "src": "backend.jsonc",
+    "link": "backend",
+    "description": "包括 Node.js、Python、Go、Java 等后端开发规则"
+  },
   // C
+  {
+    "name": "CSS 和样式",
+    "src": "css.jsonc",
+    "link": "css",
+    "description": "Tailwind CSS 等 CSS 框架和样式解决方案的规则"
+  },
   // D
+  {
+    "name": "数据库和 API",
+    "src": "database.jsonc",
+    "link": "database",
+    "description": "数据库集成和 API 开发的规则"
+  },
   // E
   // F
-
-  // G
   {
-    "name": "游戏",
-    "src": "game.jsonc",
-    "link": "game",
-    "description": "在线游戏平台和资源。"
-  }
+    "name": "前端框架",
+    "src": "frontend.jsonc",
+    "link": "frontend",
+    "description": "React、Vue、Angular 等前端框架的规则"
+  },
+  // G
   // H
   // I
   // J
   // K
   // L
+  {
+    "name": "编程语言",
+    "src": "language.jsonc",
+    "link": "language",
+    "description": "TypeScript、Python、JavaScript 等特定编程语言的规则"
+  },
   // M
+  {
+    "name": "移动开发",
+    "src": "mobile.jsonc",
+    "link": "mobile",
+    "description": "React Native、Flutter 等移动应用开发的规则"
+  },
   // N
   // O
   // P
   // Q
   // R
   // S
-
+  {
+    "name": "状态管理",
+    "src": "state.jsonc",
+    "link": "state",
+    "description": "Redux、MobX 等状态管理解决方案的规则"
+  },
   // T
-
+  {
+    "name": "测试",
+    "src": "testing.jsonc",
+    "link": "testing",
+    "description": "测试框架和方法论的规则"
+  },
+  {
+    "name": "工具和 DevOps",
+    "src": "tools.jsonc",
+    "link": "tools",
+    "description": "开发工具、构建系统和 DevOps 实践的规则"
+  },
   // U
-
   // V
-
   // W
-
   // X
   // Y
   // Z

@@ -1,13 +1,13 @@
 export const siteConfig = {
-    name: 'SitemapHunt',
-    name2: 'Sitemap Hunt',
-    base_url: 'https://SitemapHunt.net',
-    title: 'SitemapHunt: Free Online Sitemap Monitoring & Change Detection Tool',
-    description: 'Track website changes easily with our free sitemap monitoring tool. Automatic sitemap tracking, change detection, and markdown report generation',
+    name: 'cursorrules',
+    name2: 'Cursor Rules',
+    base_url: 'https://cursorrules.org',
+    title: 'cursorrules: Optimize Your Coding with Cursor Rules for Developers',
+    description: 'Discover CursorRules, a platform for custom AI rules tailored to your coding frameworks, boosting your development efficiency.',
     authors: 'GitBasePro',
     email: 'iamcoreychiu+devtoolsetsupport@gmail.com',
-    github: 'https://github.com/lord97j/SitemapHunt',
-    domain: 'sitemaphunt.com'
+    github: 'https://github.com/lord97j/cursorrules',
+    domain: 'cursorrules.org'
 } as const;
 
 export type SiteConfig = typeof siteConfig; 

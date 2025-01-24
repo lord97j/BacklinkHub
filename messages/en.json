@@ -1,83 +1,83 @@
 {
 "home": {
-    "meta_title": "SitemapHunt: Free Online Sitemap Monitoring & Change Detection Tool",
-    "meta_description": "Track website changes easily with our free sitemap monitoring tool. Automatic sitemap tracking, change detection, and markdown report generation.",
-    "h2": "Simple & Powerful Sitemap Monitoring Tool",
-    "description": "Track Website Changes Easily with Automated Sitemap Monitoring"
+    "meta_title": "CursorRules: Free Open-source Cursor Rules Sharing Platform",
+    "meta_description": "Explore and share Cursor rules to optimize your development workflow. Supporting custom rules for various programming languages and frameworks.",
+    "h2": "Simple yet Powerful Cursor Rules Platform",
+    "description": "Enhance your Cursor experience with custom rules"
   },
   "category": {
-    "meta_title": "SitemapHunt Features - Website Monitoring Tools & Resources",
-    "meta_description": "Discover SitemapHunt's powerful features for sitemap monitoring, website change detection, and automated reporting.",
+    "meta_title": "CursorRules Features - Cursor Rules Library & Resources",
+    "meta_description": "Explore CursorRules' rich rule library, supporting custom rules for various programming languages and frameworks.",
     "homeBtn": "Home",
-    "categoryBtn": "Features",
-    "h1": "Sitemap Monitoring Features",
-    "h2": "Everything You Need for Website Change Detection",
-    "h2description": "Explore our comprehensive sitemap monitoring features"
+    "categoryBtn": "Rules",
+    "h1": "Cursor Rules Library",
+    "h2": "Customize Rules for Your Development Framework",
+    "h2description": "Explore our comprehensive collection of Cursor rules"
   },
   "article": {
-    "meta_title": "SitemapHunt Blog - Sitemap Monitoring Guides & Best Practices",
-    "meta_description": "Learn about website monitoring, sitemap tracking, and change detection best practices.",
-    "h1": "Sitemap Monitoring Guide",
-    "h2": "Learn More About Website Monitoring",
+    "meta_title": "CursorRules Blog - Cursor Rules Writing Guide & Best Practices",
+    "meta_description": "Learn how to write effective Cursor rules to optimize code generation and suggestions.",
+    "h1": "Cursor Rules Guide",
+    "h2": "Deep Dive into Rule Writing",
     "homeBtn": "Home",
-    "articleBtn": "Guides",
-    "backToArticles": "Back to guides"
+    "articleBtn": "Tutorials",
+    "backToArticles": "Back to Tutorials"
   },
   "changelog": {
-    "meta_title": "SitemapHunt Changelog - Latest Updates & Improvements",
-    "meta_description": "Stay updated with the latest features and improvements in SitemapHunt's sitemap monitoring tool",
+    "meta_title": "CursorRules Changelog - Latest Rules & Improvements",
+    "meta_description": "Stay updated with the latest rules and feature updates on CursorRules platform",
     "h1": "Changelog",
-    "h2": "Latest Updates & Improvements",
+    "h2": "Latest Rules & Improvements",
     "homeBtn": "Home",
     "changelogBtn": "Updates"
   },
   "tools": {
-    "meta_description": "Discover powerful sitemap monitoring and website change detection tools",
-    "h2_1": "Website monitoring tools for",
+    "meta_description": "Discover powerful Cursor rules tools and development aids",
+    "h2_1": "Rules for Various Development Scenarios",
     "h2_2": "",
     "homeBtn": "Home"
   },
   "search": {
-    "input_placeholder": "Search monitoring features or guides...",
-    "heading": "Popular Features",
+    "input_placeholder": "Search rules or tutorials...",
+    "heading": "Popular Rules",
     "more": "View All",
     "button": "Search"
   },
   "navigation": {
     "homeBtn": "Home",
-    "categoryBtn": "Features",
+    "categoryBtn": "Rules",
     "moreCategoryBtn": "More",
-    "moreCategoryDescription": "More Features",
-    "articleBtn": "Guides",
-    "articleDescription": "Free Online Sitemap Monitoring Tool",
-    "article1Title": "Getting Started with SitemapHunt",
-    "article2Title": "Advanced Sitemap Monitoring Guide",
+    "moreCategoryDescription": "More Rules",
+    "articleBtn": "Tutorials",
+    "articleDescription": "Free Open-source Cursor Rules Sharing Platform",
+    "article1Title": "How to Submit .cursorrules",
+    "article2Title": "Advanced .cursorrules Rule Writing Guide",
     "moreArticleBtn": "More",
-    "moreArticleDescription": "More guides",
+    "moreArticleDescription": "More Tutorials",
     "changelogBtn": "Updates",
-    "submitToolBtn": "Try Now"
+    "submitToolBtn": "Submit Rule"
   },
   "footer": {
-    "description": "Free Online Sitemap Monitoring & Change Detection Tool",
-    "builtWith": "Built with",
+    "description": "Free Open-source Cursor Rules Sharing Platform",
+    "builtWith": "Built With",
     "quickLinks": "Quick Links",
     "home": "Home",
-    "category": "Features",
-    "article": "Guides",
+    "category": "Rules",
+    "article": "Tutorials",
     "changelog": "Updates",
-    "privacy": "Privacy",
+    "privacy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "legal": "Legal",
     "connect": "Connect",
     "support": "Support",
-    "copyright": "All rights reserved."
+    "copyright": "Copyright"
   },
   "toolsList": {
     "more": "More",
-    "tools": "features"
+    "tools": "Rules"
   },
   "articleList": {
-    "h2": "Monitoring Guides",
-    "moreArticles": "More guides"
+    "h2": "Rules Tutorials",
+    "moreArticles": "More Tutorials"
   }
 }

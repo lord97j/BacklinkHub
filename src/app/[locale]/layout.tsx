@@ -7,6 +7,7 @@ import { Metadata } from 'next'
 import { GoogleAnalyticsScript } from "@/components/analytics/GoogleAnalyticsScript";
 import { PlausibleAnalyticsScript } from "@/components/analytics/PlausibleAnalyticsScript";
 import GoogleAdsenseScript from "@/components/ads/GoogleAdsenseScript";
+import CozeWebChatScript from "@/components/CozeWebChatScript";
 import { ThemeProvider } from "next-themes"
 import { DM_Sans } from "next/font/google";
 import { cn } from "@/lib/utils";
@@ -67,6 +68,7 @@ export default async function RootLayout({
             >
               <Layout>{children}</Layout>
               <GoogleAdsenseScript />
+              <CozeWebChatScript />
               <GoogleAnalyticsScript />
               <PlausibleAnalyticsScript />
             </ThemeProvider>

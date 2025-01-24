@@ -1,5 +1,90 @@
 🌍 *[English](README.md) ∙ [简体中文](README.zh.md)*
 
+# SitemapHunt - 免费站点地图监控工具
+
+<p align="center">
+  <img src="public/logo.png" alt="SitemapHunt Logo" width="200"/>
+</p>
+
+[![Next.js](https://img.shields.io/badge/Next.js-13-black)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-blue)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+## 🌟 产品简介
+
+SitemapHunt 是一款强大的免费在线站点地图监控和变更检测工具。通过自动化的sitemap跟踪系统，帮助网站管理员实时掌握网站内容变更，提供直观的监控报告。
+
+### 🔥 核心特性
+
+- 📊 **自动站点地图监控**
+  - 实时跟踪网站变更
+  - 自动检测sitemap更新
+  - 智能变更对比分析
+
+- 📈 **变更检测与报告**
+  - Markdown格式报告生成
+  - 自定义监控频率
+  - 历史变更记录追踪
+
+- 🔍 **高级监控功能**
+  - 多站点并行监控
+  - 自定义监控规则
+  - 变更通知提醒
+
+- 🛠 **便捷工具集成**
+  - 一键导入站点地图
+  - 批量URL管理
+  - API接口支持
+
+## 🚀 快速开始
+
+1. 访问 [SitemapHunt](https://dotcursorrules.com)
+2. 输入您的网站sitemap URL
+3. 配置监控参数
+4. 开始自动监控
+
+## 💡 使用场景
+
+- 网站内容更新追踪
+- SEO变更监控
+- 竞品网站分析
+- 网站维护管理
+
+## 📚 技术架构
+
+- **前端框架**: Next.js 13
+- **样式方案**: Tailwind CSS
+- **国际化**: Next-Intl
+- **部署平台**: Vercel
+
+## 🌍 国际化支持
+
+- 🇨🇳 简体中文
+- 🇺🇸 English
+
+## 📖 文档资源
+
+- [入门指南](docs/getting-started.md)
+- [高级功能教程](docs/advanced-guide.md)
+- [API文档](docs/api-reference.md)
+
+## 🤝 参与贡献
+
+欢迎提交 Pull Request 或创建 Issue！
+
+## 📄 开源协议
+
+本项目采用 MIT 协议 - 详见 [LICENSE](LICENSE) 文件
+
+## 📞 联系我们
+
+- 官方网站：[dotcursorrules.com](https://dotcursorrules.com)
+- 技术支持：support@dotcursorrules.com
+
+---
+
+<p align="center">用科技改变网站监控方式</p>
+
 # DevToolset
 
 [DevToolset](https://DevToolset.net/) is an open-source database-free developer tools navigator

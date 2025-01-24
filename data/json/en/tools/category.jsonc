@@ -15,46 +15,82 @@
 
 [
   // A
-  {
-    "name": "AI Tools",
-    "src": "ai-tools.jsonc",
-    "link": "ai-tools",
-    "description": "Artificial intelligence tools for various applications."
-  },
   // B
+  {
+    "name": "Backend Development",
+    "src": "backend.jsonc",
+    "link": "backend",
+    "description": "Rules for backend development including Node.js, Python, Go, Java, etc."
+  },
   // C
+  {
+    "name": "CSS and Styling",
+    "src": "css.jsonc",
+    "link": "css",
+    "description": "Rules for CSS frameworks and styling solutions like Tailwind CSS"
+  },
   // D
+  {
+    "name": "Database and API",
+    "src": "database.jsonc",
+    "link": "database",
+    "description": "Rules for database integration and API development"
+  },
   // E
   // F
-
-  // G
   {
-    "name": "Game",
-    "src": "game.jsonc",
-    "link": "game",
-    "description": "Online game platforms and resources."
+    "name": "Frontend Frameworks",
+    "src": "frontend.jsonc",
+    "link": "frontend",
+    "description": "Rules for frontend frameworks like React, Vue, Angular, etc."
   },
+  // G
   // H
   // I
   // J
   // K
   // L
+  {
+    "name": "Language-Specific",
+    "src": "language.jsonc",
+    "link": "language",
+    "description": "Language-specific rules for TypeScript, Python, JavaScript, etc."
+  },
   // M
+  {
+    "name": "Mobile Development",
+    "src": "mobile.jsonc",
+    "link": "mobile",
+    "description": "Rules for mobile app development with React Native, Flutter, etc."
+  },
   // N
   // O
   // P
   // Q
   // R
   // S
-
+  {
+    "name": "State Management",
+    "src": "state.jsonc",
+    "link": "state",
+    "description": "Rules for state management solutions like Redux, MobX, etc."
+  },
   // T
-
+  {
+    "name": "Testing",
+    "src": "testing.jsonc",
+    "link": "testing",
+    "description": "Rules for testing frameworks and methodologies"
+  },
+  {
+    "name": "Tools and DevOps",
+    "src": "tools.jsonc",
+    "link": "tools",
+    "description": "Rules for development tools, build systems, and DevOps practices"
+  },
   // U
-
   // V
-
   // W
-
   // X
   // Y
   // Z

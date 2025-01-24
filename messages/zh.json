@@ -1,69 +1,69 @@
 {
   "home": {
-    "meta_title": "SitemapHunt：免费在线站点地图监控和变更检测工具",
-    "meta_description": "通过我们的免费站点地图监控工具轻松追踪网站变更。自动sitemap跟踪、变更检测和markdown报告生成。",
-    "h2": "简单而强大的站点地图监控工具",
-    "description": "通过自动化站点地图监控轻松跟踪网站变更"
+    "meta_title": "CursorRules：免费开源的 Cursor 规则分享平台",
+    "meta_description": "探索和分享 Cursor 规则，优化您的开发工作流程。支持多种编程语言和框架的自定义规则。",
+    "h2": "简单而强大的 Cursor 规则分享平台",
+    "description": "通过自定义规则提升 Cursor 的开发体验"
   },
   "category": {
-    "meta_title": "SitemapHunt功能 - 网站监控工具与资源",
-    "meta_description": "探索SitemapHunt强大的站点地图监控、网站变更检测和自动报告功能。",
+    "meta_title": "CursorRules 功能 - Cursor 规则库与资源",
+    "meta_description": "探索 CursorRules 丰富的规则库，支持多种编程语言和框架的自定义规则。",
     "homeBtn": "首页",
-    "categoryBtn": "功能",
-    "h1": "站点地图监控功能",
-    "h2": "网站变更检测的所有必备功能",
-    "h2description": "探索我们全面的站点地图监控功能"
+    "categoryBtn": "规则库",
+    "h1": "Cursor 规则库",
+    "h2": "为您的开发框架定制规则",
+    "h2description": "探索我们全面的 Cursor 规则集合"
   },
   "article": {
-    "meta_title": "SitemapHunt博客 - 站点地图监控指南与最佳实践",
-    "meta_description": "学习网站监控、站点地图跟踪和变更检测的最佳实践。",
-    "h1": "站点地图监控指南",
-    "h2": "深入了解网站监控",
+    "meta_title": "CursorRules 博客 - Cursor 规则编写指南与最佳实践",
+    "meta_description": "学习如何编写高效的 Cursor 规则，优化代码生成和建议。",
+    "h1": "Cursor 规则指南",
+    "h2": "深入了解规则编写",
     "homeBtn": "首页",
-    "articleBtn": "指南",
-    "backToArticles": "返回指南列表"
+    "articleBtn": "教程",
+    "backToArticles": "返回教程列表"
   },
   "changelog": {
-    "meta_title": "SitemapHunt更新日志 - 最新功能与改进",
-    "meta_description": "及时了解SitemapHunt站点地图监控工具的最新功能和改进",
+    "meta_title": "CursorRules 更新日志 - 最新规则与改进",
+    "meta_description": "及时了解 CursorRules 平台的最新规则和功能更新",
     "h1": "更新日志",
-    "h2": "最新功能与改进",
+    "h2": "最新规则与改进",
     "homeBtn": "首页",
     "changelogBtn": "更新"
   },
   "tools": {
-    "meta_description": "发现强大的站点地图监控和网站变更检测工具",
-    "h2_1": "适用于以下场景的网站监控工具",
+    "meta_description": "发现强大的 Cursor 规则工具和开发辅助功能",
+    "h2_1": "适用于各种开发场景的规则",
     "h2_2": "",
     "homeBtn": "首页"
   },
   "search": {
-    "input_placeholder": "搜索监控功能或指南...",
-    "heading": "热门功能",
+    "input_placeholder": "搜索规则或教程...",
+    "heading": "热门规则",
     "more": "查看全部",
     "button": "搜索"
   },
   "navigation": {
     "homeBtn": "首页",
-    "categoryBtn": "功能",
+    "categoryBtn": "规则库",
     "moreCategoryBtn": "更多",
-    "moreCategoryDescription": "更多功能",
-    "articleBtn": "指南",
-    "articleDescription": "免费在线站点地图监控工具",
-    "article1Title": "SitemapHunt入门指南",
-    "article2Title": "高级站点地图监控指南",
+    "moreCategoryDescription": "更多规则",
+    "articleBtn": "教程",
+    "articleDescription": "免费开源的 Cursor 规则分享平台",
+    "article1Title": ".cursorrules 提交方法",
+    "article2Title": ".cursorrules 高级规则编写指南",
     "moreArticleBtn": "更多",
-    "moreArticleDescription": "更多指南",
+    "moreArticleDescription": "更多教程",
     "changelogBtn": "更新",
-    "submitToolBtn": "立即体验"
+    "submitToolBtn": "提交规则"
   },
   "footer": {
-    "description": "免费在线站点地图监控与变更检测工具",
+    "description": "免费开源的 Cursor 规则分享平台",
     "builtWith": "技术支持",
     "quickLinks": "快速链接",
     "home": "首页",
-    "category": "功能",
-    "article": "指南",
+    "category": "规则库",
+    "article": "教程",
     "changelog": "更新",
     "privacy": "隐私政策",
     "termsOfService": "服务条款",
@@ -74,10 +74,10 @@
   },
   "toolsList": {
     "more": "更多",
-    "tools": "功能"
+    "tools": "规则"
   },
   "articleList": {
-    "h2": "监控指南",
-    "moreArticles": "更多指南"
+    "h2": "规则教程",
+    "moreArticles": "更多教程"
   }
 }

@@ -1,0 +1,402 @@
+[
+  {
+    "name": "JavaScript/TypeScript Code Quality",
+    "description": "Comprehensive guidelines for writing clean, maintainable, and high-performance JavaScript/TypeScript code. Follow these best practices to ensure your code is simple, readable, and reusable.",
+    "url": "http://localhost:3000/article/javascript-typescript-code-quality-cursorrules-pro",
+    "tags": [
+      "JavaScript",
+      "TypeScript",
+      "Code Quality",
+      "Best Practices",
+      "Coding Guidelines",
+      "Maintainability",
+      "Performance",
+      "Readability"
+    ]
+  },
+  {
+    "name": "JavaScript (Chrome APIs)",
+    "description": "Comprehensive guide to developing Chrome Extensions using JavaScript, HTML, CSS, and Chrome APIs. Learn best practices, performance optimization, security, and more.",
+    "url": "http://localhost:3000/article/javascript-chrome-apis-cursorrules-prompt-file",
+    "tags": [
+      "Chrome APIs",
+      "JavaScript",
+      "Chrome Extensions",
+      "Web Development",
+      "Performance Optimization",
+      "Security"
+    ]
+  },
+  {
+    "name": "Optimize (Rell Blockchain Code)",
+    "description": "A comprehensive guide to writing clear, readable, and efficient Rell code for blockchain applications on the Chromia platform. Learn best practices, core concepts, and advanced features to optimize your Rell code.",
+    "url": "http://localhost:3000/article/optimize-rell-blockchain-code-cursorrules-prompt-f",
+    "tags": [
+      "Rell",
+      "Blockchain",
+      "Chromia",
+      "Smart Contracts",
+      "DApps",
+      "Optimization"
+    ]
+  },
+  {
+    "name": "Pandas (scikit-learn Guide)",
+    "description": "A detailed guide on using Pandas and Scikit-learn for efficient data analysis, visualization, and machine learning workflows in Python. This guide emphasizes best practices, performance optimization, and reproducibility.",
+    "url": "http://localhost:3000/article/pandas-scikit-learn-guide-cursorrules-prompt-file",
+    "tags": [
+      "Pandas",
+      "Scikit-learn",
+      "Data Analysis",
+      "Machine Learning",
+      "Python",
+      "Jupyter Notebook",
+      "Data Visualization"
+    ]
+  },
+  {
+    "name": "Plasticode (Telegram API)",
+    "description": "Comprehensive guide for developing Telegram bots using Plasticode and PHP, focusing on best practices, coding standards, and dependency management.",
+    "url": "http://localhost:3000/article/plasticode-telegram-api-cursorrules-prompt-file",
+    "tags": [
+      "Telegram API",
+      "PHP",
+      "Plasticode",
+      "Bot Development",
+      "Web Development"
+    ]
+  },
+  {
+    "name": "PyQt6 (EEG Processing)",
+    "description": "A comprehensive guide and AI system prompt for developing advanced EEG signal processing applications using PyQt6, focusing on creating user-friendly interfaces, robust backend processing, and efficient workflows.",
+    "url": "http://localhost:3000/article/pyqt6-eeg-processing-cursorrules-prompt-file",
+    "tags": [
+      "PyQt6",
+      "EEG Processing",
+      "Python",
+      "Signal Processing",
+      "GUI Development",
+      "Workflow Optimization",
+      "UI/UX Design"
+    ]
+  },
+  {
+    "name": "Python/TypeScript Guide",
+    "description": "Comprehensive guide for Python and TypeScript development, focusing on best practices, modern frameworks, and efficient coding techniques.",
+    "url": "http://localhost:3000/article/python--typescript-guide-cursorrules-prompt-file",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "Django",
+      "React",
+      "TailwindCSS",
+      "InertiaJS",
+      "Catalyst"
+    ]
+  },
+  {
+    "name": "Python Best Practices",
+    "description": "Comprehensive guidelines for Python development, emphasizing modular design, robust error handling, and AI-friendly coding practices.",
+    "url": "http://localhost:3000/article/python-cursorrules-prompt-file-best-practices",
+    "tags": [
+      "Python",
+      "Best Practices",
+      "AI-Assisted Development",
+      "Testing",
+      "Documentation",
+      "CI/CD"
+    ]
+  },
+  {
+    "name": "Python Developer",
+    "description": "Experienced Python developer specializing in command-line tools, file system operations, and performance optimization. Proven track record in debugging complex issues and delivering high-quality, maintainable code.",
+    "url": "http://localhost:3000/article/python-developer-cursorrules-prompt-file",
+    "tags": [
+      "Python",
+      "CLI Tools",
+      "File System",
+      "Debugging",
+      "Performance Optimization",
+      "Software Development"
+    ]
+  },
+  {
+    "name": "Python Projects Guide",
+    "description": "Comprehensive guide for Python development focusing on project structure, modular design, configuration management, error handling, testing, documentation, dependency management, code style, CI/CD, and AI-friendly coding practices.",
+    "url": "http://localhost:3000/article/python-projects-guide-cursorrules-prompt-file",
+    "tags": [
+      "Python",
+      "Development",
+      "Best Practices",
+      "AI-Assisted",
+      "Modular Design",
+      "Testing",
+      "Documentation",
+      "CI/CD",
+      "Error Handling",
+      "Configuration Management"
+    ]
+  },
+  {
+    "name": "PyTorch (scikit-learn)",
+    "description": "Expert guidelines for developing machine learning models in chemistry using Python, focusing on scikit-learn and PyTorch. Emphasizes code readability, reproducibility, and scalability.",
+    "url": "http://localhost:3000/article/pytorch-scikit-learn-cursorrules-prompt-file",
+    "tags": [
+      "scikit-learn",
+      "PyTorch",
+      "machine-learning",
+      "chemistry",
+      "Python",
+      "data-science"
+    ]
+  },
+  {
+    "name": "Solidity (Hardhat)",
+    "description": "Best practices and guidelines for developing secure and efficient Solidity smart contracts using Hardhat.",
+    "url": "http://localhost:3000/article/solidity-hardhat-cursorrules-prompt-file",
+    "tags": [
+      "Solidity",
+      "Hardhat",
+      "Smart Contracts",
+      "Blockchain",
+      "Ethereum"
+    ]
+  },
+  {
+    "name": "TypeScript (LLM Tech Stack)",
+    "description": "A comprehensive guide to implementing Large Language Model (LLM) architectures using TypeScript, focusing on functional programming, best practices, and developer-friendly APIs.",
+    "url": "http://localhost:3000/article/typescript-llm-tech-stack-cursorrules-prompt-file",
+    "tags": [
+      "TypeScript",
+      "LLM",
+      "Functional Programming",
+      "API Design",
+      "Best Practices"
+    ]
+  },
+  {
+    "name": "TypeScript (Node.js, Next.js, AI)",
+    "description": "Comprehensive guidelines for TypeScript development in Node.js and Next.js environments with AI integration, focusing on practical code solutions and clear explanations.",
+    "url": "http://localhost:3000/article/typescript-nodejs-nextjs-ai-cursorrules-prompt-fil",
+    "tags": [
+      "Node.js",
+      "Next.js",
+      "AI",
+      "TypeScript",
+      "Web Development"
+    ]
+  },
+  {
+    "name": "TypeScript (Node.js, Next.js, React, UI, CSS)",
+    "description": "Comprehensive guide and rules for TypeScript development in Node.js, Next.js, React, and UI projects, focusing on best practices, performance optimization, and modern styling techniques.",
+    "url": "http://localhost:3000/article/typescript-nodejs-nextjs-react-ui-css-cursorrules-",
+    "tags": [
+      "TypeScript",
+      "Node.js",
+      "Next.js",
+      "React",
+      "UI",
+      "CSS",
+      "Shadcn UI",
+      "Radix UI",
+      "Tailwind CSS",
+      "Performance Optimization",
+      "Web Vitals"
+    ]
+  },
+  {
+    "name": "TypeScript (Node.js, React, Vite)",
+    "description": "Comprehensive guidelines and best practices for developing applications using TypeScript, Node.js, React, and Vite. Includes coding standards, performance optimization, and UI styling with Tailwind CSS.",
+    "url": "http://localhost:3000/article/typescript-nodejs-react-vite-cursorrules-prompt-fi",
+    "tags": [
+      "TypeScript",
+      "Node.js",
+      "React",
+      "Vite",
+      "TanStack Query",
+      "TanStack Router",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "name": "TypeScript (React, Next.js, Cloudflare)",
+    "description": "Comprehensive guide for TypeScript development with React, Next.js, and Cloudflare, including best practices, coding standards, and performance optimization.",
+    "url": "http://localhost:3000/article/typescript-react-nextjs-cloudflare-cursorrules-pro",
+    "tags": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Cloudflare",
+      "Shadcn UI",
+      "Radix UI",
+      "Tailwind CSS",
+      "DrizzleORM",
+      "Serverless"
+    ]
+  },
+  {
+    "name": "TypeScript (React, NextUI, Supabase)",
+    "description": "A modern web application built with TypeScript, React, NextUI, and Supabase, featuring authentication, a responsive UI, and a dashboard for logged-in users.",
+    "url": "http://localhost:3000/article/typescript-react-nextui-supabase-cursorrules-promp",
+    "tags": [
+      "React",
+      "NextUI",
+      "Supabase",
+      "TypeScript",
+      "Next.js",
+      "Authentication",
+      "Dashboard"
+    ]
+  },
+  {
+    "name": "TypeScript (shadcn/ui, Next.js)",
+    "description": "Comprehensive guide to TypeScript best practices using shadcn/ui and Next.js, focusing on code style, structure, performance optimization, and error handling.",
+    "url": "http://localhost:3000/article/typescript-shadcn-ui-nextjs-cursorrules-prompt-fil",
+    "tags": [
+      "shadcn/ui",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React",
+      "Performance Optimization"
+    ]
+  },
+  {
+    "name": "TypeScript (Vite, Tailwind)",
+    "description": "A comprehensive guide to building high-performance, maintainable, and scalable TypeScript applications using Vite, Vue.js, Tailwind CSS, and related technologies.",
+    "url": "http://localhost:3000/article/typescript-vite-tailwind-cursorrules-prompt-file",
+    "tags": [
+      "TypeScript",
+      "Vite",
+      "Tailwind",
+      "Vue.js",
+      "Vue Router",
+      "Pinia",
+      "VueUse",
+      "DaisyUI",
+      "Performance Optimization",
+      "Best Practices"
+    ]
+  },
+  {
+    "name": "TypeScript (Vue.js)",
+    "description": "Comprehensive guidelines and best practices for using TypeScript with Vue.js, covering code style, structure, naming conventions, syntax, error handling, UI styling, and performance optimization.",
+    "url": "http://localhost:3000/article/typescript-vuejs-cursorrules-prompt-file",
+    "tags": [
+      "Vue.js",
+      "TypeScript",
+      "Frontend Development",
+      "Best Practices"
+    ]
+  },
+  {
+    "name": "TypeScript (Zod, Tailwind, Next.js)",
+    "description": "A comprehensive guide to building scalable and maintainable TypeScript applications using Zod for validation, Tailwind CSS for styling, and Next.js for server-side rendering and routing.",
+    "url": "http://localhost:3000/article/typescript-zod-tailwind-nextjs-cursorrules-prompt-",
+    "tags": [
+      "TypeScript",
+      "Zod",
+      "Tailwind",
+      "Next.js",
+      "React",
+      "Best Practices"
+    ]
+  },
+  {
+    "name": "TypeScript (Next.js)",
+    "description": "Comprehensive guide and rules for developing TypeScript applications using Next.js, focusing on best practices, performance optimization, and maintainability.",
+    "url": "http://localhost:3000/article/typescript-nextjs-cursorrules-prompt-file",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "React",
+      "Drizzle ORM",
+      "Daisy UI",
+      "Tailwind CSS",
+      "Bun"
+    ]
+  },
+  {
+    "name": "TypeScript (Next.js, React)",
+    "description": "Comprehensive guide for developing with TypeScript, Next.js, React, and Tailwind CSS. Includes best practices for data fetching, rendering, routing, and handling AI interactions using Vercel AI SDK.",
+    "url": "http://localhost:3000/article/typescript-nextjs-react-cursorrules-prompt-file",
+    "tags": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vercel AI SDK",
+      "App Router",
+      "Data Fetching",
+      "Rendering",
+      "Routing"
+    ]
+  },
+  {
+    "name": "TypeScript (Next.js, React, Tailwind, Supabase)",
+    "description": "A comprehensive guide and ruleset for building modern full-stack applications using TypeScript, Next.js, React, Tailwind CSS, and Supabase. This setup includes best practices for coding standards, performance optimization, and error handling.",
+    "url": "http://localhost:3000/article/typescript-nextjs-react-tailwind-supabase-cursorru",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Supabase",
+      "Full-Stack Development",
+      "Modern Web Development"
+    ]
+  },
+  {
+    "name": "TypeScript (Next.js, Supabase)",
+    "description": "Comprehensive guidelines for building scalable and maintainable TypeScript applications using Next.js, Supabase, and modern UI libraries like Shadcn UI and Radix UI.",
+    "url": "http://localhost:3000/article/typescript-nextjs-supabase-cursorrules-prompt-file",
+    "tags": [
+      "Next.js",
+      "Supabase",
+      "TypeScript",
+      "React",
+      "Shadcn UI",
+      "Radix UI",
+      "Tailwind CSS",
+      "Vercel AI SDK"
+    ]
+  },
+  {
+    "name": "TypeScript (Node.js, Next.js App)",
+    "description": "A comprehensive guide and rules for building a TypeScript-based Notes Application using Node.js, Next.js App Router, React, Shadcn UI, Radix UI, and Tailwind CSS. This application includes features like adding, editing, deleting notes, search, filter, sort, pagination, loading states, error handling, and drag-and-drop functionality.",
+    "url": "http://localhost:3000/article/typescript-nodejs-nextjs-app-cursorrules-prompt-fi",
+    "tags": [
+      "Node.js",
+      "Next.js",
+      "TypeScript",
+      "React",
+      "Shadcn UI",
+      "Radix UI",
+      "Tailwind CSS",
+      "Notes App"
+    ]
+  },
+  {
+    "name": "TypeScript (React)",
+    "description": "Comprehensive guidelines for developing React applications using TypeScript, focusing on best practices, performance optimization, and maintainability.",
+    "url": "http://localhost:3000/article/typescript-react-cursorrules-prompt-file",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Frontend",
+      "Best Practices"
+    ]
+  },
+  {
+    "name": "TypeScript (Clasp App Script)",
+    "description": "Comprehensive guide and rules for developing Google Apps Script projects using TypeScript and Clasp, focusing on best practices, performance optimization, and secure coding.",
+    "url": "http://localhost:3000/article/typescript-clasp-cursorrules-prompt-file",
+    "tags": [
+      "TypeScript",
+      "Google Apps Script",
+      "Clasp",
+      "Development",
+      "Best Practices"
+    ]
+  }
+]
