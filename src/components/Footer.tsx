@@ -66,12 +66,12 @@ export function Footer() {
             <h3 className="text-sm font-semibold tracking-wider uppercase">{t('legal')}</h3>
             <ul className="mt-4 space-y-4">
             <li>
-                <Link href="/" className="text-base">
+                <Link href="/article/privacy-policy" className="text-base">
                   {t('privacy')}
                 </Link>
               </li>
               <li>
-                <Link href="/" className="text-base">
+                <Link href="/article/terms-of-service" className="text-base">
                   {t('termsOfService')}
                 </Link>
               </li>
