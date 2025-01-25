@@ -2,7 +2,7 @@
   {
     "name": "Angular (Novo Elements)",
     "description": "A comprehensive guide and rules for integrating Novo Elements with Angular using standalone components, ensuring clean, maintainable, and efficient code.",
-    "url": "http://localhost:3000/article/angular-novo-elements-cursorrules-prompt-file",
+    "url": "/article/angular-novo-elements-cursorrules-prompt-file",
     "tags": [
       "Angular",
       "Novo Elements",
@@ -14,7 +14,7 @@
   {
     "name": "Angular (TypeScript)",
     "description": "Expert Angular programming using TypeScript, Angular 18, and Jest, focusing on clear, readable, and maintainable code.",
-    "url": "http://localhost:3000/article/angular-typescript-cursorrules-prompt-file",
+    "url": "/article/angular-typescript-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Angular",
@@ -26,7 +26,7 @@
   {
     "name": "Astro (TypeScript)",
     "description": "Comprehensive guidelines for developing and maintaining an Astro project using TypeScript and TailwindCSS.",
-    "url": "http://localhost:3000/article/astro-typescript-cursorrules-prompt-file",
+    "url": "/article/astro-typescript-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Astro",
@@ -38,7 +38,7 @@
   {
     "name": "Cursor AI (React, TypeScript, shadcn/ui)",
     "description": "An advanced AI programming assistant specializing in React and TypeScript, leveraging shadcn/ui for modern UI development. Ensures clean, maintainable, and high-performance code using the latest technologies and best practices.",
-    "url": "http://localhost:3000/article/cursor-ai-react-typescript-shadcn-ui-cursorrules-p",
+    "url": "/article/cursor-ai-react-typescript-shadcn-ui-cursorrules-p",
     "tags": [
       "React",
       "TypeScript",
@@ -52,7 +52,7 @@
   {
     "name": "Next.js 15 (React 19, Vercel AI, Tailwind)",
     "description": "Comprehensive guide and best practices for building modern web applications using Next.js 15, React 19, Vercel AI SDK, and Tailwind CSS. Includes TypeScript, Shadcn UI, Radix UI, and performance optimization strategies.",
-    "url": "http://localhost:3000/article/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file",
+    "url": "/article/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file",
     "tags": [
       "React 19",
       "Next.js 15",
@@ -68,7 +68,7 @@
   {
     "name": "Next.js 14 (Tailwind, SEO)",
     "description": "A comprehensive guide and code generation rules for building modern, SEO-optimized web applications using Next.js 14, Tailwind CSS, and TypeScript. This template includes best practices for server-side rendering, responsive design, and performance optimization.",
-    "url": "http://localhost:3000/article/cursorrules-cursor-ai-nextjs-14-tailwind-seo-setup",
+    "url": "/article/cursorrules-cursor-ai-nextjs-14-tailwind-seo-setup",
     "tags": [
       "Next.js",
       "Tailwind CSS",
@@ -81,7 +81,7 @@
   {
     "name": "Next.js (React, Tailwind)",
     "description": "A comprehensive guide and rules for developing modern web applications using Next.js, React, Tailwind CSS, and Shadcn UI. This setup emphasizes TypeScript, functional programming, and performance optimization.",
-    "url": "http://localhost:3000/article/nextjs-react-tailwind-cursorrules-prompt-file",
+    "url": "/article/nextjs-react-tailwind-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "React",
@@ -94,7 +94,7 @@
   {
     "name": "Next.js (React, TypeScript)",
     "description": "Comprehensive guide for developing with Next.js, React, and TypeScript, focusing on best practices, performance optimization, and modern web development techniques.",
-    "url": "http://localhost:3000/article/nextjs-react-typescript-cursorrules-prompt-file",
+    "url": "/article/nextjs-react-typescript-cursorrules-prompt-file",
     "tags": [
       "React",
       "TypeScript",
@@ -106,7 +106,7 @@
   {
     "name": "Next.js (SEO Development)",
     "description": "Comprehensive guide for SEO optimization in Next.js projects, including best practices, coding standards, and performance tips.",
-    "url": "http://localhost:3000/article/nextjs-seo-dev-cursorrules-prompt-file",
+    "url": "/article/nextjs-seo-dev-cursorrules-prompt-file",
     "tags": [
       "SEO",
       "Next.js",
@@ -117,7 +117,7 @@
   {
     "name": "Next.js (Supabase Todo App)",
     "description": "A comprehensive guide and specifications for building a Todo application using Next.js and Supabase. This project leverages Supabase for backend services, Next.js for server-side rendering, and Tailwind CSS for styling.",
-    "url": "http://localhost:3000/article/nextjs-supabase-todo-app-cursorrules-prompt-file",
+    "url": "/article/nextjs-supabase-todo-app-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "Supabase",
@@ -129,7 +129,7 @@
   {
     "name": "Next.js (Tailwind, TypeScript)",
     "description": "A comprehensive guide and rules for developing Next.js applications using Tailwind CSS for styling and TypeScript for type safety. This setup ensures a modern, efficient, and scalable web development environment.",
-    "url": "http://localhost:3000/article/nextjs-tailwind-typescript-apps-cursorrules-prompt",
+    "url": "/article/nextjs-tailwind-typescript-apps-cursorrules-prompt",
     "tags": [
       "Next.js",
       "Tailwind CSS",
@@ -142,7 +142,7 @@
   {
     "name": "Next.js (TypeScript App)",
     "description": "Astral is a Next.js and TypeScript-based block explorer for the Autonomys network, integrating state management, UI components, and data fetching libraries.",
-    "url": "http://localhost:3000/article/nextjs-typescript-app-cursorrules-prompt-file",
+    "url": "/article/nextjs-typescript-app-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "TypeScript",
@@ -156,7 +156,7 @@
   {
     "name": "Next.js (TypeScript)",
     "description": "Comprehensive guide for building a full-stack application using Next.js with TypeScript, integrating modern UI libraries, and optimizing for performance and scalability.",
-    "url": "http://localhost:3000/article/nextjs-typescript-cursorrules-prompt-file",
+    "url": "/article/nextjs-typescript-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Next.js",
@@ -171,7 +171,7 @@
   {
     "name": "Next.js (TypeScript, Tailwind)",
     "description": "Astral is the Block Explorer for the Autonomys Network, built with Next.js, TypeScript, and Tailwind CSS. It provides a responsive and accessible interface for exploring blockchain data, integrating advanced libraries for state management, UI components, and data fetching.",
-    "url": "http://localhost:3000/article/nextjs-typescript-tailwind-cursorrules-prompt-file",
+    "url": "/article/nextjs-typescript-tailwind-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Tailwind",
@@ -185,7 +185,7 @@
   {
     "name": "Next.js (Vercel, Supabase)",
     "description": "BA Copilot is an AI-powered assistant designed to help business analysts create, modify, and iterate on BPMN diagrams with contextual suggestions, leveraging uploaded documents and user queries. Built with Next.js, Vercel, and Supabase, it offers a seamless workflow for business process modeling and documentation.",
-    "url": "http://localhost:3000/article/nextjs-vercel-supabase-cursorrules-prompt-file",
+    "url": "/article/nextjs-vercel-supabase-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "Vercel",
@@ -200,7 +200,7 @@
   {
     "name": "Next.js (Vercel, TypeScript)",
     "description": "Comprehensive guide for integrating AI SDK RSC with Vercel middleware and KV database in a Next.js project using TypeScript, Tailwind CSS, and Shadcn UI.",
-    "url": "http://localhost:3000/article/nextjs-vercel-typescript-cursorrules-prompt-file",
+    "url": "/article/nextjs-vercel-typescript-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "Vercel",
@@ -215,7 +215,7 @@
   {
     "name": "Next.js (App Router)",
     "description": "Comprehensive guide and rules for implementing best practices in Next.js App Router projects, including folder structure, coding standards, and performance optimization.",
-    "url": "http://localhost:3000/article/nextjs-app-router-cursorrules-prompt-file",
+    "url": "/article/nextjs-app-router-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "App Router",
@@ -228,7 +228,7 @@
   {
     "name": "Next.js (Material UI, Tailwind CSS)",
     "description": "A modern portfolio project built with Next.js, featuring Material UI, Tailwind CSS, and Shadcn/UI for a responsive and visually appealing design. This project supports TypeScript, App Router, and a structured `src/` directory for better organization.",
-    "url": "http://localhost:3000/article/nextjs-material-ui-tailwind-css-cursorrules-prompt",
+    "url": "/article/nextjs-material-ui-tailwind-css-cursorrules-prompt",
     "tags": [
       "Next.js",
       "Material UI",
@@ -242,7 +242,7 @@
   {
     "name": "Qwik (Basic Setup with TypeScript and Vite)",
     "description": "Comprehensive guide for setting up Qwik.js with TypeScript and Vite, including best practices, folder structure, and performance optimization tips.",
-    "url": "http://localhost:3000/article/qwik-basic-cursorrules-prompt-file",
+    "url": "/article/qwik-basic-cursorrules-prompt-file",
     "tags": [
       "Qwik.js",
       "TypeScript",
@@ -255,7 +255,7 @@
   {
     "name": "Qwik (with Tailwind CSS)",
     "description": "A comprehensive guide and ruleset for developing Qwik applications with Tailwind CSS, TypeScript, and Vite. Includes best practices, folder structure, and additional instructions for optimal development.",
-    "url": "http://localhost:3000/article/qwik-tailwind-cursorrules-prompt-file",
+    "url": "/article/qwik-tailwind-cursorrules-prompt-file",
     "tags": [
       "Qwik",
       "Tailwind CSS",
@@ -267,7 +267,7 @@
   {
     "name": "React Components Creation",
     "description": "Comprehensive guidelines for creating React components, including best practices, component structure, and integration with Tailwind CSS and TypeScript.",
-    "url": "http://localhost:3000/article/react-components-creation-cursorrules-prompt-file",
+    "url": "/article/react-components-creation-cursorrules-prompt-file",
     "tags": [
       "React",
       "TypeScript",
@@ -279,7 +279,7 @@
   {
     "name": "React (Next.js UI Development)",
     "description": "An expert AI programming assistant specializing in React and Next.js UI development, focusing on producing clear, readable, and efficient JavaScript code for the browser. Utilizes the latest versions of popular frameworks and libraries, ensuring accurate, factual, and thoughtful responses.",
-    "url": "http://localhost:3000/article/react-nextjs-ui-development-cursorrules-prompt-fil",
+    "url": "/article/react-nextjs-ui-development-cursorrules-prompt-fil",
     "tags": [
       "Next.js",
       "React",
@@ -293,7 +293,7 @@
   {
     "name": "React (TypeScript, Next.js, Node.js)",
     "description": "Comprehensive guidelines and best practices for developing React applications using TypeScript, Next.js, and Node.js. Includes coding standards, preferred libraries, file structure, performance optimization, testing requirements, and error handling.",
-    "url": "http://localhost:3000/article/react-typescript-nextjs-nodejs-cursorrules-prompt-",
+    "url": "/article/react-typescript-nextjs-nodejs-cursorrules-prompt-",
     "tags": [
       "TypeScript",
       "Next.js",
@@ -311,7 +311,7 @@
   {
     "name": "React (TypeScript, Symfony)",
     "description": "Comprehensive guide for full stack development using React, TypeScript, and Symfony. Learn best practices, coding standards, and performance optimization techniques.",
-    "url": "http://localhost:3000/article/react-typescript-symfony-cursorrules-prompt-file",
+    "url": "/article/react-typescript-symfony-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Symfony",
@@ -324,7 +324,7 @@
   {
     "name": "Solid.js (Basic Setup)",
     "description": "A detailed guide for setting up and optimizing Solid.js projects, including best practices, folder structure, and performance tips.",
-    "url": "http://localhost:3000/article/solidjs-basic-cursorrules-prompt-file",
+    "url": "/article/solidjs-basic-cursorrules-prompt-file",
     "tags": [
       "Solid.js",
       "Setup",
@@ -336,7 +336,7 @@
   {
     "name": "Solid.js (TypeScript)",
     "description": "Comprehensive .cursorrules for Solid.js projects using TypeScript, including best practices, folder structure, and coding standards.",
-    "url": "http://localhost:3000/article/solidjs-typescript-cursorrules-prompt-file",
+    "url": "/article/solidjs-typescript-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Solid.js",
@@ -348,7 +348,7 @@
   {
     "name": "Solid.js (Tailwind CSS)",
     "description": "Best practices and rules for integrating Solid.js with Tailwind CSS, including component structure, styling, and performance optimizations.",
-    "url": "http://localhost:3000/article/solidjs-tailwind-cursorrules-prompt-file",
+    "url": "/article/solidjs-tailwind-cursorrules-prompt-file",
     "tags": [
       "Solid.js",
       "Tailwind CSS",
@@ -360,7 +360,7 @@
   {
     "name": "Svelte 5 vs Svelte 4",
     "description": "A comprehensive comparison between Svelte 5 and Svelte 4, highlighting the new features, syntax changes, and migration strategies for developers.",
-    "url": "http://localhost:3000/article/svelte-5-vs-svelte-4-cursorrules-prompt-file",
+    "url": "/article/svelte-5-vs-svelte-4-cursorrules-prompt-file",
     "tags": [
       "Svelte",
       "Svelte 5",
@@ -375,7 +375,7 @@
   {
     "name": "SvelteKit (RESTful API, Tailwind CSS)",
     "description": "A modern SvelteKit-based web application featuring a RESTful API, PostgreSQL database via Supabase, and styled with Tailwind CSS. Deployed on Vercel with Supabase Auth for authentication.",
-    "url": "http://localhost:3000/article/sveltekit-restful-api-tailwind-css-cursorrules-pro",
+    "url": "/article/sveltekit-restful-api-tailwind-css-cursorrules-pro",
     "tags": [
       "SvelteKit",
       "RESTful API",
@@ -390,7 +390,7 @@
   {
     "name": "SvelteKit (Tailwind CSS, TypeScript)",
     "description": "A comprehensive guide and coding standards for a SvelteKit project utilizing Tailwind CSS for styling and TypeScript for type safety. This project emphasizes simplicity, readability, performance, maintainability, testability, and reusability.",
-    "url": "http://localhost:3000/article/sveltekit-tailwindcss-typescript-cursorrules-promp",
+    "url": "/article/sveltekit-tailwindcss-typescript-cursorrules-promp",
     "tags": [
       "SvelteKit",
       "Tailwind CSS",
@@ -402,7 +402,7 @@
   {
     "name": "SvelteKit (TypeScript Guide)",
     "description": "A comprehensive guide to building modern web applications with SvelteKit, TypeScript, Supabase, and Drizzle. Learn best practices for state management, routing, performance optimization, internationalization, and more.",
-    "url": "http://localhost:3000/article/sveltekit-typescript-guide-cursorrules-prompt-file",
+    "url": "/article/sveltekit-typescript-guide-cursorrules-prompt-file",
     "tags": [
       "SvelteKit",
       "TypeScript",
@@ -418,7 +418,7 @@
   {
     "name": "Vue 3 (Nuxt 3 Development)",
     "description": "Comprehensive guidelines for developing with Vue 3 and Nuxt 3, focusing on best practices, performance, and maintainability.",
-    "url": "http://localhost:3000/article/vue-3-nuxt-3-development-cursorrules-prompt-file",
+    "url": "/article/vue-3-nuxt-3-development-cursorrules-prompt-file",
     "tags": [
       "Vue 3",
       "Nuxt 3",
@@ -431,7 +431,7 @@
   {
     "name": "Vue 3 (Composition API)",
     "description": "A comprehensive guide to Vue 3 Composition API best practices, project structure, and additional instructions for building scalable and maintainable Vue 3 applications.",
-    "url": "http://localhost:3000/article/vue3-composition-api-cursorrules-prompt-file",
+    "url": "/article/vue3-composition-api-cursorrules-prompt-file",
     "tags": [
       "Vue 3",
       "Composition API",

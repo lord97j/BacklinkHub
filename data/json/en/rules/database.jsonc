@@ -2,7 +2,7 @@
   {
     "name": "GraphQL (Apollo Client)",
     "description": "Best practices and guidelines for using GraphQL with Apollo Client in a React application.",
-    "url": "http://localhost:3000/article/react-graphql-apollo-client-cursorrules-prompt-file",
+    "url": "/article/react-graphql-apollo-client-cursorrules-prompt-file",
     "tags": [
       "GraphQL",
       "Apollo Client",
@@ -14,7 +14,7 @@
   {
     "name": "TypeScript (Axios)",
     "description": "Comprehensive guide on integrating and utilizing Axios with TypeScript for efficient API communication in your projects.",
-    "url": "http://localhost:3000/article/typescript-axios-cursorrules-prompt-file",
+    "url": "/article/typescript-axios-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Axios",

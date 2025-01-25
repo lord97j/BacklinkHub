@@ -2,7 +2,7 @@
   {
     "name": "JavaScript/TypeScript Code Quality",
     "description": "编写清晰、可维护和高性能的 JavaScript/TypeScript 代码的综合指南。遵循这些最佳实践来确保你的代码简单、可读和可重用。",
-    "url": "http://localhost:3000/article/javascript-typescript-code-quality-cursorrules-pro",
+    "url": "/article/javascript-typescript-code-quality-cursorrules-pro",
     "tags": [
       "JavaScript",
       "TypeScript",
@@ -17,7 +17,7 @@
   {
     "name": "JavaScript (Chrome APIs)",
     "description": "使用 JavaScript、HTML、CSS 和 Chrome APIs 开发 Chrome 扩展的综合指南。学习最佳实践、性能优化、安全性等。",
-    "url": "http://localhost:3000/article/javascript-chrome-apis-cursorrules-prompt-file",
+    "url": "/article/javascript-chrome-apis-cursorrules-prompt-file",
     "tags": [
       "Chrome APIs",
       "JavaScript",
@@ -30,7 +30,7 @@
   {
     "name": "Optimize (Rell Blockchain Code)",
     "description": "在 Chromia 平台上编写清晰、可读和高效的 Rell 区块链应用程序的综合指南。学习最佳实践、核心概念和高级功能来优化你的 Rell 代码。",
-    "url": "http://localhost:3000/article/optimize-rell-blockchain-code-cursorrules-prompt-f",
+    "url": "/article/optimize-rell-blockchain-code-cursorrules-prompt-f",
     "tags": [
       "Rell",
       "Blockchain",
@@ -43,7 +43,7 @@
   {
     "name": "Pandas (scikit-learn Guide)",
     "description": "关于使用 Pandas 和 Scikit-learn 进行高效数据分析、可视化和机器学习工作流程的详细指南。本指南强调最佳实践、性能优化和可重复性。",
-    "url": "http://localhost:3000/article/pandas-scikit-learn-guide-cursorrules-prompt-file",
+    "url": "/article/pandas-scikit-learn-guide-cursorrules-prompt-file",
     "tags": [
       "Pandas",
       "Scikit-learn",
@@ -57,7 +57,7 @@
   {
     "name": "Plasticode (Telegram API)",
     "description": "使用 Plasticode 和 PHP 开发 Telegram 机器人的综合指南，重点关注最佳实践、编码标准和依赖管理。",
-    "url": "http://localhost:3000/article/plasticode-telegram-api-cursorrules-prompt-file",
+    "url": "/article/plasticode-telegram-api-cursorrules-prompt-file",
     "tags": [
       "Telegram API",
       "PHP",
@@ -69,7 +69,7 @@
   {
     "name": "PyQt6 (EEG Processing)",
     "description": "使用 PyQt6 开发高级脑电信号处理应用程序的综合指南和 AI 系统提示，重点关注创建用户友好界面、稳健的后端处理和高效的工作流程。",
-    "url": "http://localhost:3000/article/pyqt6-eeg-processing-cursorrules-prompt-file",
+    "url": "/article/pyqt6-eeg-processing-cursorrules-prompt-file",
     "tags": [
       "PyQt6",
       "EEG Processing",
@@ -83,7 +83,7 @@
   {
     "name": "Python/TypeScript Guide",
     "description": "Python 和 TypeScript 开发的综合指南，重点关注最佳实践、现代框架和高效编码技术。",
-    "url": "http://localhost:3000/article/python--typescript-guide-cursorrules-prompt-file",
+    "url": "/article/python--typescript-guide-cursorrules-prompt-file",
     "tags": [
       "Python",
       "TypeScript",
@@ -97,7 +97,7 @@
   {
     "name": "Python Best Practices",
     "description": "Python 开发的综合指南，强调模块化设计、健壮的错误处理和 AI 友好的编码实践。",
-    "url": "http://localhost:3000/article/python-cursorrules-prompt-file-best-practices",
+    "url": "/article/python-cursorrules-prompt-file-best-practices",
     "tags": [
       "Python",
       "Best Practices",
@@ -110,7 +110,7 @@
   {
     "name": "Python Developer",
     "description": "专门从事命令行工具、文件系统操作和性能优化的资深 Python 开发者。在调试复杂问题和交付高质量、可维护代码方面有着良好的记录。",
-    "url": "http://localhost:3000/article/python-developer-cursorrules-prompt-file",
+    "url": "/article/python-developer-cursorrules-prompt-file",
     "tags": [
       "Python",
       "CLI Tools",
@@ -123,7 +123,7 @@
   {
     "name": "Python Projects Guide",
     "description": "Python 开发的综合指南，重点关注项目结构、模块化设计、配置管理、错误处理、测试、文档、依赖管理、代码风格、CI/CD 和 AI 友好的编码实践。",
-    "url": "http://localhost:3000/article/python-projects-guide-cursorrules-prompt-file",
+    "url": "/article/python-projects-guide-cursorrules-prompt-file",
     "tags": [
       "Python",
       "Development",
@@ -140,7 +140,7 @@
   {
     "name": "PyTorch (scikit-learn)",
     "description": "使用 Python 开发化学领域机器学习模型的专家指南，重点关注 scikit-learn 和 PyTorch。强调代码可读性、可重复性和可扩展性。",
-    "url": "http://localhost:3000/article/pytorch-scikit-learn-cursorrules-prompt-file",
+    "url": "/article/pytorch-scikit-learn-cursorrules-prompt-file",
     "tags": [
       "scikit-learn",
       "PyTorch",
@@ -153,7 +153,7 @@
   {
     "name": "Solidity (Hardhat)",
     "description": "使用 Hardhat 开发安全和高效的 Solidity 智能合约的最佳实践和指南。",
-    "url": "http://localhost:3000/article/solidity-hardhat-cursorrules-prompt-file",
+    "url": "/article/solidity-hardhat-cursorrules-prompt-file",
     "tags": [
       "Solidity",
       "Hardhat",
@@ -165,7 +165,7 @@
   {
     "name": "TypeScript (LLM Tech Stack)",
     "description": "使用 TypeScript 实现大型语言模型（LLM）架构的综合指南，重点关注函数式编程、最佳实践和开发者友好的 API。",
-    "url": "http://localhost:3000/article/typescript-llm-tech-stack-cursorrules-prompt-file",
+    "url": "/article/typescript-llm-tech-stack-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "LLM",
@@ -177,7 +177,7 @@
   {
     "name": "TypeScript (Node.js, Next.js, AI)",
     "description": "在 Node.js 和 Next.js 环境中进行 TypeScript 开发的综合指南，包含 AI 集成，重点关注实用的代码解决方案和清晰的解释。",
-    "url": "http://localhost:3000/article/typescript-nodejs-nextjs-ai-cursorrules-prompt-fil",
+    "url": "/article/typescript-nodejs-nextjs-ai-cursorrules-prompt-fil",
     "tags": [
       "Node.js",
       "Next.js",
@@ -189,7 +189,7 @@
   {
     "name": "TypeScript (Node.js, Next.js, React, UI, CSS)",
     "description": "Node.js、Next.js、React 和 UI 项目中 TypeScript 开发的综合指南和规则，重点关注最佳实践、性能优化和现代样式技术。",
-    "url": "http://localhost:3000/article/typescript-nodejs-nextjs-react-ui-css-cursorrules-",
+    "url": "/article/typescript-nodejs-nextjs-react-ui-css-cursorrules-",
     "tags": [
       "TypeScript",
       "Node.js",
@@ -207,7 +207,7 @@
   {
     "name": "TypeScript (Node.js, React, Vite)",
     "description": "使用 TypeScript、Node.js、React 和 Vite 开发应用程序的综合指南和最佳实践。包括编码标准、性能优化和使用 Tailwind CSS 的 UI 样式设计。",
-    "url": "http://localhost:3000/article/typescript-nodejs-react-vite-cursorrules-prompt-fi",
+    "url": "/article/typescript-nodejs-react-vite-cursorrules-prompt-fi",
     "tags": [
       "TypeScript",
       "Node.js",
@@ -221,7 +221,7 @@
   {
     "name": "TypeScript (React, Next.js, Cloudflare)",
     "description": "使用 React、Next.js 和 Cloudflare 进行 TypeScript 开发的综合指南，包括最佳实践、编码标准和性能优化。",
-    "url": "http://localhost:3000/article/typescript-react-nextjs-cloudflare-cursorrules-pro",
+    "url": "/article/typescript-react-nextjs-cloudflare-cursorrules-pro",
     "tags": [
       "TypeScript",
       "React",
@@ -237,7 +237,7 @@
   {
     "name": "TypeScript (React, NextUI, Supabase)",
     "description": "使用 TypeScript、React、NextUI 和 Supabase 构建的现代网络应用程序，具有身份验证、响应式 UI 和登录用户仪表板功能。",
-    "url": "http://localhost:3000/article/typescript-react-nextui-supabase-cursorrules-promp",
+    "url": "/article/typescript-react-nextui-supabase-cursorrules-promp",
     "tags": [
       "React",
       "NextUI",
@@ -251,7 +251,7 @@
   {
     "name": "TypeScript (shadcn/ui, Next.js)",
     "description": "使用 shadcn/ui 和 Next.js 的 TypeScript 最佳实践综合指南，重点关注代码风格、结构、性能优化和错误处理。",
-    "url": "http://localhost:3000/article/typescript-shadcn-ui-nextjs-cursorrules-prompt-fil",
+    "url": "/article/typescript-shadcn-ui-nextjs-cursorrules-prompt-fil",
     "tags": [
       "shadcn/ui",
       "Next.js",
@@ -264,7 +264,7 @@
   {
     "name": "TypeScript (Vite, Tailwind)",
     "description": "使用 Vite、Vue.js、Tailwind CSS 和相关技术构建高性能、可维护和可扩展的 TypeScript 应用程序的综合指南。",
-    "url": "http://localhost:3000/article/typescript-vite-tailwind-cursorrules-prompt-file",
+    "url": "/article/typescript-vite-tailwind-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Vite",
@@ -281,7 +281,7 @@
   {
     "name": "TypeScript (Vue.js)",
     "description": "使用 TypeScript 和 Vue.js 的综合指南和最佳实践，涵盖代码风格、结构、命名约定、语法、错误处理、UI 样式和性能优化。",
-    "url": "http://localhost:3000/article/typescript-vuejs-cursorrules-prompt-file",
+    "url": "/article/typescript-vuejs-cursorrules-prompt-file",
     "tags": [
       "Vue.js",
       "TypeScript",
@@ -292,7 +292,7 @@
   {
     "name": "TypeScript (Zod, Tailwind, Next.js)",
     "description": "使用 Zod 进行验证、Tailwind CSS 进行样式设计和 Next.js 进行服务器端渲染和路由的可扩展和可维护 TypeScript 应用程序的综合指南。",
-    "url": "http://localhost:3000/article/typescript-zod-tailwind-nextjs-cursorrules-prompt-",
+    "url": "/article/typescript-zod-tailwind-nextjs-cursorrules-prompt-",
     "tags": [
       "TypeScript",
       "Zod",
@@ -305,7 +305,7 @@
   {
     "name": "TypeScript (Next.js)",
     "description": "使用 Next.js 开发 TypeScript 应用程序的综合指南和规则，重点关注最佳实践、性能优化和可维护性。",
-    "url": "http://localhost:3000/article/typescript-nextjs-cursorrules-prompt-file",
+    "url": "/article/typescript-nextjs-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "TypeScript",
@@ -319,7 +319,7 @@
   {
     "name": "TypeScript (Next.js, React)",
     "description": "使用 TypeScript、Next.js、React 和 Tailwind CSS 进行开发的综合指南。包括数据获取、渲染、路由和使用 Vercel AI SDK 处理 AI 交互的最佳实践。",
-    "url": "http://localhost:3000/article/typescript-nextjs-react-cursorrules-prompt-file",
+    "url": "/article/typescript-nextjs-react-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "React",
@@ -335,7 +335,7 @@
   {
     "name": "TypeScript (Next.js, React, Tailwind, Supabase)",
     "description": "使用 TypeScript、Next.js、React、Tailwind CSS 和 Supabase 构建现代全栈应用程序的综合指南和规则集。该设置包括编码标准、性能优化和错误处理的最佳实践。",
-    "url": "http://localhost:3000/article/typescript-nextjs-react-tailwind-supabase-cursorru",
+    "url": "/article/typescript-nextjs-react-tailwind-supabase-cursorru",
     "tags": [
       "TypeScript",
       "Next.js",
@@ -349,7 +349,7 @@
   {
     "name": "TypeScript (Next.js, Supabase)",
     "description": "使用 Next.js、Supabase 和现代 UI 库（如 Shadcn UI 和 Radix UI）构建可扩展和可维护的 TypeScript 应用程序的综合指南。",
-    "url": "http://localhost:3000/article/typescript-nextjs-supabase-cursorrules-prompt-file",
+    "url": "/article/typescript-nextjs-supabase-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "Supabase",
@@ -364,7 +364,7 @@
   {
     "name": "TypeScript (Node.js, Next.js App)",
     "description": "使用 Node.js、Next.js App Router、React、Shadcn UI、Radix UI 和 Tailwind CSS 构建基于 TypeScript 的笔记应用程序的综合指南和规则。该应用程序包括添加、编辑、删除笔记、搜索、过滤、排序、分页、加载状态、错误处理和拖放功能。",
-    "url": "http://localhost:3000/article/typescript-nodejs-nextjs-app-cursorrules-prompt-fi",
+    "url": "/article/typescript-nodejs-nextjs-app-cursorrules-prompt-fi",
     "tags": [
       "Node.js",
       "Next.js",
@@ -379,7 +379,7 @@
   {
     "name": "TypeScript (React)",
     "description": "使用 TypeScript 开发 React 应用程序的综合指南，重点关注最佳实践、性能优化和可维护性。",
-    "url": "http://localhost:3000/article/typescript-react-cursorrules-prompt-file",
+    "url": "/article/typescript-react-cursorrules-prompt-file",
     "tags": [
       "React",
       "TypeScript",
@@ -390,7 +390,7 @@
   {
     "name": "TypeScript (Clasp App Script)",
     "description": "使用 TypeScript 和 Clasp 开发 Google Apps Script 项目的综合指南和规则，重点关注最佳实践、性能优化和安全编码。",
-    "url": "http://localhost:3000/article/typescript-clasp-cursorrules-prompt-file",
+    "url": "/article/typescript-clasp-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Google Apps Script",

@@ -2,7 +2,7 @@
   {
     "name": "TypeScript (Expo, Jest, Detox)",
     "description": "Comprehensive guide and rules for TypeScript-based mobile development using Expo, Jest, and Detox. Includes best practices for code style, UI/UX, performance, testing, and more.",
-    "url": "http://localhost:3000/article/typescript-expo-jest-detox-cursorrules-prompt-file",
+    "url": "/article/typescript-expo-jest-detox-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Expo",

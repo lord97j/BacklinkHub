@@ -2,7 +2,7 @@
   {
     "name": "Tailwind CSS (Next.js Guide)",
     "description": "A detailed guide for developing modern web applications using Tailwind CSS and Next.js, covering best practices, performance optimization, and advanced TypeScript techniques.",
-    "url": "http://localhost:3000/article/tailwind-css-nextjs-guide-cursorrules-prompt-file",
+    "url": "/article/tailwind-css-nextjs-guide-cursorrules-prompt-file",
     "tags": [
       "Next.js",
       "Tailwind CSS",
@@ -16,7 +16,7 @@
   {
     "name": "Tailwind (React, Firebase)",
     "description": "Comprehensive guide and best practices for building high-quality, mobile-first web applications using Tailwind CSS, React, and Firebase. Includes design, performance, accessibility, and Firebase integration tips.",
-    "url": "http://localhost:3000/article/tailwind-react-firebase-cursorrules-prompt-file",
+    "url": "/article/tailwind-react-firebase-cursorrules-prompt-file",
     "tags": [
       "React",
       "Firebase",
@@ -31,7 +31,7 @@
   {
     "name": "Tailwind (shadcn/ui Integration)",
     "description": "A comprehensive guide on integrating Tailwind CSS with shadcn/ui in a Next.js project, focusing on best practices, performance optimization, and maintainability.",
-    "url": "http://localhost:3000/article/tailwind-shadcn-ui-integration-cursorrules-prompt-",
+    "url": "/article/tailwind-shadcn-ui-integration-cursorrules-prompt-",
     "tags": [
       "Tailwind CSS",
       "shadcn/ui",
@@ -43,7 +43,7 @@
   {
     "name": "JavaScript (Astro, Tailwind CSS)",
     "description": "Best practices and guidelines for building scalable, high-performance web applications using Astro and Tailwind CSS.",
-    "url": "http://localhost:3000/article/javascript-astro-tailwind-css-cursorrules-prompt-f",
+    "url": "/article/javascript-astro-tailwind-css-cursorrules-prompt-f",
     "tags": [
       "Astro",
       "Tailwind CSS",
@@ -56,7 +56,7 @@
   {
     "name": "React (Styled Components)",
     "description": "Optimize your React projects using Styled Components with best practices, folder structure, and coding standards.",
-    "url": "http://localhost:3000/article/react-styled-components-cursorrules-prompt-file",
+    "url": "/article/react-styled-components-cursorrules-prompt-file",
     "tags": [
       "React",
       "Styled Components",
@@ -68,7 +68,7 @@
   {
     "name": "React (Chakra UI)",
     "description": "A comprehensive guide for building React applications using Chakra UI, focusing on best practices, performance optimization, and maintainable code structure.",
-    "url": "http://localhost:3000/article/react-chakra-ui-cursorrules-prompt-file",
+    "url": "/article/react-chakra-ui-cursorrules-prompt-file",
     "tags": [
       "React",
       "Chakra UI",

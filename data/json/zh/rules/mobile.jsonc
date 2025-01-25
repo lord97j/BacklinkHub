@@ -2,7 +2,7 @@
   {
     "name": "React Native Expo",
     "description": "使用 Expo 开发 React Native 应用程序的综合指南和最佳实践。包括编码标准、文件夹结构和优化开发的附加说明。",
-    "url": "http://localhost:3000/article/react-native-expo-cursorrules-prompt-file",
+    "url": "/article/react-native-expo-cursorrules-prompt-file",
     "tags": [
       "React Native",
       "Expo",
@@ -16,7 +16,7 @@
   {
     "name": "SwiftUI Guidelines",
     "description": "开发可维护和清晰的 SwiftUI 应用程序的综合指南，重点关注 2024 年 8 月和 9 月的最新功能和最佳实践。",
-    "url": "http://localhost:3000/article/swiftui-guidelines-cursorrules-prompt-file",
+    "url": "/article/swiftui-guidelines-cursorrules-prompt-file",
     "tags": [
       "SwiftUI",
       "iOS Development",
@@ -28,7 +28,7 @@
   {
     "name": "TypeScript (Expo, Jest, Detox)",
     "description": "使用 TypeScript、Expo、Jest 和 Detox 开发移动应用程序的综合指南和规则。包括编码标准、性能优化、测试策略等。",
-    "url": "http://localhost:3000/article/typescript-expo-jest-detox-cursorrules-prompt-file",
+    "url": "/article/typescript-expo-jest-detox-cursorrules-prompt-file",
     "tags": [
       "Expo",
       "Jest",
@@ -41,7 +41,7 @@
   {
     "name": "Android Native (Jetpack Compose)",
     "description": "使用 Jetpack Compose 进行 Android 原生开发的最佳实践和指南，包括项目架构、UI 指南、测试和性能优化。",
-    "url": "http://localhost:3000/article/android-jetpack-compose-cursorrules-prompt-file",
+    "url": "/article/android-jetpack-compose-cursorrules-prompt-file",
     "tags": [
       "Jetpack Compose",
       "Android",
@@ -53,7 +53,7 @@
   {
     "name": "Flutter Expert",
     "description": "Flutter 项目的综合 .cursorrules，包括最佳实践、编码指南和性能优化技术。",
-    "url": "http://localhost:3000/article/flutter-app-expert-cursorrules-prompt-file",
+    "url": "/article/flutter-app-expert-cursorrules-prompt-file",
     "tags": [
       "Flutter",
       "Best Practices",

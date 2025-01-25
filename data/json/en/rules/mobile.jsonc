@@ -2,7 +2,7 @@
   {
     "name": "React Native Expo",
     "description": "Comprehensive guidelines and best practices for developing React Native applications using Expo. Includes coding standards, folder structure, and additional instructions for optimal development.",
-    "url": "http://localhost:3000/article/react-native-expo-cursorrules-prompt-file",
+    "url": "/article/react-native-expo-cursorrules-prompt-file",
     "tags": [
       "React Native",
       "Expo",
@@ -16,7 +16,7 @@
   {
     "name": "SwiftUI Guidelines",
     "description": "Comprehensive guidelines for developing maintainable and clean SwiftUI applications, focusing on the latest features and best practices as of August and September 2024.",
-    "url": "http://localhost:3000/article/swiftui-guidelines-cursorrules-prompt-file",
+    "url": "/article/swiftui-guidelines-cursorrules-prompt-file",
     "tags": [
       "SwiftUI",
       "iOS Development",
@@ -28,7 +28,7 @@
   {
     "name": "TypeScript (Expo, Jest, Detox)",
     "description": "Comprehensive guide and rules for developing mobile applications using TypeScript with Expo, Jest, and Detox. Includes coding standards, performance optimization, testing strategies, and more.",
-    "url": "http://localhost:3000/article/typescript-expo-jest-detox-cursorrules-prompt-file",
+    "url": "/article/typescript-expo-jest-detox-cursorrules-prompt-file",
     "tags": [
       "Expo",
       "Jest",
@@ -41,7 +41,7 @@
   {
     "name": "Android Native (Jetpack Compose)",
     "description": "Best practices and guidelines for Android Native development using Jetpack Compose, including project architecture, UI guidelines, testing, and performance optimization.",
-    "url": "http://localhost:3000/article/android-jetpack-compose-cursorrules-prompt-file",
+    "url": "/article/android-jetpack-compose-cursorrules-prompt-file",
     "tags": [
       "Jetpack Compose",
       "Android",
@@ -53,7 +53,7 @@
   {
     "name": "Flutter Expert",
     "description": "Comprehensive .cursorrules for Flutter projects, including best practices, coding guidelines, and performance optimization techniques.",
-    "url": "http://localhost:3000/article/flutter-app-expert-cursorrules-prompt-file",
+    "url": "/article/flutter-app-expert-cursorrules-prompt-file",
     "tags": [
       "Flutter",
       "Best Practices",

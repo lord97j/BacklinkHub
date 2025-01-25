@@ -2,7 +2,7 @@
   {
     "name": "React (Redux, TypeScript)",
     "description": "使用 Redux 进行状态管理和 TypeScript 进行类型安全的 React 应用程序开发的综合指南。包括最佳实践、文件夹结构和编码标准。",
-    "url": "http://localhost:3000/article/react-redux-typescript-cursorrules-prompt-file",
+    "url": "/article/react-redux-typescript-cursorrules-prompt-file",
     "tags": [
       "React",
       "Redux", 
@@ -14,7 +14,7 @@
   {
     "name": "React (MobX)",
     "description": "使用 React 和 MobX 进行可扩展和高效状态管理的最佳实践和指南。",
-    "url": "http://localhost:3000/article/react-mobx-cursorrules-prompt-file",
+    "url": "/article/react-mobx-cursorrules-prompt-file",
     "tags": [
       "React",
       "MobX",
@@ -26,7 +26,7 @@
   {
     "name": "React (React Query)",
     "description": "在 React 应用程序中使用 React Query 的最佳实践和指南，包括文件夹结构、编码标准和性能优化。",
-    "url": "http://localhost:3000/article/react-query-cursorrules-prompt-file",
+    "url": "/article/react-query-cursorrules-prompt-file",
     "tags": [
       "React",
       "React Query",

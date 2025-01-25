@@ -2,7 +2,7 @@
   {
     "name": "Chrome Extension (JavaScript/TypeScript)",
     "description": "使用 JavaScript 和 TypeScript 开发 Chrome 扩展的全面指南，重点关注最佳实践、安全性、性能和可维护性。",
-    "url": "http://localhost:3000/article/chrome-extension-dev-js-typescript-cursorrules-pro",
+    "url": "/article/chrome-extension-dev-js-typescript-cursorrules-pro",
     "tags": [
       "JavaScript",
       "TypeScript",
@@ -17,7 +17,7 @@
   {
     "name": "GitHub Code Quality",
     "description": "维护 GitHub 仓库高代码质量的全面规则和最佳实践。",
-    "url": "http://localhost:3000/article/github-code-quality-cursorrules-prompt-file",
+    "url": "/article/github-code-quality-cursorrules-prompt-file",
     "tags": [
       "code-quality",
       "github",
@@ -28,7 +28,7 @@
   {
     "name": "Kubernetes (MkDocs Documentation)",
     "description": "使用 MkDocs 创建的全面且用户友好的 Kubernetes 文档，重点关注云原生技术、容器化和编排最佳实践。",
-    "url": "http://localhost:3000/article/kubernetes-mkdocs-documentation-cursorrules-prompt",
+    "url": "/article/kubernetes-mkdocs-documentation-cursorrules-prompt",
     "tags": [
       "Kubernetes",
       "MkDocs",
@@ -40,7 +40,7 @@
   {
     "name": "Linux (NVIDIA CUDA, Python)",
     "description": "一个用于下载、量化和上传模型到 Hugging Face 仓库的流水线，针对配备 NVIDIA CUDA 和 AMD ROCm GPU 支持的 Linux 服务器进行了优化。",
-    "url": "http://localhost:3000/article/linux-nvidia-cuda-python-cursorrules-prompt-file",
+    "url": "/article/linux-nvidia-cuda-python-cursorrules-prompt-file",
     "tags": [
       "NVIDIA CUDA",
       "Python",
@@ -53,7 +53,7 @@
   {
     "name": "Optimize (DRY, SOLID Principles)",
     "description": "通过遵循 DRY（不要重复自己）和 SOLID（单一职责、开放/封闭、里氏替换、接口隔离、依赖倒置）原则来提高代码质量和可维护性。本指南提供了编写清晰、高效和可扩展代码的最佳实践。",
-    "url": "http://localhost:3000/article/optimize-dry-solid-principles-cursorrules-prompt-f",
+    "url": "/article/optimize-dry-solid-principles-cursorrules-prompt-f",
     "tags": [
       "DRY",
       "SOLID Principles",
@@ -65,7 +65,7 @@
   {
     "name": "Python Containerization",
     "description": "使用 Docker、Kubernetes 以及来自 Python 官方文档和 PEPs 的最佳实践对 Python 应用进行容器化的全面指南。",
-    "url": "http://localhost:3000/article/python-containerization-cursorrules-prompt-file",
+    "url": "/article/python-containerization-cursorrules-prompt-file",
     "tags": [
       "Python",
       "Containerization",
@@ -78,7 +78,7 @@
   {
     "name": "Python (GitHub Setup)",
     "description": "在 GitHub 上设置和开发 Python 项目的全面指南，包括编码标准、测试、文档和部署策略。",
-    "url": "http://localhost:3000/article/python-github-setup-cursorrules-prompt-file",
+    "url": "/article/python-github-setup-cursorrules-prompt-file",
     "tags": [
       "Python",
       "GitHub",
@@ -90,7 +90,7 @@
   {
     "name": "Tauri (Svelte, TypeScript Guide)",
     "description": "使用 Tauri 配合 Svelte 和 TypeScript 构建安全、高效和可扩展桌面应用程序的全面指南。包括最佳实践、性能优化和安全性考虑。",
-    "url": "http://localhost:3000/article/tauri-svelte-typescript-guide-cursorrules-prompt-f",
+    "url": "/article/tauri-svelte-typescript-guide-cursorrules-prompt-f",
     "tags": [
       "Tauri",
       "Svelte",
@@ -104,7 +104,7 @@
   {
     "name": "TypeScript Code Convention",
     "description": "在现代 Web 开发中使用 Node.js、Next.js App Router、React、Expo、tRPC、Shadcn UI、Radix UI 和 Tailwind CSS 的 TypeScript 代码规范、最佳实践和性能优化的全面指南。",
-    "url": "http://localhost:3000/article/typescript-code-convention-cursorrules-prompt-file",
+    "url": "/article/typescript-code-convention-cursorrules-prompt-file",
     "tags": [
       "TypeScript",
       "Node.js",
