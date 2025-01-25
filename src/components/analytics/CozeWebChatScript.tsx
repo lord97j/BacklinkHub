@@ -33,7 +33,7 @@ export function CozeWebChatScript() {
                 * @param base.zIndex - The z-index of the chat box.
                 */
                 base: { 
-                  icon: 'https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png', 
+                  icon: 'https://images.seeklogo.com/logo-png/46/1/chatgpt-logo-png_seeklogo-465219.png', 
                   layout: 'pc', 
                   lang: 'en',
                   zIndex: 1000, 
