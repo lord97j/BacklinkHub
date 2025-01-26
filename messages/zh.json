@@ -1,9 +1,9 @@
 {
   "home": {
-    "meta_title": "CursorRules：免费开源的 Cursor 规则分享平台",
-    "meta_description": "探索和分享 Cursor 规则，优化您的开发工作流程。支持多种编程语言和框架的自定义规则。",
-    "h2": "简单而强大的 Cursor 规则分享平台",
-    "description": "通过自定义规则提升 Cursor 的开发体验"
+    "meta_title": "CursorRules：AI代码规范生成器 | 开源.cursorrules规则库",
+    "meta_description": "CursorRules.org提供专业的AI代码生成规范与开源.cursorrules模板库，支持TypeScript/React/Next.js框架的智能规则配置。开发者可快速创建符合最佳实践的cursor rules for AI，优化代码质量和团队协作效率。",
+    "h2": "AI驱动的.cursorrules规则生成与共享平台",
+    "description": "通过智能生成的cursor rules for AI配置文件，快速实现TypeScript/React项目标准化。社区验证的.cursorrules模板库，支持一键配置与跨框架迁移。"
   },
   "category": {
     "meta_title": "CursorRules 功能 - Cursor 规则库与资源",

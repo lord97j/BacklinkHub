@@ -1,9 +1,9 @@
 {
 "home": {
-    "meta_title": "CursorRules: Free Open-source Cursor Rules Sharing Platform",
-    "meta_description": "Explore and share Cursor rules to optimize your development workflow. Supporting custom rules for various programming languages and frameworks.",
-    "h2": "Simple yet Powerful Cursor Rules Platform",
-    "description": "Enhance your Cursor experience with custom rules"
+    "meta_title": "CursorRules: AI Code Standards & .cursorrules Templates Hub",
+    "meta_description": "Generate AI-powered .cursorrules for TypeScript/React/Next.js. Open-source templates to enhance code quality and team collaboration through smart configuration.", 
+    "h2": "AI-Powered .cursorrules Generator & Repository",
+    "description": "Automate coding standards with smart .cursorrules configs. Access community-validated templates for seamless framework integration."
   },
   "category": {
     "meta_title": "CursorRules Features - Cursor Rules Library & Resources",
