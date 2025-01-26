@@ -46,7 +46,7 @@ export function CozeWebChatScript() {
                 * @param chatBot.el - Container for setting the placement of the chat box (Element).
                 */
                 chatBot: {
-                  title: 'CursorRules Bot',
+                  title: 'CursorRules.org Agent',
                   uploadable: true,
                   width: 390
                 }, 

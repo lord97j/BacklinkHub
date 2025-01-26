@@ -3,7 +3,7 @@
     "meta_title": "CursorRules: AI Code Standards & .cursorrules Templates Hub",
     "meta_description": "Generate AI-powered .cursorrules for multiple languages and frameworks. Open-source templates to enhance code quality through smart configuration standards.", 
     "h2": "AI-Powered .cursorrules Generator & Repository",
-    "description": "Automate coding standards with smart .cursorrules configs. Access community-validated templates for seamless framework integration."
+    "description": "Generate free .cursorrules configs via AI Agent, automatically adapting to React/Vue/Next.js frameworks. Access community-verified best practice templates with one-click deployment."
   },
   "category": {
     "meta_title": "CursorRules Features - Cursor Rules Library & Resources",
@@ -60,7 +60,7 @@
     "submitToolBtn": "Submit Rule"
   },
   "footer": {
-    "description": "Free Open-source Cursor Rules Sharing Platform",
+    "description": "Share & Generate AI Cursor Rules | Open-Source Community Hub",
     "builtWith": "Built With",
     "quickLinks": "Quick Links",
     "home": "Home",

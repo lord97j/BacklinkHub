@@ -46,7 +46,7 @@ export default async function Home() {
           <span className="inline-block">{siteConfig.name2}</span>
         </h1>
         <h2 className="text-2xl tracking-tight sm:text-3xl md:text-3xl lg:text-3xl">{t("h2")}</h2>
-        <p className="mx-auto max-w-[700px] md:text-xl tracking-tight">
+        <p className="mx-auto max-w-[900px] md:text-xl tracking-tight whitespace-pre-line">
           {t("description")}
         </p>
         <div className='w-full px-2 pt-10 lg:w-1/2'>
