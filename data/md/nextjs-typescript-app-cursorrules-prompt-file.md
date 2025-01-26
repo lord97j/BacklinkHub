@@ -1,9 +1,10 @@
 ---
 title: Next.js (TypeScript App)
 description: Astral is a Next.js and TypeScript-based block explorer for the Autonomys network, integrating state management, UI components, and data fetching libraries.
-category: frontend
+category: rules
 date: 2025-01-23T18:34:46.143550
 ---
+
 
 # Next.js (TypeScript App)
 

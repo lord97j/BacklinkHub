@@ -1,9 +1,10 @@
 ---
 title: Python (Django Best Practices)
 description: Comprehensive guide on best practices for developing scalable and maintainable web applications using Python and Django.
-category: backend
+category: rules
 date: 2025-01-23T18:47:56.068610
 ---
+
 
 # Python (Django Best Practices)
 

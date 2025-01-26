@@ -1,9 +1,10 @@
 ---
 title: GraphQL (Apollo Client)
 description: Best practices and guidelines for using GraphQL with Apollo Client in a React application.
-category: database
+category: rules
 date: 2025-01-23T18:54:12.915491
 ---
+
 
 # GraphQL (Apollo Client)
 

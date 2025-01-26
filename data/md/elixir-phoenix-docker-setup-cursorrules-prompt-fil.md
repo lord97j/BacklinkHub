@@ -1,9 +1,10 @@
 ---
 title: Elixir (Phoenix, Docker)
 description: Comprehensive guidelines and best practices for developing scalable and maintainable Elixir applications using Phoenix framework and Docker. Includes coding standards, preferred libraries, performance optimization, and testing strategies.
-category: backend
+category: rules
 date: 2025-01-23T18:42:46.765112
 ---
+
 
 # Elixir (Phoenix, Docker)
 

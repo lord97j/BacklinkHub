@@ -1,9 +1,10 @@
 ---
 title: Linux (NVIDIA CUDA, Python)
 description: A streamlined pipeline for downloading, quantizing, and uploading models to Hugging Face repositories, optimized for Linux servers with NVIDIA CUDA and AMD ROCm GPU support.
-category: tools
+category: rules
 date: 2025-01-23T18:55:49.217484
 ---
+
 
 # Linux (NVIDIA CUDA, Python)
 

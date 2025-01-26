@@ -1,9 +1,10 @@
 ---
 title: Optimize (DRY, SOLID Principles)
 description: Enhance code quality and maintainability by adhering to DRY (Don't Repeat Yourself) and SOLID (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) principles. This guide provides best practices for writing clean, efficient, and scalable code.
-category: tools
+category: rules
 date: 2025-01-23T18:56:02.874366
 ---
+
 
 # Optimize (DRY, SOLID Principles)
 

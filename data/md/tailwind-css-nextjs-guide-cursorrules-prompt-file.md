@@ -1,9 +1,10 @@
 ---
 title: Tailwind CSS (Next.js Guide)
 description: A detailed guide for developing modern web applications using Tailwind CSS and Next.js, covering best practices, performance optimization, and advanced TypeScript techniques.
-category: css
+category: rules
 date: 2025-01-23T18:51:53.386127
 ---
+
 
 # Tailwind CSS (Next.js Guide)
 

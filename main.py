@@ -380,6 +380,53 @@ def main():
             json.dump(rules, f, indent=2)
 
 
+def md_check():
+    for file in os.listdir(rules_path):
+        if file.endswith(".md"):
+            with open(os.path.join(rules_path, file), "r", encoding="utf-8") as f:
+                content = f.read()
+
+                # 检查是否包含 frontmatter
+                if not content.startswith("---"):
+                    print(f"错误: {file} 缺少 frontmatter")
+                    continue
+
+                try:
+                    # 提取 frontmatter
+                    frontmatter_end = content.index("---", 3)
+                    frontmatter = content[3:frontmatter_end].strip()
+                    rest_content = content[frontmatter_end + 3 :]
+
+                    # 解析 frontmatter
+                    metadata = {}
+                    for line in frontmatter.split("\n"):
+                        if ":" in line:
+                            key, value = line.split(":", 1)
+                            metadata[key.strip()] = value.strip()
+
+                    # 更新 category 字段
+                    if "category" not in metadata:
+                        metadata["category"] = "blog"
+                    else:
+                        metadata["category"] = "rules"
+
+                    # 重建 frontmatter
+                    new_frontmatter = "---\n"
+                    for key, value in metadata.items():
+                        new_frontmatter += f"{key}: {value}\n"
+                    new_frontmatter += "---\n"
+
+                    # 写回文件
+                    with open(
+                        os.path.join(rules_path, file), "w", encoding="utf-8"
+                    ) as f:
+                        f.write(new_frontmatter + rest_content)
+
+                except ValueError:
+                    print(f"错误: {file} frontmatter 格式不正确")
+
+
 if __name__ == "__main__":
-    main()
+    # main()
     # get_markdown_content("https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/refs/heads/main/rules/qwik-tailwind-cursorrules-prompt-file/.cursorrules")
+    md_check()

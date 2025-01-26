@@ -1,9 +1,10 @@
 ---
 title: Angular (Novo Elements)
 description: A comprehensive guide and rules for integrating Novo Elements with Angular using standalone components, ensuring clean, maintainable, and efficient code.
-category: frontend
+category: rules
 date: 2025-01-23T18:31:11.973919
 ---
+
 
 # Angular (Novo Elements)
 

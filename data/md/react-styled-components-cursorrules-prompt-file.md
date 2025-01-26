@@ -1,9 +1,10 @@
 ---
 title: React (Styled Components)
 description: Optimize your React projects using Styled Components with best practices, folder structure, and coding standards.
-category: css
+category: rules
 date: 2025-01-23T18:53:10.586059
 ---
+
 
 # React (Styled Components)
 

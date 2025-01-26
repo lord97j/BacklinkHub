@@ -1,9 +1,10 @@
 ---
 title: Svelte 5 vs Svelte 4
 description: A comprehensive comparison between Svelte 5 and Svelte 4, highlighting the new features, syntax changes, and migration strategies for developers.
-category: frontend
+category: rules
 date: 2025-01-23T18:40:05.445454
 ---
+
 
 # Svelte 5 vs Svelte 4
 

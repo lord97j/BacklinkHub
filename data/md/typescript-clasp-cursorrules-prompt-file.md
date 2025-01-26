@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Clasp App Script)
 description: Comprehensive guide and rules for developing Google Apps Script projects using TypeScript and Clasp, focusing on best practices, performance optimization, and secure coding.
-category: language
+category: rules
 date: 2025-01-23T19:05:32.147591
 ---
+
 
 # TypeScript (Clasp App Script)
 

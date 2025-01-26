@@ -21,7 +21,9 @@
     "h2": "深入了解规则编写",
     "homeBtn": "首页",
     "articleBtn": "教程",
-    "backToArticles": "返回教程列表"
+    "backToArticles": "返回教程列表",
+    "copyButton": "复制规则",
+    "copiedButton": "已复制"
   },
   "changelog": {
     "meta_title": "CursorRules 更新日志 - 最新规则与改进",
@@ -78,7 +80,11 @@
   },
   "articleList": {
     "h2": "规则教程",
-    "moreArticles": "更多教程"
+    "moreArticles": "更多教程",
+    "category": {
+      "rules": "规则",
+      "blog": "教程"
+    }
   },
   "faq": {
     "h2": "常见问题",
@@ -102,18 +108,6 @@
       {
           "question": "Cursor Rules 如何改变传统的 IDE 工作流程?",
           "answer": "Cursor Rules 引入了 AI 驱动的上下文感知功能,重新定义了开发环境: \n✅ 实时架构模式执行 \n✅ 跨文件依赖关系映射(支持15+种语言) \n✅ 自动技术债务量化 \n我们的基准测试显示,使用规则引导的 AI 生成可以使功能开发周期加快41%。"
-      },
-      {
-          "question": "Cursor AI 能否适应我们的遗留代码库要求?", 
-          "answer": "通过自定义规则配置,Cursor AI 可以提供: \n🔧 遗留系统现代化模板(COBOL→TypeScript等) \n🛡️ 单体到微服务转换保护 \n📊 依赖版本兼容性矩阵 \n企业用户反馈使用我们的规则版本系统可使遗留迁移流程顺畅度提高78%。"
-      },
-      {
-          "question": "为什么我的自定义规则有时会覆盖团队约定?",
-          "answer": "使用我们的规则冲突解决协议进行诊断: \n1️⃣ 检查规则层次结构中的优先级(0-9级) \n2️⃣ 验证环境变量继承(DEV vs PROD) \n3️⃣ 审核已安装扩展的兼容性(需要v3.2+) \n4️⃣ 通过 `cursor analyze --rule-conflicts` 运行冲突检测"
-      },
-      {
-          "question": "AI 生成的代码建议有多安全?",
-          "answer": "Cursor Rules 实施军事级别的安全保护: \n🔒 上下文感知漏洞过滤(CVE-2024模式) \n⚡ 实时OWASP Top 10违规检测 \n📜 自动合规审计(支持GDPR/HIPAA) \n第三方审计验证显示99.97%的漏洞预防率。"
       },
       {
           "question": "Cursor Prompts 与 ChatGPT 编码有何不同?",

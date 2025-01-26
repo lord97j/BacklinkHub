@@ -1,9 +1,10 @@
 ---
 title: Vue 3 (Nuxt 3 Development)
 description: Comprehensive guidelines for developing with Vue 3 and Nuxt 3, focusing on best practices, performance, and maintainability.
-category: frontend
+category: rules
 date: 2025-01-23T18:41:39.273747
 ---
+
 
 # Vue 3 (Nuxt 3 Development)
 

@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Node.js, Next.js, React, UI, CSS)
 description: Comprehensive guide and rules for TypeScript development in Node.js, Next.js, React, and UI projects, focusing on best practices, performance optimization, and modern styling techniques.
-category: language
+category: rules
 date: 2025-01-23T19:01:48.446426
 ---
+
 
 # TypeScript (Node.js, Next.js, React, UI, CSS)
 

@@ -1,9 +1,10 @@
 ---
 title: Optimize (Rell Blockchain Code)
 description: A comprehensive guide to writing clear, readable, and efficient Rell code for blockchain applications on the Chromia platform. Learn best practices, core concepts, and advanced features to optimize your Rell code.
-category: language
+category: rules
 date: 2025-01-23T18:58:22.470329
 ---
+
 
 # Optimize (Rell Blockchain Code)
 

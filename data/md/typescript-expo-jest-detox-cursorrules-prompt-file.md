@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Expo, Jest, Detox)
 description: Comprehensive guide and rules for TypeScript-based mobile development using Expo, Jest, and Detox. Includes best practices for code style, UI/UX, performance, testing, and more.
-category: testing
+category: rules
 date: 2025-01-23T18:54:40.478802
 ---
+
 
 # TypeScript (Expo, Jest, Detox)
 

@@ -1,9 +1,10 @@
 ---
 title: Terms of Service
 description: These terms of service explain the rules and conditions for using our services.
-category: policy
+category: blog
 date: 2025-01-15T00:00:00.000Z
 ---
+
 
 # Terms of Service
 

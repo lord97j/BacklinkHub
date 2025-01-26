@@ -1,9 +1,10 @@
 ---
 title: SvelteKit (Tailwind CSS, TypeScript)
 description: A comprehensive guide and coding standards for a SvelteKit project utilizing Tailwind CSS for styling and TypeScript for type safety. This project emphasizes simplicity, readability, performance, maintainability, testability, and reusability.
-category: frontend
+category: rules
 date: 2025-01-23T18:40:53.880228
 ---
+
 
 # SvelteKit (Tailwind CSS, TypeScript)
 

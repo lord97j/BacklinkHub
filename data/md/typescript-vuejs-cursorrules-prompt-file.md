@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Vue.js)
 description: Comprehensive guidelines and best practices for using TypeScript with Vue.js, covering code style, structure, naming conventions, syntax, error handling, UI styling, and performance optimization.
-category: language
+category: rules
 date: 2025-01-23T19:03:30.973817
 ---
+
 
 # TypeScript (Vue.js)
 

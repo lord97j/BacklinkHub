@@ -1,9 +1,10 @@
 ---
 title: Web App Optimization
 description: Comprehensive guide for optimizing web applications using Svelte 5, SvelteKit, TypeScript, and modern web development practices. Includes best practices for performance, state management, routing, and internationalization.
-category: other
+category: rules
 date: 2025-01-23T19:25:50.937984
 ---
+
 
 # Web App Optimization
 

@@ -1,9 +1,10 @@
 ---
 title: WordPress (PHP, Guzzle, Gutenberg)
 description: A comprehensive guide for developing WordPress plugins using PHP, Guzzle for HTTP requests, and Gutenberg for block editor integration. Follow best practices for coding standards, type hinting, and functional programming paradigms.
-category: backend
+category: rules
 date: 2025-01-23T18:49:24.113091
 ---
+
 
 # WordPress (PHP, Guzzle, Gutenberg)
 

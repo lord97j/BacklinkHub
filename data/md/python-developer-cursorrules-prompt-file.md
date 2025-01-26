@@ -1,9 +1,10 @@
 ---
 title: Python Developer
 description: Experienced Python developer specializing in command-line tools, file system operations, and performance optimization. Proven track record in debugging complex issues and delivering high-quality, maintainable code.
-category: language
+category: rules
 date: 2025-01-23T18:59:51.777743
 ---
+
 
 # Python Developer
 

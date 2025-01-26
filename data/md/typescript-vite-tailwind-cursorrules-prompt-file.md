@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Vite, Tailwind)
 description: A comprehensive guide to building high-performance, maintainable, and scalable TypeScript applications using Vite, Vue.js, Tailwind CSS, and related technologies.
-category: language
+category: rules
 date: 2025-01-23T19:03:16.559776
 ---
+
 
 # TypeScript (Vite, Tailwind)
 

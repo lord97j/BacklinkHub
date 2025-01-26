@@ -1,9 +1,10 @@
 ---
 title: TypeScript (NestJS Best Practices)
 description: Comprehensive guide and best practices for TypeScript development using the NestJS framework, focusing on clean code, design patterns, and efficient testing strategies.
-category: backend
+category: rules
 date: 2025-01-23T18:49:10.350693
 ---
+
 
 # TypeScript (NestJS Best Practices)
 

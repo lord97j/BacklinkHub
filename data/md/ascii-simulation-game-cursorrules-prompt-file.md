@@ -1,9 +1,10 @@
 ---
 title: ASCII Simulation Game
 description: A turn-based ASCII simulation game where players observe the rise and fall of ancient nations. The game features a 10x10 grid with nested 10x10 sub-grids, random map generation, resource management, and dynamic nation interactions including trade, war, and peace. The game is designed to be balanced, with no technology tree, and focuses on strategic resource allocation and territorial expansion.
-category: other
+category: rules
 date: 2025-01-23T19:05:54.575677
 ---
+
 
 # ASCII Simulation Game
 

@@ -1,9 +1,10 @@
 ---
 title: Laravel (PHP 8.3)
 description: Comprehensive guide and best practices for developing Laravel packages using PHP 8.3, focusing on code quality, developer experience, and seamless integration.
-category: backend
+category: rules
 date: 2025-01-23T18:45:44.273238
 ---
+
 
 # Laravel (PHP 8.3)
 

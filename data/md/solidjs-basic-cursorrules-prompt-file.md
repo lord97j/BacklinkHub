@@ -1,9 +1,10 @@
 ---
 title: Solid.js (Basic Setup)
 description: A detailed guide for setting up and optimizing Solid.js projects, including best practices, folder structure, and performance tips.
-category: frontend
+category: rules
 date: 2025-01-23T18:38:57.812878
 ---
+
 
 # Solid.js (Basic Setup)
 

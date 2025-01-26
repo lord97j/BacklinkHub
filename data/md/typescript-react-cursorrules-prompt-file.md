@@ -1,9 +1,10 @@
 ---
 title: TypeScript (React)
 description: Comprehensive guidelines for developing React applications using TypeScript, focusing on best practices, performance optimization, and maintainability.
-category: language
+category: rules
 date: 2025-01-23T19:05:18.699543
 ---
+
 
 # TypeScript (React)
 

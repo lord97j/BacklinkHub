@@ -1,9 +1,10 @@
 ---
 title: Kubernetes (MkDocs Documentation)
 description: Comprehensive and user-friendly Kubernetes documentation created using MkDocs, focusing on cloud-native technologies, containerization, and orchestration best practices.
-category: tools
+category: rules
 date: 2025-01-23T18:55:33.405840
 ---
+
 
 # Kubernetes (MkDocs Documentation)
 

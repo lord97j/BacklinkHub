@@ -1,9 +1,10 @@
 ---
 title: JavaScript/TypeScript Code Quality
 description: Comprehensive guidelines for writing clean, maintainable, and high-performance JavaScript/TypeScript code. Follow these best practices to ensure your code is simple, readable, and reusable.
-category: language
+category: rules
 date: 2025-01-23T18:57:34.746012
 ---
+
 
 # JavaScript/TypeScript Code Quality
 

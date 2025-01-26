@@ -1,9 +1,10 @@
 ---
 title: HTMX (Django)
 description: Best practices and guidelines for integrating HTMX with Django to build dynamic web applications efficiently.
-category: backend
+category: rules
 date: 2025-01-23T18:44:46.531271
 ---
+
 
 # HTMX (Django)
 

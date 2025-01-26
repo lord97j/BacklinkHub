@@ -1,9 +1,10 @@
 ---
 title: TypeScript (LLM Tech Stack)
 description: A comprehensive guide to implementing Large Language Model (LLM) architectures using TypeScript, focusing on functional programming, best practices, and developer-friendly APIs.
-category: language
+category: rules
 date: 2025-01-23T19:01:18.209961
 ---
+
 
 # TypeScript (LLM Tech Stack)
 

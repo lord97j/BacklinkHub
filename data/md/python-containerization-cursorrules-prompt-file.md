@@ -1,9 +1,10 @@
 ---
 title: Python Containerization
 description: Comprehensive guide on containerizing Python applications using Docker, Kubernetes, and best practices from Python's official documentation and PEPs.
-category: tools
+category: rules
 date: 2025-01-23T18:56:18.679925
 ---
+
 
 # Python Containerization
 

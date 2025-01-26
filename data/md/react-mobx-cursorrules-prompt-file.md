@@ -1,9 +1,10 @@
 ---
 title: React (MobX)
 description: Best practices and guidelines for using React with MobX for scalable and efficient state management.
-category: state
+category: rules
 date: 2025-01-23T18:53:50.615214
 ---
+
 
 # React (MobX)
 

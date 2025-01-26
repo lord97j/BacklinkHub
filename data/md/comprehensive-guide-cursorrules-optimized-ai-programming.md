@@ -2,7 +2,9 @@
 title: A Comprehensive Guide to Using .cursorrules for Optimized AI-assisted Programming
 description: Learn how to optimize AI-assisted programming with .cursorrules. Define coding standards, preferred libraries, and file structures to enhance AI-generated code. Improve performance, testing, and documentation while ensuring consistency and efficiency in your projects. Empower your AI assistant with precise, project-specific rules.
 date: '2025-01-20T23:14:40.737Z'
+category: blog
 ---
+
 
 cursorrules is a special file located in the root directory of your project that allows customization of AI assistant rules in Cursor. By defining specific rules in this file, you can provide AI with context on project background, coding standards, preferred libraries, file structures, and performance guidelines, ensuring that the AI-generated code and suggestions better meet your team's needs.
 

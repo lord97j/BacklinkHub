@@ -1,9 +1,10 @@
 ---
 title: Python/TypeScript Guide
 description: Comprehensive guide for Python and TypeScript development, focusing on best practices, modern frameworks, and efficient coding techniques.
-category: language
+category: rules
 date: 2025-01-23T18:59:23.322378
 ---
+
 
 # Python/TypeScript Guide
 

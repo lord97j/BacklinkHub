@@ -1,9 +1,10 @@
 ---
 title: Python 3.12 (FastAPI Best Practices)
 description: Comprehensive best practices and guidelines for developing robust and maintainable Python 3.12 applications using FastAPI, Pydantic, SQLAlchemy, and other essential libraries.
-category: backend
+category: rules
 date: 2025-01-23T18:47:35.087934
 ---
+
 
 # Python 3.12 (FastAPI Best Practices)
 

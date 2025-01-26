@@ -1,9 +1,10 @@
 ---
 title: Java (Springboot, JPA)
 description: A comprehensive guide for Java developers using Spring Boot and JPA, focusing on best practices, SOLID principles, and OWASP security standards.
-category: backend
+category: rules
 date: 2025-01-23T18:45:09.791256
 ---
+
 
 # Java (Springboot, JPA)
 

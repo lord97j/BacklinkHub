@@ -25,6 +25,7 @@ export function getSortedPostsData() {
       id,
       title: matterResult.data.title,
       description: matterResult.data.description,
+      category: matterResult.data.category,
       date: matterResult.data.date,
     }
   })
@@ -55,8 +56,10 @@ export async function getPostData(slug) {
   return {
     slug,
     contentHtml,
+    content: matterResult.content,
     title: matterResult.data.title,
     description: matterResult.data.description,
+    category: matterResult.data.category,
     date: matterResult.data.date,
     // ... any other fields you want to include
   };

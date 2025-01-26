@@ -1,9 +1,10 @@
 ---
 title: Go with Fiber
 description: Best practices and guidelines for integrating HTMX with Go and Fiber, including project structure, coding standards, and performance optimization.
-category: backend
+category: rules
 date: 2025-01-23T18:44:07.491631
 ---
+
 
 # Go with Fiber
 

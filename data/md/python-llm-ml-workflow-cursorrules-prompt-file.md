@@ -1,9 +1,10 @@
 ---
 title: Python LLM & ML Workflow
 description: Comprehensive guidelines and best practices for Python-based LLM (Large Language Models) and ML (Machine Learning) workflows. This document covers coding standards, technology stack, modular design, code quality, ML/AI-specific guidelines, performance optimization, and API development with FastAPI.
-category: backend
+category: rules
 date: 2025-01-23T18:50:15.480496
 ---
+
 
 # Python LLM & ML Workflow
 

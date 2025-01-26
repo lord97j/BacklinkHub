@@ -1,9 +1,10 @@
 ---
 title: Next.js (Supabase Todo App)
 description: A comprehensive guide and specifications for building a Todo application using Next.js and Supabase. This project leverages Supabase for backend services, Next.js for server-side rendering, and Tailwind CSS for styling.
-category: frontend
+category: rules
 date: 2025-01-23T18:34:19.110619
 ---
+
 
 # Next.js (Supabase Todo App)
 

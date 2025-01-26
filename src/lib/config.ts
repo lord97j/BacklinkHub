@@ -2,6 +2,7 @@ export const siteConfig = {
     name: 'cursorrules',
     name2: 'Cursor Rules',
     base_url: 'https://cursorrules.org',
+    keywords: 'cursor rules, cursor ai rules, cursorrules, .cursorrules',
     title: 'cursorrules: Optimize Your Coding with Cursor Rules for Developers',
     description: 'Discover CursorRules, a platform for custom AI rules tailored to your coding frameworks, boosting your development efficiency.',
     authors: 'GitBasePro',

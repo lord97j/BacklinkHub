@@ -1,9 +1,10 @@
 ---
 title: Cursor AI (React, TypeScript, shadcn/ui)
 description: An advanced AI programming assistant specializing in React and TypeScript, leveraging shadcn/ui for modern UI development. Ensures clean, maintainable, and high-performance code using the latest technologies and best practices.
-category: frontend
+category: rules
 date: 2025-01-23T18:31:59.164365
 ---
+
 
 # Cursor AI (React, TypeScript, shadcn/ui)
 

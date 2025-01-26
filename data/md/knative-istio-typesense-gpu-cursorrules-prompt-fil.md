@@ -1,9 +1,10 @@
 ---
 title: Knative (Istio, Typesense, GPU)
 description: A comprehensive guide for building scalable, serverless applications using Knative, Istio, Typesense, and GPU acceleration. This project focuses on creating a robust, efficient, and secure AI-powered search application with a responsive HTMX-based frontend.
-category: backend
+category: rules
 date: 2025-01-23T18:45:28.742887
 ---
+
 
 # Knative (Istio, Typesense, GPU)
 

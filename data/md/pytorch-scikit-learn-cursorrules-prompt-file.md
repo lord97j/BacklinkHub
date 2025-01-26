@@ -1,9 +1,10 @@
 ---
 title: PyTorch (scikit-learn)
 description: Expert guidelines for developing machine learning models in chemistry using Python, focusing on scikit-learn and PyTorch. Emphasizes code readability, reproducibility, and scalability.
-category: language
+category: rules
 date: 2025-01-23T19:00:30.192658
 ---
+
 
 # PyTorch (scikit-learn)
 

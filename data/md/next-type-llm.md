@@ -1,9 +1,10 @@
 ---
 title: Next.js (Type LLM)
 description: Comprehensive rules for AI-assisted development in a Next.js project with TypeScript, shadcn/ui, Tailwind CSS, and LLM integration.
-category: other
+category: rules
 date: 2025-01-23T19:24:53.678690
 ---
+
 
 # Next.js (Type LLM)
 

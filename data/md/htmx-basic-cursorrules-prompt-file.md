@@ -1,9 +1,10 @@
 ---
 title: HTMX (Basic Setup)
 description: A comprehensive guide to setting up HTMX with best practices, folder structure, and additional instructions for optimal performance and maintainability.
-category: backend
+category: rules
 date: 2025-01-23T18:44:18.278505
 ---
+
 
 # HTMX (Basic Setup)
 

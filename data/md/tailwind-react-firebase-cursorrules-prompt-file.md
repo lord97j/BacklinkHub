@@ -1,9 +1,10 @@
 ---
 title: Tailwind (React, Firebase)
 description: Comprehensive guide and best practices for building high-quality, mobile-first web applications using Tailwind CSS, React, and Firebase. Includes design, performance, accessibility, and Firebase integration tips.
-category: css
+category: rules
 date: 2025-01-23T18:52:13.677929
 ---
+
 
 # Tailwind (React, Firebase)
 

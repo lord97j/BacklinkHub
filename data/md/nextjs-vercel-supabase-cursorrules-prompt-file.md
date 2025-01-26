@@ -1,9 +1,10 @@
 ---
 title: Next.js (Vercel, Supabase)
 description: BA Copilot is an AI-powered assistant designed to help business analysts create, modify, and iterate on BPMN diagrams with contextual suggestions, leveraging uploaded documents and user queries. Built with Next.js, Vercel, and Supabase, it offers a seamless workflow for business process modeling and documentation.
-category: frontend
+category: rules
 date: 2025-01-23T18:36:06.075897
 ---
+
 
 # Next.js (Vercel, Supabase)
 

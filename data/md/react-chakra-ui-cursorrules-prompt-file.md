@@ -1,9 +1,10 @@
 ---
 title: React (Chakra UI)
 description: A comprehensive guide for building React applications using Chakra UI, focusing on best practices, performance optimization, and maintainable code structure.
-category: css
+category: rules
 date: 2025-01-23T18:53:24.913718
 ---
+
 
 # React (Chakra UI)
 

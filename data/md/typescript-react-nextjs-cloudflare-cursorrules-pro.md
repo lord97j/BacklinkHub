@@ -1,9 +1,10 @@
 ---
 title: TypeScript (React, Next.js, Cloudflare)
 description: Comprehensive guide for TypeScript development with React, Next.js, and Cloudflare, including best practices, coding standards, and performance optimization.
-category: language
+category: rules
 date: 2025-01-23T19:02:25.880438
 ---
+
 
 # TypeScript (React, Next.js, Cloudflare)
 

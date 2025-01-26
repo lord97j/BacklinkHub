@@ -1,9 +1,10 @@
 ---
 title: Python Projects Guide
 description: Comprehensive guide for Python development focusing on project structure, modular design, configuration management, error handling, testing, documentation, dependency management, code style, CI/CD, and AI-friendly coding practices.
-category: language
+category: rules
 date: 2025-01-23T19:00:07.442576
 ---
+
 
 # Python Projects Guide
 

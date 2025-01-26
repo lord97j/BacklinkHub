@@ -1,9 +1,10 @@
 ---
 title: React (TypeScript, Next.js, Node.js)
 description: Comprehensive guidelines and best practices for developing React applications using TypeScript, Next.js, and Node.js. Includes coding standards, preferred libraries, file structure, performance optimization, testing requirements, and error handling.
-category: frontend
+category: rules
 date: 2025-01-23T18:38:31.458300
 ---
+
 
 # React (TypeScript, Next.js, Node.js)
 

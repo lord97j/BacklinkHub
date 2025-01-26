@@ -1,9 +1,10 @@
 ---
 title: Next.js (Material UI, Tailwind CSS)
 description: A modern portfolio project built with Next.js, featuring Material UI, Tailwind CSS, and Shadcn/UI for a responsive and visually appealing design. This project supports TypeScript, App Router, and a structured `src/` directory for better organization.
-category: frontend
+category: rules
 date: 2025-01-23T18:37:11.372766
 ---
+
 
 # Next.js (Material UI, Tailwind CSS)
 

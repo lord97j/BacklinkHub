@@ -1,9 +1,10 @@
 ---
 title: HTMX (Flask)
 description: A comprehensive guide to integrating HTMX with Flask, including best practices, folder structure, and additional instructions for building modern web applications.
-category: backend
+category: rules
 date: 2025-01-23T18:44:30.649014
 ---
+
 
 # HTMX (Flask)
 

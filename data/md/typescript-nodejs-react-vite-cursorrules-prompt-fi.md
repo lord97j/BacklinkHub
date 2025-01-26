@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Node.js, React, Vite)
 description: Comprehensive guidelines and best practices for developing applications using TypeScript, Node.js, React, and Vite. Includes coding standards, performance optimization, and UI styling with Tailwind CSS.
-category: language
+category: rules
 date: 2025-01-23T19:02:06.852261
 ---
+
 
 # TypeScript (Node.js, React, Vite)
 

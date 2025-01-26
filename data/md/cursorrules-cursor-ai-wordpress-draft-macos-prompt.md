@@ -1,9 +1,10 @@
 ---
 title: WordPress (macOS)
 description: PressThat is a macOS system tray application designed to streamline the process of managing and viewing draft posts on your WordPress website. It offers a seamless connection to your WordPress site, allowing you to quickly access and manage your content directly from your desktop.
-category: backend
+category: rules
 date: 2025-01-23T18:49:39.900437
 ---
+
 
 # WordPress (macOS)
 

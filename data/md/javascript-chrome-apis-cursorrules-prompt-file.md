@@ -1,9 +1,10 @@
 ---
 title: JavaScript (Chrome APIs)
 description: Comprehensive guide to developing Chrome Extensions using JavaScript, HTML, CSS, and Chrome APIs. Learn best practices, performance optimization, security, and more.
-category: language
+category: rules
 date: 2025-01-23T18:57:50.227276
 ---
+
 
 # JavaScript (Chrome APIs)
 

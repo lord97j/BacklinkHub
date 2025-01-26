@@ -1,9 +1,10 @@
 ---
 title: React (React Query)
 description: Best practices and guidelines for using React Query in React applications, including folder structure, coding standards, and performance optimization.
-category: state
+category: rules
 date: 2025-01-23T18:54:00.663550
 ---
+
 
 # React (React Query)
 

@@ -1,9 +1,10 @@
 ---
 title: Astro (TypeScript)
 description: Comprehensive guidelines for developing and maintaining an Astro project using TypeScript and TailwindCSS.
-category: frontend
+category: rules
 date: 2025-01-23T18:31:42.355718
 ---
+
 
 # Astro (TypeScript)
 

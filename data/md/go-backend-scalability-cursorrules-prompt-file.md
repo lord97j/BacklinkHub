@@ -1,9 +1,10 @@
 ---
 title: Go Backend Scalability
 description: A comprehensive guide to building scalable backend systems using Go, covering best practices, performance optimization, and modern architectural patterns.
-category: backend
+category: rules
 date: 2025-01-23T18:43:26.063528
 ---
+
 
 # Go Backend Scalability
 

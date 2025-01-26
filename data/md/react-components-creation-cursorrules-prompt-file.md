@@ -1,9 +1,10 @@
 ---
 title: React Components Creation
 description: Comprehensive guidelines for creating React components, including best practices, component structure, and integration with Tailwind CSS and TypeScript.
-category: frontend
+category: rules
 date: 2025-01-23T18:37:51.313633
 ---
+
 
 # React Components Creation
 

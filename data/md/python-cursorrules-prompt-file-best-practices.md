@@ -1,9 +1,10 @@
 ---
 title: Python Best Practices
 description: Comprehensive guidelines for Python development, emphasizing modular design, robust error handling, and AI-friendly coding practices.
-category: language
+category: rules
 date: 2025-01-23T18:59:36.945751
 ---
+
 
 # Python Best Practices
 

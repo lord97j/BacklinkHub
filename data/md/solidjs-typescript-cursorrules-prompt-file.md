@@ -1,9 +1,10 @@
 ---
 title: Solid.js (TypeScript)
 description: Comprehensive .cursorrules for Solid.js projects using TypeScript, including best practices, folder structure, and coding standards.
-category: frontend
+category: rules
 date: 2025-01-23T18:39:11.517382
 ---
+
 
 # Solid.js (TypeScript)
 

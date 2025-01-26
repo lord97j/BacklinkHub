@@ -1,9 +1,10 @@
 ---
 title: SvelteKit (TypeScript Guide)
 description: A comprehensive guide to building modern web applications with SvelteKit, TypeScript, Supabase, and Drizzle. Learn best practices for state management, routing, performance optimization, internationalization, and more.
-category: frontend
+category: rules
 date: 2025-01-23T18:41:20.327629
 ---
+
 
 # SvelteKit (TypeScript Guide)
 

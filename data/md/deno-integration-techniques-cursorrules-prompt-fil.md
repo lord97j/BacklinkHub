@@ -1,9 +1,10 @@
 ---
 title: Deno Integration
 description: This project provides automation scripts and workflows tailored for the @findhow packages, adapted from the original Deno automation repository. It aims to deliver consistent and efficient automation solutions for the @findhow ecosystem.
-category: backend
+category: rules
 date: 2025-01-23T18:42:08.524347
 ---
+
 
 # Deno Integration
 

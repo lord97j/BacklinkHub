@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Axios)
 description: Comprehensive guide on integrating and utilizing Axios with TypeScript for efficient API communication in your projects.
-category: database
+category: rules
 date: 2025-01-23T18:54:28.696546
 ---
+
 
 # TypeScript (Axios)
 

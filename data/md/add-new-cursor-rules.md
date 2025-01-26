@@ -2,7 +2,9 @@
 title: Add New Cursor Rules To CursorRules.org
 description: How to add new developer tools to DevToolset
 date: '2024-08-14T13:14:40.737Z'
+category: blog
 ---
+
 
 # Add New Cursor Rules to CursorRules.org
 

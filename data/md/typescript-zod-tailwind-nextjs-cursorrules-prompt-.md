@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Zod, Tailwind, Next.js)
 description: A comprehensive guide to building scalable and maintainable TypeScript applications using Zod for validation, Tailwind CSS for styling, and Next.js for server-side rendering and routing.
-category: language
+category: rules
 date: 2025-01-23T19:03:46.020554
 ---
+
 
 # TypeScript (Zod, Tailwind, Next.js)
 

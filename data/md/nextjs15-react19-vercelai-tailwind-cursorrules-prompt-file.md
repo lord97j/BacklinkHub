@@ -1,9 +1,10 @@
 ---
 title: Next.js 15 (React 19, Vercel AI, Tailwind)
 description: Comprehensive guide and best practices for building modern web applications using Next.js 15, React 19, Vercel AI SDK, and Tailwind CSS. Includes TypeScript, Shadcn UI, Radix UI, and performance optimization strategies.
-category: frontend
+category: rules
 date: 2025-01-23T18:32:35.388387
 ---
+
 
 # Next.js 15 (React 19, Vercel AI, Tailwind)
 

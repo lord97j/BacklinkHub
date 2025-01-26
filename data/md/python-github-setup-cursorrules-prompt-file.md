@@ -1,9 +1,10 @@
 ---
 title: Python (GitHub Setup)
 description: Comprehensive guidelines for setting up and developing Python projects on GitHub, including coding standards, testing, documentation, and deployment strategies.
-category: tools
+category: rules
 date: 2025-01-23T18:56:41.878020
 ---
+
 
 # Python (GitHub Setup)
 

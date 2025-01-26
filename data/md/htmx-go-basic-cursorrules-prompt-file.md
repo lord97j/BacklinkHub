@@ -1,9 +1,10 @@
 ---
 title: Go (Basic Setup)
 description: A comprehensive guide to setting up a Go project with HTMX, including best practices, folder structure, and additional instructions for efficient development.
-category: backend
+category: rules
 date: 2025-01-23T18:43:54.639485
 ---
+
 
 # Go (Basic Setup)
 

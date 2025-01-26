@@ -1,9 +1,10 @@
 ---
 title: Chrome Extension (JavaScript/TypeScript)
 description: Comprehensive guidelines for developing Chrome Extensions using JavaScript and TypeScript, focusing on best practices, security, performance, and maintainability.
-category: tools
+category: rules
 date: 2025-01-23T18:55:00.969698
 ---
+
 
 # Chrome Extension (JavaScript/TypeScript)
 

@@ -1,9 +1,10 @@
 ---
 title: Laravel (TALL Stack)
 description: Comprehensive guide and best practices for building modern web applications using the TALL stack Laravel, Livewire, Alpine.js, and Tailwind CSS. This guide emphasizes Laravel and PHP best practices, performance optimization, and security measures.
-category: backend
+category: rules
 date: 2025-01-23T18:46:11.232220
 ---
+
 
 # Laravel (TALL Stack)
 

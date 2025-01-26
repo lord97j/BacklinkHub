@@ -1,9 +1,10 @@
 ---
 title: Next.js 14 (Tailwind, SEO)
 description: A comprehensive guide and code generation rules for building modern, SEO-optimized web applications using Next.js 14, Tailwind CSS, and TypeScript. This template includes best practices for server-side rendering, responsive design, and performance optimization.
-category: frontend
+category: rules
 date: 2025-01-23T18:33:07.539496
 ---
+
 
 # Next.js 14 (Tailwind, SEO)
 

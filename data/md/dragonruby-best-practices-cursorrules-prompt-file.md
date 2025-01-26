@@ -1,9 +1,10 @@
 ---
 title: DragonRuby Best Practices
 description: Comprehensive guide to best practices for developing games using the DragonRuby Game Toolkit in Ruby. Covers code style, structure, naming conventions, syntax, error handling, and more.
-category: other
+category: rules
 date: 2025-01-23T19:24:16.189530
 ---
+
 
 # DragonRuby Best Practices
 

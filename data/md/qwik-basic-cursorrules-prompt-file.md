@@ -1,9 +1,10 @@
 ---
 title: Qwik (Basic Setup with TypeScript and Vite)
 description: Comprehensive guide for setting up Qwik.js with TypeScript and Vite, including best practices, folder structure, and performance optimization tips.
-category: frontend
+category: rules
 date: 2025-01-23T18:37:23.602460
 ---
+
 
 # Qwik (Basic Setup with TypeScript and Vite)
 

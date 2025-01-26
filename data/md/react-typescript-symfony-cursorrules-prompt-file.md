@@ -1,9 +1,10 @@
 ---
 title: React (TypeScript, Symfony)
 description: Comprehensive guide for full stack development using React, TypeScript, and Symfony. Learn best practices, coding standards, and performance optimization techniques.
-category: frontend
+category: rules
 date: 2025-01-23T18:38:46.391626
 ---
+
 
 # React (TypeScript, Symfony)
 

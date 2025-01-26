@@ -1,9 +1,10 @@
 ---
 title: Next.js (App Router)
 description: Comprehensive guide and rules for implementing best practices in Next.js App Router projects, including folder structure, coding standards, and performance optimization.
-category: frontend
+category: rules
 date: 2025-01-23T18:36:49.908155
 ---
+
 
 # Next.js (App Router)
 

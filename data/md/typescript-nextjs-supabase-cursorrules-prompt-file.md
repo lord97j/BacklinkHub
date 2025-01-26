@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Next.js, Supabase)
 description: Comprehensive guidelines for building scalable and maintainable TypeScript applications using Next.js, Supabase, and modern UI libraries like Shadcn UI and Radix UI.
-category: language
+category: rules
 date: 2025-01-23T19:04:48.627335
 ---
+
 
 # TypeScript (Next.js, Supabase)
 

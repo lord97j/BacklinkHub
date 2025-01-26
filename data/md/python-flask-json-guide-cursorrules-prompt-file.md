@@ -1,9 +1,10 @@
 ---
 title: Python (Flask JSON Guide)
 description: A comprehensive guide on integrating JSON data handling in Python using Flask, including examples and environment setup.
-category: backend
+category: rules
 date: 2025-01-23T18:48:46.719233
 ---
+
 
 # Python (Flask JSON Guide)
 

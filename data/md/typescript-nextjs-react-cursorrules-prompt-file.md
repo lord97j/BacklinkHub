@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Next.js, React)
 description: Comprehensive guide for developing with TypeScript, Next.js, React, and Tailwind CSS. Includes best practices for data fetching, rendering, routing, and handling AI interactions using Vercel AI SDK.
-category: language
+category: rules
 date: 2025-01-23T19:04:14.406938
 ---
+
 
 # TypeScript (Next.js, React)
 

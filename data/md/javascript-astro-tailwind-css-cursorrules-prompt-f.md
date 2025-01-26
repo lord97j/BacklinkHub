@@ -1,9 +1,10 @@
 ---
 title: JavaScript (Astro, Tailwind CSS)
 description: Best practices and guidelines for building scalable, high-performance web applications using Astro and Tailwind CSS.
-category: css
+category: rules
 date: 2025-01-23T18:52:58.805687
 ---
+
 
 # JavaScript (Astro, Tailwind CSS)
 

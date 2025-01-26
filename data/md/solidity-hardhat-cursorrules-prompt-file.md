@@ -1,9 +1,10 @@
 ---
 title: Solidity (Hardhat)
 description: Best practices and guidelines for developing secure and efficient Solidity smart contracts using Hardhat.
-category: language
+category: rules
 date: 2025-01-23T19:01:00.956557
 ---
+
 
 # Solidity (Hardhat)
 

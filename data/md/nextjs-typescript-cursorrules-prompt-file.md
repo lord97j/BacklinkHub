@@ -1,9 +1,10 @@
 ---
 title: Next.js (TypeScript)
 description: Comprehensive guide for building a full-stack application using Next.js with TypeScript, integrating modern UI libraries, and optimizing for performance and scalability.
-category: frontend
+category: rules
 date: 2025-01-23T18:35:04.402395
 ---
+
 
 # Next.js (TypeScript)
 

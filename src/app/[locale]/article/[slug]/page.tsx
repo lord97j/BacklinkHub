@@ -1,6 +1,6 @@
 import { getPostData } from '@/lib/posts';
 import { Link } from "@/lib/i18n";
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Copy } from 'lucide-react';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -12,6 +12,8 @@ import {
 
 import {getTranslations} from 'next-intl/server';
 import { siteConfig } from '@/lib/config';
+import { Button } from '@/components/ui/button';
+import { CopyButton } from '@/components/ui/CopyButton'
 
 type PostParams = {
   params: { slug: string }
@@ -60,10 +62,19 @@ export default async function Post({ params }: PostParams) {
       </div>
 
       {/* Article content */}
-      <div
-        className="prose prose-lg dark:prose-invert max-w-none"
-        dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
-      />
+      {postData.category === 'rules' ? (
+        <div className="relative">
+          <pre className="bg-gray-100 dark:bg-gray-900 p-4 rounded-lg overflow-x-auto">
+            <code>{postData.content}</code>
+          </pre>
+          <CopyButton content={postData.content} />
+        </div>
+      ) : (
+        <div
+          className="prose prose-lg dark:prose-invert max-w-none"
+          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+        />
+      )}
 
       {/* Back to articles link */}
       <div className="mt-12">

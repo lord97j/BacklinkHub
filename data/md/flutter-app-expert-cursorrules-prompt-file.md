@@ -1,9 +1,10 @@
 ---
 title: Flutter Expert
 description: Comprehensive .cursorrules for Flutter projects, including best practices, coding guidelines, and performance optimization techniques.
-category: mobile
+category: rules
 date: 2025-01-23T18:51:25.854365
 ---
+
 
 # Flutter Expert
 

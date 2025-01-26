@@ -1,9 +1,10 @@
 ---
 title: Node.js (MongoDB)
 description: A robust backend system built with Node.js and MongoDB for managing user pools, entries, picks, and scoring in a competitive gaming environment.
-category: backend
+category: rules
 date: 2025-01-23T18:46:24.466277
 ---
+
 
 # Node.js (MongoDB)
 

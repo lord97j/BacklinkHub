@@ -1,9 +1,10 @@
 ---
 title: Privacy Policy
 description: This privacy policy explains how we collect, use, and protect your personal information.
-category: policy
+category: blog
 date: 2025-01-15T00:00:00.000Z
 ---
+
 
 # Privacy Policy
 

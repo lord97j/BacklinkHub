@@ -1,9 +1,10 @@
 ---
 title: Vue 3 (Composition API)
 description: A comprehensive guide to Vue 3 Composition API best practices, project structure, and additional instructions for building scalable and maintainable Vue 3 applications.
-category: frontend
+category: rules
 date: 2025-01-23T18:41:56.190937
 ---
+
 
 # Vue 3 (Composition API)
 

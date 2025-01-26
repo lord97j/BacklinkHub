@@ -1,9 +1,10 @@
 ---
 title: ES Module (Node.js)
 description: Guidelines and best practices for using ES Modules in Node.js, focusing on modularity, performance, and security.
-category: backend
+category: rules
 date: 2025-01-23T18:42:58.714683
 ---
+
 
 # ES Module (Node.js)
 

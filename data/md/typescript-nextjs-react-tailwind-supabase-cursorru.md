@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Next.js, React, Tailwind, Supabase)
 description: A comprehensive guide and ruleset for building modern full-stack applications using TypeScript, Next.js, React, Tailwind CSS, and Supabase. This setup includes best practices for coding standards, performance optimization, and error handling.
-category: language
+category: rules
 date: 2025-01-23T19:04:27.463990
 ---
+
 
 # TypeScript (Next.js, React, Tailwind, Supabase)
 

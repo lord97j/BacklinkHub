@@ -1,9 +1,10 @@
 ---
 title: Angular (TypeScript)
 description: Expert Angular programming using TypeScript, Angular 18, and Jest, focusing on clear, readable, and maintainable code.
-category: frontend
+category: rules
 date: 2025-01-23T18:31:29.226600
 ---
+
 
 # Angular (TypeScript)
 

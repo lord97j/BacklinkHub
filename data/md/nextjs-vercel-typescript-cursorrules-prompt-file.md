@@ -1,9 +1,10 @@
 ---
 title: Next.js (Vercel, TypeScript)
 description: Comprehensive guide for integrating AI SDK RSC with Vercel middleware and KV database in a Next.js project using TypeScript, Tailwind CSS, and Shadcn UI.
-category: frontend
+category: rules
 date: 2025-01-23T18:36:36.908749
 ---
+
 
 # Next.js (Vercel, TypeScript)
 

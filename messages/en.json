@@ -21,7 +21,9 @@
     "h2": "Deep Dive into Rule Writing",
     "homeBtn": "Home",
     "articleBtn": "Tutorials",
-    "backToArticles": "Back to Tutorials"
+    "backToArticles": "Back to Tutorials",
+    "copyButton": "Copy Rule",
+    "copiedButton": "Copied"
   },
   "changelog": {
     "meta_title": "CursorRules Changelog - Latest Rules & Improvements",
@@ -78,7 +80,11 @@
   },
   "articleList": {
     "h2": "Rules Tutorials",
-    "moreArticles": "More Tutorials"
+    "moreArticles": "More Tutorials",
+    "category": {
+      "rules": "Rules",
+      "blog": "Tutorials"
+    }
   },
   "faq": {
     "h2": "Frequently Asked Questions",
@@ -102,18 +108,6 @@
       {
           "question": "How do Cursor Rules transform traditional IDE workflows?",
           "answer": "Cursor Rules introduce AI-driven context awareness that redefines development environments: \n✅ Real-time architectural pattern enforcement \n✅ Cross-file dependency mapping (supports 15+ languages) \n✅ Automated technical debt quantification \nOur benchmarks show 41% faster feature development cycles when using rule-guided AI generation."
-      },
-      {
-          "question": "Can Cursor AI adapt to our legacy codebase requirements?",
-          "answer": "Through custom rule configuration, Cursor AI delivers: \n🔧 Legacy system modernization templates (COBOL→TypeScript etc.) \n🛡️ Monolith-to-microservices transition guards \n📊 Dependency versioning compatibility matrices \nEnterprise users report 78% smoother legacy migration processes with our Rule Versioning System."
-      },
-      {
-          "question": "Why does my custom rule sometimes override team conventions?",
-          "answer": "Diagnose using our Rule Conflict Resolution Protocol: \n1️⃣ Check priority levels in rule hierarchy (0-9 scale) \n2️⃣ Verify environment variable inheritance (DEV vs PROD) \n3️⃣ Audit installed extension compatibility (v3.2+ required) \n4️⃣ Run conflict detection via `cursor analyze --rule-conflicts`"
-      },
-      {
-          "question": "How secure are AI-generated code suggestions?",
-          "answer": "Cursor Rules implement military-grade safeguards: \n🔒 Context-aware vulnerability filtering (CVE-2024 patterns) \n⚡ Real-time OWASP Top 10 violation detection \n📜 Automated compliance auditing (GDPR/HIPAA ready) \nThird-party audits verify 99.97% vulnerability prevention rate."
       },
       {
           "question": "What makes Cursor Prompts different from ChatGPT coding?",

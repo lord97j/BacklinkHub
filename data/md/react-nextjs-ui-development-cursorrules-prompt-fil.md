@@ -1,9 +1,10 @@
 ---
 title: React (Next.js UI Development)
 description: An expert AI programming assistant specializing in React and Next.js UI development, focusing on producing clear, readable, and efficient JavaScript code for the browser. Utilizes the latest versions of popular frameworks and libraries, ensuring accurate, factual, and thoughtful responses.
-category: frontend
+category: rules
 date: 2025-01-23T18:38:05.552497
 ---
+
 
 # React (Next.js UI Development)
 

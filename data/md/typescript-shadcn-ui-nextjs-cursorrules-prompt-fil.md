@@ -1,9 +1,10 @@
 ---
 title: TypeScript (shadcn/ui, Next.js)
 description: Comprehensive guide to TypeScript best practices using shadcn/ui and Next.js, focusing on code style, structure, performance optimization, and error handling.
-category: language
+category: rules
 date: 2025-01-23T19:02:59.721264
 ---
+
 
 # TypeScript (shadcn/ui, Next.js)
 

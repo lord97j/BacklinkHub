@@ -1,9 +1,10 @@
 ---
 title: TypeScript (React, NextUI, Supabase)
 description: A modern web application built with TypeScript, React, NextUI, and Supabase, featuring authentication, a responsive UI, and a dashboard for logged-in users.
-category: language
+category: rules
 date: 2025-01-23T19:02:45.373511
 ---
+
 
 # TypeScript (React, NextUI, Supabase)
 

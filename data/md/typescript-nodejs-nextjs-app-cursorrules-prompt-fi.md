@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Node.js, Next.js App)
 description: A comprehensive guide and rules for building a TypeScript-based Notes Application using Node.js, Next.js App Router, React, Shadcn UI, Radix UI, and Tailwind CSS. This application includes features like adding, editing, deleting notes, search, filter, sort, pagination, loading states, error handling, and drag-and-drop functionality.
-category: language
+category: rules
 date: 2025-01-23T19:05:05.201783
 ---
+
 
 # TypeScript (Node.js, Next.js App)
 

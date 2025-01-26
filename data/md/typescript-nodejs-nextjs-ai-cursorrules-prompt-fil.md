@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Node.js, Next.js, AI)
 description: Comprehensive guidelines for TypeScript development in Node.js and Next.js environments with AI integration, focusing on practical code solutions and clear explanations.
-category: language
+category: rules
 date: 2025-01-23T19:01:27.410634
 ---
+
 
 # TypeScript (Node.js, Next.js, AI)
 

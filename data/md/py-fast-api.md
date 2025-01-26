@@ -1,9 +1,10 @@
 ---
 title: Python (FastAPI)
 description: Best practices and guidelines for developing scalable APIs using Python and FastAPI.
-category: backend
+category: rules
 date: 2025-01-23T18:46:56.505642
 ---
+
 
 # Python (FastAPI)
 

@@ -1,9 +1,10 @@
 ---
 title: Next.js (SEO Development)
 description: Comprehensive guide for SEO optimization in Next.js projects, including best practices, coding standards, and performance tips.
-category: frontend
+category: rules
 date: 2025-01-23T18:34:05.548993
 ---
+
 
 # Next.js (SEO Development)
 

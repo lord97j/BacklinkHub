@@ -1,9 +1,10 @@
 ---
 title: Android Native (Jetpack Compose)
 description: Best practices and guidelines for Android Native development using Jetpack Compose, including project architecture, UI guidelines, testing, and performance optimization.
-category: mobile
+category: rules
 date: 2025-01-23T18:51:09.492833
 ---
+
 
 # Android Native (Jetpack Compose)
 

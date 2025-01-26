@@ -1,9 +1,10 @@
 ---
 title: Python (FastAPI)
 description: Comprehensive guidelines for developing scalable, maintainable, and high-performance APIs using Python and FastAPI. Includes best practices for coding standards, error handling, performance optimization, and dependency management.
-category: backend
+category: rules
 date: 2025-01-23T18:47:16.397611
 ---
+
 
 # Python (FastAPI)
 

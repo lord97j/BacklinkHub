@@ -1,9 +1,10 @@
 ---
 title: SvelteKit (RESTful API, Tailwind CSS)
 description: A modern SvelteKit-based web application featuring a RESTful API, PostgreSQL database via Supabase, and styled with Tailwind CSS. Deployed on Vercel with Supabase Auth for authentication.
-category: frontend
+category: rules
 date: 2025-01-23T18:40:23.514718
 ---
+
 
 # SvelteKit (RESTful API, Tailwind CSS)
 

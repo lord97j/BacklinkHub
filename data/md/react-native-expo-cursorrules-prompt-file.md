@@ -1,9 +1,10 @@
 ---
 title: React Native Expo
 description: Comprehensive guidelines and best practices for developing React Native applications using Expo. Includes coding standards, folder structure, and additional instructions for optimal development.
-category: mobile
+category: rules
 date: 2025-01-23T18:50:28.122189
 ---
+
 
 # React Native Expo
 

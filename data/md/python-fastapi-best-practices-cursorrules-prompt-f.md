@@ -1,9 +1,10 @@
 ---
 title: Python (FastAPI Best Practices)
 description: Comprehensive guide on best practices for developing scalable and efficient APIs using FastAPI, focusing on functional programming, modularization, and performance optimization.
-category: backend
+category: rules
 date: 2025-01-23T18:48:13.701252
 ---
+
 
 # Python (FastAPI Best Practices)
 

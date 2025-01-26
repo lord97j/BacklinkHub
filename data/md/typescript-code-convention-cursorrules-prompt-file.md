@@ -1,9 +1,10 @@
 ---
 title: TypeScript Code Convention
 description: Comprehensive guide for TypeScript code conventions, best practices, and performance optimization in modern web development using Node.js, Next.js App Router, React, Expo, tRPC, Shadcn UI, Radix UI, and Tailwind CSS.
-category: tools
+category: rules
 date: 2025-01-23T18:57:18.210641
 ---
+
 
 # TypeScript Code Convention
 

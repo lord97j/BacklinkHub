@@ -1,9 +1,10 @@
 ---
 title: Elixir Engineer Guidelines
 description: Comprehensive guidelines for Elixir engineers, covering best practices, tools, and workflows for building robust and scalable applications.
-category: backend
+category: rules
 date: 2025-01-23T18:42:32.909813
 ---
+
 
 # Elixir Engineer Guidelines
 

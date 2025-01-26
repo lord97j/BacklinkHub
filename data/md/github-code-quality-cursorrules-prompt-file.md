@@ -1,9 +1,10 @@
 ---
 title: GitHub Code Quality
 description: Comprehensive rules and best practices for maintaining high code quality on GitHub repositories.
-category: tools
+category: rules
 date: 2025-01-23T18:55:17.912415
 ---
+
 
 # GitHub Code Quality
 

@@ -1,9 +1,10 @@
 ---
 title: Pandas (scikit-learn Guide)
 description: A detailed guide on using Pandas and Scikit-learn for efficient data analysis, visualization, and machine learning workflows in Python. This guide emphasizes best practices, performance optimization, and reproducibility.
-category: language
+category: rules
 date: 2025-01-23T18:58:41.750070
 ---
+
 
 # Pandas (scikit-learn Guide)
 

@@ -1,9 +1,10 @@
 ---
 title: Next.js (Tailwind, TypeScript)
 description: A comprehensive guide and rules for developing Next.js applications using Tailwind CSS for styling and TypeScript for type safety. This setup ensures a modern, efficient, and scalable web development environment.
-category: frontend
+category: rules
 date: 2025-01-23T18:34:33.414386
 ---
+
 
 # Next.js (Tailwind, TypeScript)
 

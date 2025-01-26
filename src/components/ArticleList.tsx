@@ -24,16 +24,21 @@ const ArticleList = ({ articles, showMoreLink = true }) => {
       </div>
       <div className="space-y-6">
         {/* @ts-expect-error */}
-        {articles.map(({ id, title, description }) => (
+        {articles.map(({ id, title, description, category }) => (
           <Card key={id}>
             <CardHeader>
-              <Link 
-                href={`/article/${id}`}
-                className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
-              >
-                <CardTitle className='mr-1'>{title}</CardTitle>
-                →
-              </Link>
+            <div className="flex items-center justify-between">
+                <Link 
+                  href={`/article/${id}`}
+                  className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                >
+                  <CardTitle className='mr-1'>{title}</CardTitle>
+                  →
+                </Link>
+                <span className="text-sm px-2 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+                  {t(`category.${category}`)}
+                </span>
+              </div>
               <CardDescription>{description}</CardDescription>
             </CardHeader>
           </Card>
@@ -45,20 +50,27 @@ const ArticleList = ({ articles, showMoreLink = true }) => {
 
 // @ts-ignore
 const ArticlePage = ({ articles }) => {
+  const t = useTranslations('articleList');
+
   return (
     <section>
       <div className="space-y-6">
         {/* @ts-expect-error */}
-        {articles.map(({ id, title, description }) => (
+        {articles.map(({ id, title, description, category }) => (
           <Card key={id}>
             <CardHeader>
-              <Link 
-                href={`/article/${id}`}
-                className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
-              >
-                <CardTitle className='mr-1'>{title}</CardTitle>
-                →
-              </Link>
+              <div className="flex items-center justify-between">
+                <Link 
+                  href={`/article/${id}`}
+                  className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                >
+                  <CardTitle className='mr-1'>{title}</CardTitle>
+                  →
+                </Link>
+                <span className="text-sm px-2 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+                  {t(`category.${category}`)}
+                </span>
+              </div>
               <CardDescription>{description}</CardDescription>
             </CardHeader>
           </Card>

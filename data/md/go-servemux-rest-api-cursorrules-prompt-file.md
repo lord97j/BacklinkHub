@@ -1,9 +1,10 @@
 ---
 title: Go ServeMux REST API
 description: Comprehensive guide for building secure, scalable, and maintainable REST APIs using Go's net/http package and the new ServeMux introduced in Go 1.22. Follow best practices for RESTful API design, error handling, input validation, and concurrency.
-category: backend
+category: rules
 date: 2025-01-23T18:43:44.111144
 ---
+
 
 # Go ServeMux REST API
 

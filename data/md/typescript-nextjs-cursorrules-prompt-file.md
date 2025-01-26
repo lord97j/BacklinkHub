@@ -1,9 +1,10 @@
 ---
 title: TypeScript (Next.js)
 description: Comprehensive guide and rules for developing TypeScript applications using Next.js, focusing on best practices, performance optimization, and maintainability.
-category: language
+category: rules
 date: 2025-01-23T19:04:01.919013
 ---
+
 
 # TypeScript (Next.js)
 

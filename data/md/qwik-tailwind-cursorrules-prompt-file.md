@@ -1,9 +1,10 @@
 ---
 title: Qwik (with Tailwind CSS)
 description: A comprehensive guide and ruleset for developing Qwik applications with Tailwind CSS, TypeScript, and Vite. Includes best practices, folder structure, and additional instructions for optimal development.
-category: frontend
+category: rules
 date: 2025-01-23T18:37:37.351818
 ---
+
 
 # Qwik (with Tailwind CSS)
 

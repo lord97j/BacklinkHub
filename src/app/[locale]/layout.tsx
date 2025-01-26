@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   description: 'Explore Every Essential Developer Tools You Need For Your Development Journey',
   authors: { name: siteConfig.name, url: siteConfig.base_url },
-  keywords: 'developer tools, dev tools, develop tool',
+  keywords: siteConfig.keywords,
   alternates: {
     canonical: siteConfig.base_url, languages: {
       "en-US": `${siteConfig.base_url}/en/`,

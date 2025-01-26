@@ -1,9 +1,10 @@
 ---
 title: Plasticode (Telegram API)
 description: Comprehensive guide for developing Telegram bots using Plasticode and PHP, focusing on best practices, coding standards, and dependency management.
-category: language
+category: rules
 date: 2025-01-23T18:58:53.966772
 ---
+
 
 # Plasticode (Telegram API)
 

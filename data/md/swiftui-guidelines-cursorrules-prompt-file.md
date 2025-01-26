@@ -1,9 +1,10 @@
 ---
 title: SwiftUI Guidelines
 description: Comprehensive guidelines for developing maintainable and clean SwiftUI applications, focusing on the latest features and best practices as of August and September 2024.
-category: mobile
+category: rules
 date: 2025-01-23T18:50:42.850231
 ---
+
 
 # SwiftUI Guidelines
 

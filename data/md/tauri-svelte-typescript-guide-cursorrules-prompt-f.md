@@ -1,9 +1,10 @@
 ---
 title: Tauri (Svelte, TypeScript Guide)
 description: Comprehensive guide for building secure, efficient, and scalable desktop applications using Tauri with Svelte and TypeScript. Includes best practices, performance optimization, and security considerations.
-category: tools
+category: rules
 date: 2025-01-23T18:57:04.695454
 ---
+
 
 # Tauri (Svelte, TypeScript Guide)
 

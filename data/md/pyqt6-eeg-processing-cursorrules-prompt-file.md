@@ -1,9 +1,10 @@
 ---
 title: PyQt6 (EEG Processing)
 description: A comprehensive guide and AI system prompt for developing advanced EEG signal processing applications using PyQt6, focusing on creating user-friendly interfaces, robust backend processing, and efficient workflows.
-category: language
+category: rules
 date: 2025-01-23T18:59:11.148401
 ---
+
 
 # PyQt6 (EEG Processing)
 

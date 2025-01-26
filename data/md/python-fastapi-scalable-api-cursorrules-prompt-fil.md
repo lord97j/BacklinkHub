@@ -1,9 +1,10 @@
 ---
 title: Python (FastAPI Scalable API)
 description: A comprehensive guide to building scalable APIs with Python and FastAPI, including best practices, project structure, and performance optimization techniques.
-category: backend
+category: rules
 date: 2025-01-23T18:48:36.728856
 ---
+
 
 # Python (FastAPI Scalable API)
 

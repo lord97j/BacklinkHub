@@ -1,9 +1,10 @@
 ---
 title: Graphical Apps Development
 description: Pyllments is a Python library designed for building graphical and API-based LLM applications by chaining together Elements in a potentially cyclic graph. It emphasizes modularity, extensibility, and developer-friendly interfaces.
-category: other
+category: rules
 date: 2025-01-23T19:24:32.696515
 ---
+
 
 # Graphical Apps Development
 

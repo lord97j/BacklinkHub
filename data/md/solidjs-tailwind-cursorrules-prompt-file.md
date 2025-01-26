@@ -1,9 +1,10 @@
 ---
 title: Solid.js (Tailwind CSS)
 description: Best practices and rules for integrating Solid.js with Tailwind CSS, including component structure, styling, and performance optimizations.
-category: frontend
+category: rules
 date: 2025-01-23T18:39:25.630988
 ---
+
 
 # Solid.js (Tailwind CSS)
 

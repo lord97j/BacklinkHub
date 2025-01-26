@@ -1,9 +1,10 @@
 ---
 title: Tailwind (shadcn/ui Integration)
 description: A comprehensive guide on integrating Tailwind CSS with shadcn/ui in a Next.js project, focusing on best practices, performance optimization, and maintainability.
-category: css
+category: rules
 date: 2025-01-23T18:52:26.935972
 ---
+
 
 # Tailwind (shadcn/ui Integration)
 

@@ -1,9 +1,10 @@
 ---
 title: Next.js (React, Tailwind)
 description: A comprehensive guide and rules for developing modern web applications using Next.js, React, Tailwind CSS, and Shadcn UI. This setup emphasizes TypeScript, functional programming, and performance optimization.
-category: frontend
+category: rules
 date: 2025-01-23T18:33:23.467042
 ---
+
 
 # Next.js (React, Tailwind)
 

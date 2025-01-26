@@ -1,9 +1,10 @@
 ---
 title: Next.js (React, TypeScript)
 description: Comprehensive guide for developing with Next.js, React, and TypeScript, focusing on best practices, performance optimization, and modern web development techniques.
-category: frontend
+category: rules
 date: 2025-01-23T18:33:37.800326
 ---
+
 
 # Next.js (React, TypeScript)
 

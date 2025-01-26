@@ -1,9 +1,10 @@
 ---
 title: Next.js (TypeScript, Tailwind)
 description: Astral is the Block Explorer for the Autonomys Network, built with Next.js, TypeScript, and Tailwind CSS. It provides a responsive and accessible interface for exploring blockchain data, integrating advanced libraries for state management, UI components, and data fetching.
-category: frontend
+category: rules
 date: 2025-01-23T18:35:32.176022
 ---
+
 
 # Next.js (TypeScript, Tailwind)
 

@@ -1,9 +1,10 @@
 ---
 title: Unity (C#)
 description: A Unity-based tower defense game utilizing a Nintendo Ringcon as the controller. Players place turrets and use exercise to charge them. The project is currently being refactored for better scalability and maintainability.
-category: other
+category: rules
 date: 2025-01-23T19:25:05.456796
 ---
+
 
 # Unity (C#)
 

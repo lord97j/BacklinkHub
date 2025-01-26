@@ -1,9 +1,10 @@
 ---
 title: React (Redux, TypeScript)
 description: A comprehensive guide for developing React applications using Redux for state management and TypeScript for type safety. This includes best practices, folder structure, and coding standards.
-category: state
+category: rules
 date: 2025-01-23T18:53:38.639063
 ---
+
 
 # React (Redux, TypeScript)
 

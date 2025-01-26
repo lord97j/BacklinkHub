@@ -1,9 +1,10 @@
 ---
 title: Node.js (MongoDB, JWT, Express, React)
 description: A comprehensive full-stack application built with Node.js, MongoDB, JWT for authentication, Express.js for the backend, and React.js for the frontend. This project includes a robust admin panel, secure authentication, and efficient data management.
-category: backend
+category: rules
 date: 2025-01-23T18:46:37.791393
 ---
+
 
 # Node.js (MongoDB, JWT, Express, React)
 
