@@ -3,15 +3,15 @@
 import Script from "next/script";
 
 const plausibleUrl = process.env.NEXT_PUBLIC_PLAUSIBLE_URL!;
+const plausibleDomain = process.env.DOMAIN!;
 
 export function PlausibleAnalyticsScript() {
   return (
     <Script
       defer
       type="text/javascript"
-      data-domain={plausibleUrl}
-      // src="https://plausible.io/js/script.js"
-      src="https://click.pageview.click/js/script.js"
+      data-domain={plausibleDomain}
+      src={`https://${plausibleUrl}/js/script.js`}
     />
   );
 }
