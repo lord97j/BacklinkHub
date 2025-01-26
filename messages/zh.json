@@ -1,7 +1,7 @@
 {
   "home": {
     "meta_title": "CursorRules：AI代码规范生成器 | 开源.cursorrules规则库",
-    "meta_description": "CursorRules.org提供专业的AI代码生成规范与开源.cursorrules模板库，支持TypeScript/React/Next.js框架的智能规则配置。开发者可快速创建符合最佳实践的cursor rules for AI，优化代码质量和团队协作效率。",
+    "meta_description": "CursorRules.org提供跨平台AI代码规范生成工具，支持多种编程语言的智能.cursorrules配置。开发者可快速创建符合最佳实践的cursor rules for AI，提升代码质量与团队协作效率。",
     "h2": "AI驱动的.cursorrules规则生成与共享平台",
     "description": "通过智能生成的cursor rules for AI配置文件，快速实现TypeScript/React项目标准化。社区验证的.cursorrules模板库，支持一键配置与跨框架迁移。"
   },
