@@ -12,7 +12,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-100 dark:bg-gray-900 text-muted-foreground border-t">
       <div className="flex flex-col justify-center items-center max-w-7xl text-center mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:text-start">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-16">
           <div className='flex flex-col justify-center items-center lg:items-start lg:justify-start'>
             <h3 className="text-sm font-bold tracking-normal">
               <Link href="/" className="flex items-center space-x-2">
@@ -60,6 +60,18 @@ export function Footer() {
                   {t('changelog')}
                 </Link>
               </li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-sm font-semibold tracking-wider uppercase">{t('friendLinks')}</h3>
+            <ul className="mt-4 space-y-4">
+              {t.raw('friendLinksList').map((link: { name: string; url: string }) => (
+                <li key={link.url}>
+                  <Link href={link.url} className="text-base">
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           <div>

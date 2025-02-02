@@ -63,6 +63,13 @@
     "description": "Share & Generate AI Cursor Rules | Open-Source Community Hub",
     "builtWith": "Built With",
     "quickLinks": "Quick Links",
+    "friendLinks": "Friend Links",
+    "friendLinksList": [
+      {
+        "name": "love and deepspace",
+        "url": "https://loveanddeepspace.net/"
+      }
+    ],
     "home": "Home",
     "category": "Rules",
     "article": "Tutorials",

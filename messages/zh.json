@@ -63,6 +63,13 @@
     "description": ".cursorrules共享与生成｜开源开发者社区",
     "builtWith": "技术支持",
     "quickLinks": "快速链接",
+    "friendLinks": "友情链接",
+    "friendLinksList": [
+      {
+        "name": "love and deepspace",
+        "url": "https://loveanddeepspace.net/"
+      }
+    ],
     "home": "首页",
     "category": "规则库",
     "article": "教程",
