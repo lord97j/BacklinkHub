@@ -1,7 +1,7 @@
 name: Submit Blog Post
 description: Submit a new blog post to the site
-title: "[Blog]: "
-labels: ["blog", "pending-review"]
+title: ""
+labels: ["blog"]
 body:
   - type: markdown
     attributes:
@@ -25,7 +25,7 @@ body:
       placeholder: e.g. how-to-build-nextjs-blog
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: description
     attributes:
       label: Description / 描述
@@ -69,9 +69,5 @@ body:
       label: Submission Agreement / 提交协议
       description: By submitting this post, you agree to our contribution guidelines
       options:
-        - label: I confirm this is my original work or I have permission to share it
-          required: true
         - label: I agree that this submission will be licensed under the project's license
-          required: true
-        - label: I have properly formatted my markdown content
           required: true
