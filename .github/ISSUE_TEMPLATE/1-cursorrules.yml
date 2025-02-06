@@ -1,6 +1,6 @@
 name: Submit Cursor Rules
 description: Submit a new cursorrules to the cursorrules.org
-title: ":new: cursorrules"
+title: "[CursorRules]: "
 labels: ["cursorrules"]
 body:
   - type: markdown

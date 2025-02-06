@@ -1,6 +1,6 @@
 name: Submit Blog Post
 description: Submit a new blog post to the site
-title: ":new: blog"
+title: "[Blog]: "
 labels: ["blog"]
 body:
   - type: markdown
