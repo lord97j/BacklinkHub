@@ -1,5 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { verifyToken } from './lib/auth';
+import { NextRequest } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { appConfig } from "./lib/appConfig";
 
@@ -16,16 +15,16 @@ export function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname;
 
   // Only check authentication for /admin routes
-  if (path.startsWith('/admin')) {
-    const token = request.cookies.get('auth_token')?.value;
-    const isLoggedIn = token && verifyToken(token);
-    console.log('isLoggedIn', isLoggedIn);
-    if (!isLoggedIn) {
-      console.log('Not authenticated');
-      // Redirect to login page if not authenticated
-      // return NextResponse.redirect(new URL('/login', request.url));
-    }
-  }
+  // if (path.startsWith('/admin')) {
+  //   const token = request.cookies.get('auth_token')?.value;
+  //   const isLoggedIn = token && verifyToken(token);
+  //   console.log('isLoggedIn', isLoggedIn);
+  //   if (!isLoggedIn) {
+  //     console.log('Not authenticated');
+  //     // Redirect to login page if not authenticated
+  //     // return NextResponse.redirect(new URL('/login', request.url));
+  //   }
+  // }
 
   // return NextResponse.next();
   return intlMiddleware(request);
