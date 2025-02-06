@@ -1,14 +1,14 @@
 name: Submit Cursor Rules
-description: Submit a new rule or resource to the navigation site
+description: Submit a new cursorrules to the cursorrules.org
 title: ":new: cursorrules"
 labels: ["cursorrules"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for contributing to our rules navigation site! Please fill out the information below to submit a new cursorrules.
+        Thanks for contributing to our cursorrules navigation site! Please fill out the information below to submit a new cursorrules.
         
-        感谢您为规则导航站点做出贡献！请填写以下信息以提交新规则。
+        感谢您为cursorrules规则导航站点做出贡献！请填写以下信息以提交新规则。
   - type: dropdown
     id: category
     attributes:
