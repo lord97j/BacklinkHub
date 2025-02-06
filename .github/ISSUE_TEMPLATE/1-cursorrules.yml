@@ -1,6 +1,6 @@
 name: Submit Cursor Rules
 description: Submit a new rule or resource to the navigation site
-title: ""
+title: ":new: cursorrules"
 labels: ["cursorrules"]
 body:
   - type: markdown
