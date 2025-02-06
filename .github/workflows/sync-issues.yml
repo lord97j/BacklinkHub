@@ -1,4 +1,4 @@
-name: Sync Post
+name: Sync Issues
 
 # Controls when the workflow will run
 on:

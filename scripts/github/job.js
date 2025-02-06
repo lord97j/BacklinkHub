@@ -32,12 +32,8 @@ function startJob() {
 		timeString,
 		() => {
 			// eslint-disable-next-line no-console
-			console.log('🚀🚀 同步issue到blog文件');
+			console.log('🚀🚀 同步issue到文件');
 			syncPost();
-			console.log('🚀🚀 同步categories');
-			syncCategories();
-			console.log('🚀🚀 同步rules');
-			syncRules();
 		},
 		{
 			scheduled: true,

@@ -66,6 +66,7 @@ function main() {
 				} catch (error) {
 					console.log(error);
 				}
+
 			}
 			if (successCount === data.length) {
 				console.log('文章全部同步成功！', data.length);
