@@ -46,7 +46,7 @@ function closeImgTag(htmlString) {
 async function callBlogAI(content) {
   const client = new OpenAI({
     apiKey: OPENAI_API_KEY,
-    baseURL: OPENAI_BASE_URL
+    baseURL: "https://api.siliconflow.com/v1"
   });
 
   try {
