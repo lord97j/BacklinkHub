@@ -10,18 +10,17 @@ const GitHub = require('github-api');
 const fs = require('fs-extra');
 const path = require('path');
 // console.log(process.env, ' process.env');
-const { GH_TOKEN, GH_USER, GH_PROJECT_NAME } = process.env;
+const { GH_TOKEN, GH_USER, GH_PROJECT_NAME, OPENAI_API_KEY, OPENAI_BASE_URL } = process.env;
 
 const gh = new GitHub({
 	token: GH_TOKEN
 });
 
 const blogOutputPath = '../../data/md';
-const rulesOutputPath = '../../data/json/en/rules';
 const contributorsOutputPath = '../../data/json/contributors.json';
 
-if (!GH_USER || !GH_PROJECT_NAME) {
-	console.error('请设置GITHUB_USER和GITHUB_PROJECT_NAME');
+if (!GH_USER || !GH_PROJECT_NAME || !OPENAI_API_KEY || !OPENAI_BASE_URL) {
+	console.error('请设置GITHUB_USER和GITHUB_PROJECT_NAME和OPENAI_API_KEY和OPENAI_BASE_URL');
 	process.exit(-1);
 }
 
@@ -33,69 +32,117 @@ function closeImgTag(htmlString) {
 	return htmlString.replace(imgTagRegex, '<img$1 />');
 }
 
-// 生成安全的文件名 slug
-const generateSafeFileName = (title) => {
-	return title
-	  .trim()
-	  .toLowerCase()                         // 转换为小写
-	  .replace(/[^a-z0-9]+/g, '-')          // 将非字母数字字符替换为连字符
-	  .replace(/^-+|-+$/g, '')              // 删除首尾的连字符
-	  .replace(/-+/g, '-');                 // 将多个连字符替换为单个
-  };
+// ai调用
+async function callBlogAI(content) {
+    const OpenAI = require('openai');
+    
+    const client = new OpenAI({
+        apiKey: OPENAI_API_KEY,
+        baseURL: OPENAI_BASE_URL
+    });
+
+    try {
+        const response = await client.chat.completions.create({
+            model: 'deepseek-ai/DeepSeek-V3',
+			messages: [
+				{
+					role: 'system',
+					content: `
+					You are an SEO expert, skilled in analyzing content to generate SEO optimized titles、url、describe
+Title tags
+Place the main keywords at the beginning of the title.
+The length of the title label should be kept between 50-60 characters.
+Ensure that the title is eye-catching to attract clicks.
+
+Meta description
+Provide a brief overview of the page content.
+Use primary and secondary keywords naturally.
+The length of the meta description should be kept between 150-160 characters.
+
+URL Structure
+Keep the URL short and descriptive.
+Add primary keywords to the URL.
+Separate words with a hyphen '-' instead of an underscore '_'.
+
+Note:
+The URL should contain the most important keywords of the page, which helps search engines understand the page theme.
+
+Please respond in the format {\"titles\": ..., \"url\": ..., \"describe\": ...}
+					`
+				},
+                {
+                    role: 'user',
+                    content: content
+                }
+            ],
+            max_tokens: 32000,
+            temperature: 0.7,
+            top_p: 0.7,
+            top_k: 50,
+            frequency_penalty: 0.5,
+            n: 1,
+            response_format: {
+                type: 'json_object'
+            }
+        });
+        const result = JSON.parse(response.choices[0].message.content);
+        return result;
+    } catch (error) {
+        console.error('AI调用失败:', error);
+        return null;
+    }
+}
 
 // get issues list
 const issueInstance = gh.getIssues(GH_USER, GH_PROJECT_NAME);
 
-function generateMdx(issue) {
+function generateMdx(titles, describe, issue) {
 	return `---
-title: ${issue.title.trim()}
-description: ${issue.content.replace(/#/g, '').substring(0, 120).trim()}
+title: ${titles}
+description: ${describe}
 date: ${issue.created_at}
 category: blog
 author: ${issue.user?.login}：${issue.user?.html_url}
 tags: ${JSON.stringify(issue.labels.map((item) => item.name))}
 ---
 
-${closeImgTag(content.replace(/<br \/>/g, '\n'))}
+${closeImgTag(issue.content.replace(/<br \/>/g, '\n'))}
 
 `;
 }
 
-function main() {
+async function main() {
 	const filePath = path.resolve(__dirname, blogOutputPath);
-	// 确保目录存在，但不清空
 	fs.ensureDirSync(filePath);
-	
-	// 获取现有文件列表
 	const existingFiles = new Set(fs.readdirSync(filePath));
 	
-	// 只查询自己的issues，避免别人创建的也更新到博客
-	const creators = ['lord97j']; // 添加多个creator
-	creators.forEach((name) => {
-		issueInstance.listIssues({ creator: name, labels: 'blog' }).then(({ data }) => {
-			let successCount = 0;
-			const updatedFiles = new Set();
-			
-			for (const item of data) {
-				try {
-					const fileName = generateSafeFileName(title);
-					const md = generateMdx(item);
-					fs.writeFileSync(`${filePath}/${fileName}`, md);
-					updatedFiles.add(fileName);
-					console.log(`${filePath}/${fileName}`, 'success');
-					successCount++;
-				} catch (error) {
-					console.log(error);
-				}
+	const creators = ['lord97j'];
+	for (const name of creators) {
+		const { data } = await issueInstance.listIssues({ creator: name, labels: 'blog' });
+		let successCount = 0;
+		const updatedFiles = new Set();
+		
+		for (const item of data) {
+			try {
+				const result = await callBlogAI(item.content);
+				const { titles, url, describe } = result;
+				const fileName = generateSafeFileName(url);
+				const md = generateMdx(titles, describe, item);
+				fs.writeFileSync(`${filePath}/${fileName}`, md);
+				updatedFiles.add(fileName);
+				console.log(`${filePath}/${fileName}`, 'success');
+				successCount++;
+			} catch (error) {
+				console.log(error);
 			}
+		}
 
-			if (successCount === data.length) {
-				console.log('文章全部同步成功！', data.length);
-			} else {
-				console.log('文章同步失败！失败数量=', data.length - successCount);
-			}
-		});
-	});
+		if (successCount === data.length) {
+			console.log('文章全部同步成功！', data.length);
+		} else {
+			console.log('文章同步失败！失败数量=', data.length - successCount);
+		}
+	}
 }
 
 module.exports = main;
