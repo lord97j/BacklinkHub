@@ -11,15 +11,17 @@ on:
       - closed
       - edited
       - renamed
-      - labeled
-      - unlabeled
-      - reopened
-      - committed # 修改？
+      # - labeled
+      # - unlabeled
+      # - reopened
+      # - committed # 修改？
   workflow_dispatch:
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
   GH_USER: ${{ secrets.GH_USER }}
   GH_PROJECT_NAME: ${{ secrets.GH_PROJECT_NAME }}
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
 jobs:
   Publish:
     runs-on: ubuntu-latest
