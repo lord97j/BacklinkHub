@@ -1,6 +1,6 @@
 /* eslint-disable */
 const cron = require('node-cron');
-const syncPost = require('./syncPost');
+const syncPost = require('./syncBlog');
 const syncCategories = require('./syncCategories');
 const syncRules = require('./syncRules');
 

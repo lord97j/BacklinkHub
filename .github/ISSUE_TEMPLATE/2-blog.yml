@@ -8,11 +8,10 @@ body:
       value: |
         Thanks for contributing to our blog! Please fill out the information below to submit a new post.
         
-        感谢您为博客投稿！请填写以下信息以提交新文章。
   - type: input
     id: title
     attributes:
-      label: Title / 标题
+      label: Title
       description: Enter the title of your blog post
       placeholder: e.g. How to Build a Next.js Blog
     validations:
@@ -20,7 +19,7 @@ body:
   - type: input
     id: slug
     attributes:
-      label: Slug / 文章别名
+      label: Slug
       description: The URL-friendly version of the title (use-hyphens-like-this)
       placeholder: e.g. how-to-build-nextjs-blog
     validations:
@@ -28,7 +27,7 @@ body:
   - type: input
     id: description
     attributes:
-      label: Description / 描述
+      label: Description
       description: A brief summary of your post (will be used for SEO and preview)
       placeholder: This article explains how to build a modern blog using Next.js...
     validations:
@@ -36,7 +35,7 @@ body:
   - type: textarea
     id: content
     attributes:
-      label: Content / 文章内容
+      label: Content
       description: |
         Write your blog post content in markdown format. You can include:
         - Headers (# ## ###)
@@ -66,7 +65,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Submission Agreement / 提交协议
+      label: Submission Agreement
       description: By submitting this post, you agree to our contribution guidelines
       options:
         - label: I agree that this submission will be licensed under the project's license

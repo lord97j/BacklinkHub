@@ -1,3 +1,8 @@
+// 同步 issues 到 rules 和 contributors 和 blog
+// 1. 同步 rules
+// 2. 同步 contributors
+// 3. 同步 blog
+
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 require('dotenv').config();
 /* eslint-disable */
@@ -12,6 +17,8 @@ const gh = new GitHub({
 });
 
 const blogOutputPath = '../../data/md';
+const rulesOutputPath = '../../data/json/en/rules';
+const contributorsOutputPath = '../../data/json/contributors.json';
 
 if (!GH_USER || !GH_PROJECT_NAME) {
 	console.error('请设置GITHUB_USER和GITHUB_PROJECT_NAME');
@@ -26,6 +33,28 @@ function closeImgTag(htmlString) {
 	return htmlString.replace(imgTagRegex, '<img$1 />');
 }
 
+// 解析 issue 模版 cursor-rules
+function parseCursorRules(body) {
+	// body : ""
+	const data = body.match(/### Title\n\n(.*)\n\n### Slug\n\n(.*)\n\n### Description\n\n(.*)\n\n### Content\n\n(.*)\n\n### Submission Agreement\n\n(.*)/);
+	return {
+		title: data[1],
+		slug: data[2],
+		description: data[3],
+		content: data[4]
+	}
+}
+
+// 解析 issue 模版 blog
+function parseBlog(body) {
+	const data = body.match(/### Title\n\n(.*)\n\n### Slug\n\n(.*)\n\n### Description\n\n(.*)\n\n### Content\n\n(.*)\n\n### Submission Agreement\n\n(.*)/)
+	return {
+		title: data[1],
+		slug: data[2],
+		description: data[3],
+		content: data[4]
+	}
+}
 // 生成安全的文件名 slug
 const generateSafeFileName = (title) => {
 	return title
@@ -36,47 +65,53 @@ const generateSafeFileName = (title) => {
 	  .replace(/-+/g, '-');                 // 将多个连字符替换为单个
   };
 
-// get blog list
+// get issues list
 const issueInstance = gh.getIssues(GH_USER, GH_PROJECT_NAME);
 
-function generateMdx(issue, fileName) {
-	console.log(issue, 'issue');
-	const { title, labels, created_at, body, html_url, user } = issue;
+function generateMdx(title, description, content, created_at, user, labels) {
 	return `---
 title: ${title.trim()}
-description: ${body.replace(/<br \/>/g, '\n')}
+description: ${description.trim()}
 date: ${created_at}
 category: blog
-slug: ${fileName}
 author: ${user?.login}：${user?.html_url}
 tags: ${JSON.stringify(labels.map((item) => item.name))}
 ---
 
-${closeImgTag(body.replace(/<br \/>/g, '\n'))}
+${closeImgTag(content.replace(/<br \/>/g, '\n'))}
 
 `;
 }
 
 function main() {
 	const filePath = path.resolve(__dirname, blogOutputPath);
+	// 确保目录存在，但不清空
+	fs.ensureDirSync(filePath);
+	
+	// 获取现有文件列表
+	const existingFiles = new Set(fs.readdirSync(filePath));
+	
 	// 只查询自己的issues，避免别人创建的也更新到博客
 	const creators = ['lord97j']; // 添加多个creator
-	fs.ensureDirSync(filePath);
-	fs.emptyDirSync(filePath);
 	creators.forEach((name) => {
 		issueInstance.listIssues({ creator: name, labels: 'blog' }).then(({ data }) => {
 			let successCount = 0;
+			const updatedFiles = new Set();
+			
 			for (const item of data) {
 				try {
-					const fileName = generateSafeFileName(item.title);
-					const content = generateMdx(item, fileName);
-					fs.writeFileSync(`${filePath}/${fileName}.md`, content);
-					console.log(`${filePath}/${fileName}.md`, 'success');
+					const { title, slug, description, content } = parseBlog(item.body);
+					const fileName = slug + '.md';
+					const md = generateMdx(title, description, content, item.created_at, item.user, item.labels);
+					fs.writeFileSync(`${filePath}/${fileName}`, md);
+					updatedFiles.add(fileName);
+					console.log(`${filePath}/${fileName}`, 'success');
 					successCount++;
 				} catch (error) {
 					console.log(error);
 				}
 			}
+
 			if (successCount === data.length) {
 				console.log('文章全部同步成功！', data.length);
 			} else {

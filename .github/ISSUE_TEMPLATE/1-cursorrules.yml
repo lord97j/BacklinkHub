@@ -7,12 +7,11 @@ body:
     attributes:
       value: |
         Thanks for contributing to our cursorrules navigation site! Please fill out the information below to submit a new cursorrules.
-        
-        感谢您为cursorrules规则导航站点做出贡献！请填写以下信息以提交新规则。
+
   - type: dropdown
     id: category
     attributes:
-      label: Category / 分类
+      label: Category
       description: Select the main category for this cursorrules
       options:
         - backend
@@ -29,7 +28,7 @@ body:
   - type: textarea
     id: template
     attributes:
-      label: Rule Template / 规则模板
+      label: Rule Template
       description: |
         Enter your rule template in markdown format. You can use the following structure:
         ```
@@ -50,7 +49,7 @@ body:
   - type: input
     id: description
     attributes:
-      label: Description / 描述
+      label: Description
       description: Provide a detailed description of the cursorrules
       placeholder: This project provides automation scripts and workflows...
     validations:
@@ -58,7 +57,7 @@ body:
   - type: input
     id: url
     attributes:
-      label: URL / 链接
+      label: URL
       description: The URL path for the article or resource (starting with /)
       placeholder: /article/your-cursorrules-slug
     validations:
@@ -66,7 +65,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Submission Agreement / 提交协议
+      label: Submission Agreement
       description: By submitting this cursorrules, you agree to our contribution guidelines
       options:
         - label: I agree that this submission will be licensed under the project's license
