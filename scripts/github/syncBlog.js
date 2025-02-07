@@ -9,7 +9,7 @@ require('dotenv').config();
 const GitHub = require('github-api');
 const fs = require('fs-extra');
 const path = require('path');
-// console.log(process.env, ' process.env');
+console.log(process.env, ' process.env');
 const { GH_TOKEN, GH_USER, GH_PROJECT_NAME, OPENAI_API_KEY, OPENAI_BASE_URL } = process.env;
 
 const gh = new GitHub({
