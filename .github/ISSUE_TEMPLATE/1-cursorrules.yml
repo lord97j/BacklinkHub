@@ -1,9 +1,0 @@
-name: Submit Cursor Rules
-description: Submit a new cursorrules to the cursorrules.org
-title: "CursorRules: "
-labels: ["cursorrules"]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for contributing to our cursorrules navigation site! Please fill out the information below to submit a new cursorrules.
