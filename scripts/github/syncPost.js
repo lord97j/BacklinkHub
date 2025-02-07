@@ -26,6 +26,16 @@ function closeImgTag(htmlString) {
 	return htmlString.replace(imgTagRegex, '<img$1 />');
 }
 
+// 生成安全的文件名 slug
+const generateSafeFileName = (title) => {
+	return title
+	  .trim()
+	  .toLowerCase()                         // 转换为小写
+	  .replace(/[^a-z0-9]+/g, '-')          // 将非字母数字字符替换为连字符
+	  .replace(/^-+|-+$/g, '')              // 删除首尾的连字符
+	  .replace(/-+/g, '-');                 // 将多个连字符替换为单个
+  };
+
 // get blog list
 const issueInstance = gh.getIssues(GH_USER, GH_PROJECT_NAME);
 
@@ -34,7 +44,9 @@ function generateMdx(issue, fileName) {
 	const { title, labels, created_at, body, html_url, user } = issue;
 	return `---
 title: ${title.trim()}
+description: ${body.replace(/<br \/>/g, '\n')}
 date: ${created_at}
+category: blog
 slug: ${fileName}
 author: ${user?.login}：${user?.html_url}
 tags: ${JSON.stringify(labels.map((item) => item.name))}
@@ -42,8 +54,6 @@ tags: ${JSON.stringify(labels.map((item) => item.name))}
 
 ${closeImgTag(body.replace(/<br \/>/g, '\n'))}
 
----
-此文自动发布于：<a href="${html_url}" target="_blank">github issues</a>
 `;
 }
 
@@ -54,19 +64,18 @@ function main() {
 	fs.ensureDirSync(filePath);
 	fs.emptyDirSync(filePath);
 	creators.forEach((name) => {
-		issueInstance.listIssues({ creator: name }).then(({ data }) => {
+		issueInstance.listIssues({ creator: name, labels: 'blog' }).then(({ data }) => {
 			let successCount = 0;
 			for (const item of data) {
 				try {
-					const fileName = `post-${item.number}`;
+					const fileName = generateSafeFileName(item.title);
 					const content = generateMdx(item, fileName);
-					fs.writeFileSync(`${filePath}/${fileName}.mdx`, content);
-					console.log(`${filePath}/${fileName}.mdx`, 'success');
+					fs.writeFileSync(`${filePath}/${fileName}.md`, content);
+					console.log(`${filePath}/${fileName}.md`, 'success');
 					successCount++;
 				} catch (error) {
 					console.log(error);
 				}
-
 			}
 			if (successCount === data.length) {
 				console.log('文章全部同步成功！', data.length);
