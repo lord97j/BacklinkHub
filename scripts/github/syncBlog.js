@@ -46,12 +46,12 @@ function closeImgTag(htmlString) {
 async function callBlogAI(content) {
   const client = new OpenAI({
     apiKey: OPENAI_API_KEY,
-    baseURL: "https://api.siliconflow.com/v1"
+    baseURL: OPENAI_BASE_URL
   });
 
   try {
     const completion = await client.chat.completions.create({
-      model: 'deepseek-ai/DeepSeek-V3',
+      model: 'Qwen/Qwen2.5-7B-Instruct',
       messages: [
         {
           role: 'system',
