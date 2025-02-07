@@ -1,72 +1,10 @@
 name: Submit Blog Post
 description: Submit a new blog post to the site
-title: "[Blog]: "
+title: "Post: "
 labels: ["blog"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for contributing to our blog! Please fill out the information below to submit a new post.
-        
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: Enter the title of your blog post
-      placeholder: e.g. How to Build a Next.js Blog
-    validations:
-      required: true
-  - type: input
-    id: slug
-    attributes:
-      label: Slug
-      description: The URL-friendly version of the title (use-hyphens-like-this)
-      placeholder: e.g. how-to-build-nextjs-blog
-    validations:
-      required: true
-  - type: input
-    id: description
-    attributes:
-      label: Description
-      description: A brief summary of your post (will be used for SEO and preview)
-      placeholder: This article explains how to build a modern blog using Next.js...
-    validations:
-      required: true
-  - type: textarea
-    id: content
-    attributes:
-      label: Content
-      description: |
-        Write your blog post content in markdown format. You can include:
-        - Headers (# ## ###)
-        - Lists
-        - Code blocks (```)
-        - Images ![alt](url)
-        - Links [text](url)
-      placeholder: |
-        # Your Title
-
-        ## Introduction
-        Start your article here...
-
-        ## Main Content
-        Your main content here...
-
-        ### Code Example
-        ```javascript
-        // Your code here
-        ```
-
-        ## Conclusion
-        Wrap up your article...
-      render: markdown
-    validations:
-      required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Submission Agreement
-      description: By submitting this post, you agree to our contribution guidelines
-      options:
-        - label: I agree that this submission will be licensed under the project's license
-          required: true
+   

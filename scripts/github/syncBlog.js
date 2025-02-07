@@ -33,28 +33,6 @@ function closeImgTag(htmlString) {
 	return htmlString.replace(imgTagRegex, '<img$1 />');
 }
 
-// 解析 issue 模版 cursor-rules
-function parseCursorRules(body) {
-	// body : ""
-	const data = body.match(/### Title\n\n(.*)\n\n### Slug\n\n(.*)\n\n### Description\n\n(.*)\n\n### Content\n\n(.*)\n\n### Submission Agreement\n\n(.*)/);
-	return {
-		title: data[1],
-		slug: data[2],
-		description: data[3],
-		content: data[4]
-	}
-}
-
-// 解析 issue 模版 blog
-function parseBlog(body) {
-	const data = body.match(/### Title\n\n(.*)\n\n### Slug\n\n(.*)\n\n### Description\n\n(.*)\n\n### Content\n\n(.*)\n\n### Submission Agreement\n\n(.*)/)
-	return {
-		title: data[1],
-		slug: data[2],
-		description: data[3],
-		content: data[4]
-	}
-}
 // 生成安全的文件名 slug
 const generateSafeFileName = (title) => {
 	return title
@@ -68,14 +46,14 @@ const generateSafeFileName = (title) => {
 // get issues list
 const issueInstance = gh.getIssues(GH_USER, GH_PROJECT_NAME);
 
-function generateMdx(title, description, content, created_at, user, labels) {
+function generateMdx(issue) {
 	return `---
-title: ${title.trim()}
-description: ${description.trim()}
-date: ${created_at}
+title: ${issue.title.trim()}
+description: ${issue.content.replace(/#/g, '').substring(0, 120).trim()}
+date: ${issue.created_at}
 category: blog
-author: ${user?.login}：${user?.html_url}
-tags: ${JSON.stringify(labels.map((item) => item.name))}
+author: ${issue.user?.login}：${issue.user?.html_url}
+tags: ${JSON.stringify(issue.labels.map((item) => item.name))}
 ---
 
 ${closeImgTag(content.replace(/<br \/>/g, '\n'))}
@@ -100,9 +78,8 @@ function main() {
 			
 			for (const item of data) {
 				try {
-					const { title, slug, description, content } = parseBlog(item.body);
-					const fileName = slug + '.md';
-					const md = generateMdx(title, description, content, item.created_at, item.user, item.labels);
+					const fileName = generateSafeFileName(title);
+					const md = generateMdx(item);
 					fs.writeFileSync(`${filePath}/${fileName}`, md);
 					updatedFiles.add(fileName);
 					console.log(`${filePath}/${fileName}`, 'success');
