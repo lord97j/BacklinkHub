@@ -50,7 +50,7 @@ async function callBlogAI(content) {
   });
 
   try {
-    const response = await client.chat.completions.create({
+    const completion = await client.chat.completions.create({
       model: 'deepseek-ai/DeepSeek-V3',
       messages: [
         {
@@ -81,19 +81,19 @@ async function callBlogAI(content) {
           content: content
         }
       ],
-      max_tokens: 32000,
       temperature: 0.7,
-      top_p: 0.7,
-      top_k: 50,
-      frequency_penalty: 0.5,
-      n: 1,
+      max_tokens: 5000,
       response_format: { type: 'json_object' }
     });
-    
-    return JSON.parse(response.choices[0].message.content);
+
+    if (!completion.choices[0]?.message?.content) {
+      throw new Error('AI响应内容为空');
+    }
+
+    return JSON.parse(completion.choices[0].message.content);
   } catch (error) {
-    console.error('AI调用失败:', error);
-    return null;
+    console.error('AI调用失败:', error.message || error, OPENAI_BASE_URL);
+    throw error; // 向上传递错误，让调用者处理
   }
 }
 
