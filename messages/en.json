@@ -1,28 +1,28 @@
 {
 "home": {
-    "meta_title": "CursorRules: AI Code Standards & .cursorrules Templates Hub",
-    "meta_description": "Generate AI-powered .cursorrules for multiple languages and frameworks. Open-source templates to enhance code quality through smart configuration standards.", 
-    "h2": "AI-Powered .cursorrules Generator & Repository",
-    "description": "Generate free .cursorrules configs via AI Agent, automatically adapting to React/Vue/Next.js frameworks. Access community-verified best practice templates with one-click deployment."
+    "meta_title": "BacklinkHub Pro: High DR Backlink Directory & Guest Post Sites Database 2024",
+    "meta_description": "Access 2000+ curated high DR backlink opportunities. Filter by niche, DR 50+, traffic, and dofollow status. Find free guest posting sites and paid link building options.", 
+    "h2": "Professional Backlink Directory & Guest Post Database",
+    "description": "Discover high-quality backlink opportunities with our comprehensive directory. Smart filtering by DR, traffic, niche, and more. Updated daily with verified sites."
   },
   "category": {
-    "meta_title": "CursorRules Features - Cursor Rules Library & Resources",
-    "meta_description": "Explore CursorRules' rich rule library, supporting custom rules for various programming languages and frameworks.",
+    "meta_title": "BacklinkHub Categories - Browse Backlink Sites by Niche",
+    "meta_description": "Explore niche-specific backlink opportunities. Filter by industry, DR value, and traffic metrics to find relevant link building prospects.",
     "homeBtn": "Home",
-    "categoryBtn": "Rules",
-    "h1": "Cursor Rules Library",
-    "h2": "Customize Rules for Your Development Framework",
-    "h2description": "Explore our comprehensive collection of Cursor rules"
+    "categoryBtn": "Categories",
+    "h1": "Backlink Directory",
+    "h2": "Browse by Industry Categories",
+    "h2description": "Find relevant backlink opportunities in your niche"
   },
   "article": {
-    "meta_title": "CursorRules Blog - Cursor Rules Writing Guide & Best Practices",
-    "meta_description": "Learn how to write effective Cursor rules to optimize code generation and suggestions.",
-    "h1": "Cursor Rules Guide",
-    "h2": "Deep Dive into Rule Writing",
+    "meta_title": "BacklinkHub Blog - Link Building Guides & SEO Tutorials",
+    "meta_description": "Expert guides on link building strategies, guest posting tips, and SEO best practices.",
+    "h1": "Link Building Resources",
+    "h2": "SEO & Link Building Guides",
     "homeBtn": "Home",
-    "articleBtn": "Tutorials",
-    "backToArticles": "Back to Tutorials",
-    "copyButton": "Copy Rule",
+    "articleBtn": "Guides",
+    "backToArticles": "Back to Guides",
+    "copyButton": "Copy URL",
     "copiedButton": "Copied"
   },
   "changelog": {
@@ -40,27 +40,27 @@
     "homeBtn": "Home"
   },
   "search": {
-    "input_placeholder": "Search rules or tutorials...",
-    "heading": "Popular Rules",
+    "input_placeholder": "Search by niche, DR value, or site name...",
+    "heading": "Featured Sites",
     "more": "View All",
     "button": "Search"
   },
   "navigation": {
     "homeBtn": "Home",
-    "categoryBtn": "Rules",
+    "categoryBtn": "Categories",
     "moreCategoryBtn": "More",
-    "moreCategoryDescription": "More Rules",
-    "articleBtn": "Tutorials",
-    "articleDescription": "Free Open-source Cursor Rules Sharing Platform",
-    "article1Title": "How to Submit .cursorrules",
-    "article2Title": "Advanced .cursorrules Rule Writing Guide",
+    "moreCategoryDescription": "More Categories",
+    "articleBtn": "Guides",
+    "articleDescription": "Free Link Building Resource Hub",
+    "article1Title": "How to Get High DR Backlinks",
+    "article2Title": "Guest Posting Guide 2024",
     "moreArticleBtn": "More",
-    "moreArticleDescription": "More Tutorials",
+    "moreArticleDescription": "More Guides",
     "changelogBtn": "Updates",
-    "submitToolBtn": "Submit Rule"
+    "submitToolBtn": "Submit Site"
   },
   "footer": {
-    "description": "Share & Generate AI Cursor Rules | Open-Source Community Hub",
+    "description": "Professional Backlink Directory & SEO Resource Hub",
     "builtWith": "Built With",
     "quickLinks": "Quick Links",
     "friendLinks": "Friend Links",
@@ -79,8 +79,8 @@
       }
     ],
     "home": "Home",
-    "category": "Rules",
-    "article": "Tutorials",
+    "category": "Categories",
+    "article": "Guides",
     "changelog": "Updates",
     "privacy": "Privacy Policy",
     "termsOfService": "Terms of Service",
@@ -105,29 +105,21 @@
     "h2": "Frequently Asked Questions",
     "faqList": [
       {
-          "question": "What core capabilities define Cursor AI as an intelligent coding platform?",
-          "answer": "Cursor AI revolutionizes code editing through three pillars:\n✅ AI-Assisted Code Generation: Context-aware suggestions across 20+ languages\n✅ Custom Rule Engine: Create domain-specific automation with Cursor Rules\n✅ Intelligent Debugging: Real-time error pattern detection (78% accuracy improvement over standard editors)\nDevelopers achieve 3.9x faster implementation cycles according to our 2024 productivity benchmarks."
+        "question": "What makes BacklinkHub different from other directories?",
+        "answer": "BacklinkHub offers:\n✅ Verified high DR sites (50+ only)\n✅ Real-time metrics updates\n✅ Advanced filtering options\n✅ Niche categorization\n✅ Community-driven reviews"
       },
       {
-          "question": "What's the step-by-step process to implement effective Cursor Rules?",
-          "answer": "Master rule creation in four stages:\n1️⃣ Define Objectives: Use `cursor rule-init` CLI to scaffold rule templates\n2️⃣ Pattern Design: Implement logic with our Visual Rule Builder (JavaScript/Python)\n3️⃣ Validation: Test rules against your codebase with `cursor rule-test --coverage`\n4️⃣ Deployment: Sync rules across teams via GitHub/GitLab integration\nAdvanced users leverage our AST Analyzer for complex pattern matching."
+        "question": "How often is the directory updated?",
+        "answer": "Our directory is updated daily with:\n🔄 New site additions\n📊 Fresh DR/traffic metrics\n✅ Status verification\n❌ Removal of dead links"
       },
       {
-          "question": "How do Cursor Prompts enhance traditional AI pair-programming?",
-          "answer": "Cursor Prompts deliver context-rich automation through:\n🎯 Project-Aware Memory: 12x longer context retention than basic AI tools\n⚡ Smart Chaining: Combine prompts into executable workflows\n📦 Version Control: Track prompt iterations with `cursor prompt-history`\nEarly adopters report 92% reduction in boilerplate code generation tasks."
+        "question": "What metrics do you track for each site?",
+        "answer": "We monitor key metrics including:\n📈 Domain Rating (DR)\n🌐 Monthly traffic\n🔗 Dofollow status\n💰 Pricing (if applicable)\n🏷️ Niche categories"
       },
       {
-          "question": "What measurable benefits do Cursor Rules provide development teams?",
-          "answer": "Technical ROI analysis reveals:\n⏱️ 63% faster onboarding for new codebase contributors\n🔧 41% reduction in code review iterations\n📈 29% increase in CI/CD pipeline success rates\nEnterprise teams using rule-sharing portals see 85% faster knowledge transfer."
-      },
-      {
-          "question": "How do Cursor Rules transform traditional IDE workflows?",
-          "answer": "Cursor Rules introduce AI-driven context awareness that redefines development environments: \n✅ Real-time architectural pattern enforcement \n✅ Cross-file dependency mapping (supports 15+ languages) \n✅ Automated technical debt quantification \nOur benchmarks show 41% faster feature development cycles when using rule-guided AI generation."
-      },
-      {
-          "question": "What makes Cursor Prompts different from ChatGPT coding?",
-          "answer": "Our Prompt Engineering Framework offers: \n🎯 Project-aware context retention (12x longer memory) \n🧩 Visual programming interface for prompt chaining \n📦 Version-controlled prompt packages \nDevelopers achieve 92% higher output relevance compared to generic AI tools."
+        "question": "How can I submit my website to the directory?",
+        "answer": "Submit your site through:\n1️⃣ Submit form\n2️⃣ Basic info verification\n3️⃣ Metrics check\n4️⃣ Manual review\n5️⃣ Approval/feedback"
       }
-  ]
+    ]
   }
 }

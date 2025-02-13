@@ -1,66 +1,52 @@
 {
   "home": {
-    "meta_title": "CursorRules：AI代码规范生成器 | 开源.cursorrules规则库",
-    "meta_description": "CursorRules.org提供跨平台AI代码规范生成工具，支持多种编程语言的智能.cursorrules配置。开发者可快速创建符合最佳实践的cursor rules for AI，提升代码质量与团队协作效率。",
-    "h2": "AI驱动的.cursorrules规则生成与共享平台",
-    "description": "通过CursorRules Agent免费生成标准化配置，智能识别React/Vue/Next.js等框架规范，一键获取社区验证的.cursorrules最佳实践模板。"
+    "meta_title": "BacklinkHub Pro：高质量外链目录与收录平台 2024",
+    "meta_description": "访问2000+精选高DR外链资源。按行业筛选，DR 50+，流量数据，dofollow状态。发现免费投稿与付费外链机会。", 
+    "h2": "专业的外链目录与投稿数据库",
+    "description": "在我们全面的目录中发现优质外链机会。智能筛选DR值、流量、行业等维度。每日更新并验证网站状态。"
   },
   "category": {
-    "meta_title": "CursorRules 功能 - Cursor 规则库与资源",
-    "meta_description": "探索 CursorRules 丰富的规则库，支持多种编程语言和框架的自定义规则。",
+    "meta_title": "BacklinkHub 分类目录 - 按行业浏览外链资源",
+    "meta_description": "探索特定行业的外链机会。通过行业、DR值和流量指标筛选相关的链接建设资源。",
     "homeBtn": "首页",
-    "categoryBtn": "规则库",
-    "h1": "Cursor 规则库",
-    "h2": "为您的开发框架定制规则",
-    "h2description": "探索我们全面的 Cursor 规则集合"
+    "categoryBtn": "分类",
+    "h1": "外链目录",
+    "h2": "按行业分类浏览",
+    "h2description": "找到您所在行业的相关外链机会"
   },
   "article": {
-    "meta_title": "CursorRules 博客 - Cursor 规则编写指南与最佳实践",
-    "meta_description": "学习如何编写高效的 Cursor 规则，优化代码生成和建议。",
-    "h1": "Cursor 规则指南",
-    "h2": "深入了解规则编写",
+    "meta_title": "BacklinkHub 博客 - 外链建设指南与SEO教程",
+    "meta_description": "专业的外链建设策略指南、投稿技巧和SEO最佳实践。",
+    "h1": "外链建设资源",
+    "h2": "SEO与外链建设指南",
     "homeBtn": "首页",
-    "articleBtn": "教程",
-    "backToArticles": "返回教程列表",
-    "copyButton": "复制规则",
+    "articleBtn": "指南",
+    "backToArticles": "返回指南列表",
+    "copyButton": "复制链接",
     "copiedButton": "已复制"
   },
-  "changelog": {
-    "meta_title": "CursorRules 更新日志 - 最新规则与改进",
-    "meta_description": "及时了解 CursorRules 平台的最新规则和功能更新",
-    "h1": "更新日志",
-    "h2": "最新规则与改进",
-    "homeBtn": "首页",
-    "changelogBtn": "更新"
-  },
-  "tools": {
-    "meta_description": "发现强大的 Cursor 规则工具和开发辅助功能",
-    "h2_1": "适用于各种开发场景的规则",
-    "h2_2": "",
-    "homeBtn": "首页"
-  },
   "search": {
-    "input_placeholder": "搜索规则或教程...",
-    "heading": "热门规则",
+    "input_placeholder": "按行业、DR值或网站名称搜索...",
+    "heading": "推荐网站",
     "more": "查看全部",
     "button": "搜索"
   },
   "navigation": {
     "homeBtn": "首页",
-    "categoryBtn": "规则库",
+    "categoryBtn": "分类",
     "moreCategoryBtn": "更多",
-    "moreCategoryDescription": "更多规则",
-    "articleBtn": "教程",
-    "articleDescription": "免费开源的 Cursor 规则分享平台",
-    "article1Title": ".cursorrules 提交方法",
-    "article2Title": ".cursorrules 高级规则编写指南",
+    "moreCategoryDescription": "更多分类",
+    "articleBtn": "指南",
+    "articleDescription": "免费外链建设资源中心",
+    "article1Title": "如何获取高DR外链",
+    "article2Title": "2025投稿指南",
     "moreArticleBtn": "更多",
-    "moreArticleDescription": "更多教程",
+    "moreArticleDescription": "更多指南",
     "changelogBtn": "更新",
-    "submitToolBtn": "提交规则"
+    "submitToolBtn": "提交网站"
   },
   "footer": {
-    "description": ".cursorrules共享与生成｜开源开发者社区",
+    "description": "专业的外链目录与SEO资源中心",
     "builtWith": "技术支持",
     "quickLinks": "快速链接",
     "friendLinks": "友情链接",
@@ -79,8 +65,8 @@
       }
     ],
     "home": "首页",
-    "category": "规则库",
-    "article": "教程",
+    "category": "分类",
+    "article": "指南",
     "changelog": "更新",
     "privacy": "隐私政策",
     "termsOfService": "服务条款",
@@ -91,11 +77,11 @@
   },
   "toolsList": {
     "more": "更多",
-    "tools": "规则"
+    "tools": "工具"
   },
   "articleList": {
-    "h2": "规则教程",
-    "moreArticles": "更多教程",
+    "h2": "外链指南",
+    "moreArticles": "更多指南",
     "category": {
       "rules": "规则",
       "blog": "教程"
@@ -105,29 +91,21 @@
     "h2": "常见问题",
     "faqList": [
       {
-          "question": "Cursor AI 作为智能编码平台具有哪些核心能力?",
-          "answer": "Cursor AI 通过三大支柱革新代码编辑:\n✅ AI辅助代码生成: 支持20多种语言的上下文感知建议\n✅ 自定义规则引擎: 使用 Cursor Rules 创建领域特定的自动化\n✅ 智能调试: 实时错误模式检测(较标准编辑器准确率提高78%)\n根据我们2024年的生产力基准测试,开发人员实现了3.9倍更快的实施周期。"
+        "question": "BacklinkHub与其他目录有什么不同？",
+        "answer": "BacklinkHub提供：\n✅ 验证过的高DR网站（仅50+）\n✅ 实时指标更新\n✅ 高级筛选选项\n✅ 行业分类\n✅ 社区驱动的评价"
       },
       {
-          "question": "如何逐步实施有效的 Cursor Rules?",
-          "answer": "通过四个阶段掌握规则创建:\n1️⃣ 定义目标: 使用 `cursor rule-init` CLI 搭建规则模板\n2️⃣ 模式设计: 使用可视化规则构建器实现逻辑(JavaScript/Python)\n3️⃣ 验证: 使用 `cursor rule-test --coverage` 测试规则\n4️⃣ 部署: 通过 GitHub/GitLab 集成在团队间同步规则\n高级用户可利用 AST 分析器进行复杂模式匹配。"
+        "question": "目录多久更新一次？",
+        "answer": "我们的目录每日更新：\n🔄 新增网站\n📊 最新DR/流量数据\n✅ 状态验证\n❌ 清理失效链接"
       },
       {
-          "question": "Cursor Prompts 如何增强传统的 AI 结对编程?",
-          "answer": "Cursor Prompts 通过以下方式提供丰富的上下文自动化:\n🎯 项目感知内存: 比基础AI工具长12倍的上下文保留\n⚡ 智能链接: 将提示组合成可执行工作流\n📦 版本控制: 使用 `cursor prompt-history` 跟踪提示迭代\n早期采用者报告模板代码生成任务减少92%。"
+        "question": "您跟踪哪些网站指标？",
+        "answer": "我们监控的关键指标包括：\n📈 域名权重（DR）\n🌐 月访问量\n🔗 Dofollow状态\n💰 收费情况（如适用）\n🏷️ 行业分类"
       },
       {
-          "question": "Cursor Rules 为开发团队带来哪些可衡量的好处?",
-          "answer": "技术投资回报分析显示:\n⏱️ 新代码库贡献者入职速度提高63%\n🔧 代码审查迭代减少41%\n📈 CI/CD 管道成功率提高29%\n使用规则共享门户的企业团队知识转移速度提高85%。"
-      },
-      {
-          "question": "Cursor Rules 如何改变传统的 IDE 工作流程?",
-          "answer": "Cursor Rules 引入了 AI 驱动的上下文感知功能,重新定义了开发环境: \n✅ 实时架构模式执行 \n✅ 跨文件依赖关系映射(支持15+种语言) \n✅ 自动技术债务量化 \n我们的基准测试显示,使用规则引导的 AI 生成可以使功能开发周期加快41%。"
-      },
-      {
-          "question": "Cursor Prompts 与 ChatGPT 编码有何不同?",
-          "answer": "我们的提示工程框架提供: \n🎯 项目感知上下文保留(12倍更长记忆) \n🧩 提示链接的可视化编程界面 \n📦 版本控制的提示包 \n与通用AI工具相比,开发人员可实现92%更高的输出相关性。"
+        "question": "如何提交我的网站到目录？",
+        "answer": "通过以下步骤提交：\n1️⃣ 提交表单\n2️⃣ 基本信息验证\n3️⃣ 指标检查\n4️⃣ 人工审核\n5️⃣ 审批/反馈"
       }
-  ]
+    ]
   }
 }

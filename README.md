@@ -1,64 +1,128 @@
-# 项目背景
-这是一个开源的无数据库架构的cursorrules规则分享与博客网站，利用 GitHub 进行内容存储和管理，使用 Next.js 进行服务器端渲染，支持 Markdown 编写内容，Tailwind CSS 实现响应式设计，并集成了国际化和广告支持。
+# BacklinkHub - 专业的外链资源导航平台
 
+BacklinkHub是一个专业的外链资源导航平台，帮助网站所有者发现和管理高质量的外链机会。通过整合全面的外链资源数据，提供直观的筛选和分析工具，让外链建设更加高效和精准。
 
-# 项目特性
-- 无数据库架构：利用 GitHub 进行内容存储和管理。
-- 动态内容：使用 Next.js 服务器端渲染动态渲染内容。
-- Markdown 支持：使用 Markdown 格式编写内容，便于编辑和版本控制。
-- 管理界面：内置管理面板用于内容管理。
-- 响应式设计：使用 Tailwind CSS 实现完全响应式设计。
-- SEO 友好：通过动态元数据优化搜索引擎。
-- 易于部署：简单的 Vercel 部署流程。
-- 内置分析支持：集成分析支持脚本，兼容 Google Analytics 和 Plausible Analytics。
-- 国际化：支持多语言，可轻松扩展以支持更多语言。
-- 深色模式：支持深色模式，可轻松扩展以支持更多主题。
-- 广告支持：支持 Google Adsense 和可以轻松扩展以支持更多广告。
+## 🌟 核心特性
 
-# 编码标准
-- 使用函数式组件和 Hooks，避免类组件
-- 变量声明优先使用 const，而不是 let
-- 变量和函数名使用 camelCase 规范，组件名使用 PascalCase
+### 资源导航
+- 🔍 智能搜索与筛选系统
+  - 按网站类型、DR值、流量范围快速筛选
+  - 支持多维度组合查询
+  - 关键词智能匹配
 
-# 首选的库
-- 使用 Next.js 进行导航和服务器端渲染
-- 使用 Tailwind CSS 进行响应式设计
-- 使用 Shadcn/UI 作为 UI 组件库
-- 使用 Next-Intl 进行国际化支持
+### 数据分析
+- 📊 全面的网站指标展示
+  - Domain Rating (DR)
+  - 月均流量数据
+  - 外链提交是否收费
+  - 网站主题分类
+  - 收录时效性
 
-# 文件结构
-- messages: 多语言翻译json文件
-- src/components: 可复用的 UI 组件
-- src/app/[locale]: 支持多语言的Next.js 页面
-- src/app/api: 存放 API 服务函数
-- src/lib: 存放工具函数
-- data: 存放 JSON 和 Markdown 文件，用于内容管理
-- public: 静态资源
-- styles: Tailwind CSS 配置和全局样式
+### 用户功能
+- 👤 个性化工具
+  - 外链机会收藏夹
+  - 提交记录追踪
+  - 自定义筛选器保存
+  - 批量导出功能
 
-# 性能优化指南
-- 对纯函数组件使用 React.memo
-- 路由组件实现懒加载
-- 优化 useEffect 依赖，防止不必要的重新渲染
+### 社区互动
+- 🤝 资源共享
+  - 用户提交新资源
+  - 评分与评论系统
+  - 最新外链机会推送
 
-# 测试要求
-- 使用 Jest 和 React Testing Library 编写单元测试
-- 测试覆盖率应至少达到 80%
-- 对 UI 组件使用快照测试 (Snapshot Testing)
+## 🛠 技术架构
 
-# 文档规范
-- 使用 JSDoc 格式编写函数和组件的注释
-- 组件必须包含 PropTypes 验证
-- 每个主要目录必须包含 README.md 文件
-- 同时提供英语和中文版本的 README.md 文件
+### 前端技术
+- Next.js 13+ (App Router)
+- Tailwind CSS
+- Shadcn/UI
+- Next-Intl (国际化支持)
 
-# 错误处理
-- 使用 try/catch 块处理异步操作
-- 实现全局错误边界组件
+### 内容管理
+- GitHub为数据存储中心
+- Markdown支持
+- 版本控制
+- 自动化更新
 
-# 国际化
-- 支持多语言，可轻松扩展以支持更多语言
-- 使用 Next-Intl 进行国际化支持
+### SEO优化
+- 服务端渲染
+- 动态Meta标签
+- 结构化数据
+- 移动端优化
 
-# 广告支持
-- 支持 Google Adsense 和可以轻松扩展以支持更多广告
+## 📂 项目结构
+
+```text
+backlinkhub/
+├── src/
+│   ├── app/
+│   │   ├── [locale]/
+│   │   │   ├── page.tsx
+│   │   │   └── layout.tsx
+│   │   └── api/
+│   ├── components/
+│   │   ├── ui/
+│   │   ├── backlinks/
+│   │   └── filters/
+│   └── lib/
+├── data/
+│   ├── backlinks/
+│   └── categories/
+├── messages/
+│   ├── en.json
+│   └── zh.json
+└── public/
+```
+
+## 🚀 路线图
+
+### 第一阶段
+- [x] 基础平台搭建
+- [x] 外链资源数据库建设
+- [x] 搜索和筛选功能实现
+
+### 第二阶段
+- [ ] 用户系统集成
+- [ ] 高级分析工具
+- [ ] API接口开发
+
+### 第三阶段
+- [ ] 自动化数据更新
+- [ ] 社区功能
+- [ ] 多语言支持
+
+## 🤝 贡献指南
+
+我们欢迎社区贡献，特别是以下方面：
+- 新的外链资源
+- 功能建议
+- Bug修复
+- 文档改进
+
+## 📜 许可证
+
+本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
+
+## 🌐 国际化
+
+当前支持:
+- 简体中文
+- English
+
+## 📊 数据来源
+
+- Ahrefs API
+- Moz API
+- 社区提交
+- 人工审核
+
+## 🔒 隐私政策
+
+我们重视用户隐私，详细政策请查看 [隐私政策](PRIVACY.md)
+
+## 📞 联系我们
+
+- GitHub Issues
+- Email: support@backlinkhub.com
+- Twitter: @backlinkhub

@@ -4,7 +4,7 @@ import * as jsonc from 'jsonc-parser';
 
 // 读取 categories 数据
 export function getCategories(locale) {
-    const categoriesPath = path.join(process.cwd(), 'data', 'json', locale, 'rules', 'category.jsonc');
+    const categoriesPath = path.join(process.cwd(), 'data', 'json', locale, 'links', 'category.jsonc');
     const categories = jsonc.parse(fs.readFileSync(categoriesPath, 'utf8'));
     if (typeof categories === 'string') {
         // 如果解析后仍是字符串，可能需要二次解析
@@ -21,7 +21,7 @@ export function getCategories(locale) {
 
 // 读取category数据
 export function getCategoryByLink(link, locale) {
-    const categoriesPath = path.join(process.cwd(), 'data', 'json', locale, 'rules', 'category.jsonc');
+    const categoriesPath = path.join(process.cwd(), 'data', 'json', locale, 'links', 'category.jsonc');
     const categories = jsonc.parse(fs.readFileSync(categoriesPath, 'utf8'));
     console.log('categories: ', categories)
     return categories.find(category => category.link === link);
@@ -30,7 +30,7 @@ export function getCategoryByLink(link, locale) {
 
 // 读取 datalist 数据
 export function getDataList(src, locale) {
-    const dataPath = path.join(process.cwd(), 'data', 'json', locale, 'rules', src);
+    const dataPath = path.join(process.cwd(), 'data', 'json', locale, 'links', src);
     const dataList = jsonc.parse(fs.readFileSync(dataPath, 'utf8'));
     if (typeof dataList === 'string') {
         // 如果解析后仍是字符串，可能需要二次解析

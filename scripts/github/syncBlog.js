@@ -3,15 +3,12 @@ require('dotenv').config();
 const GitHub = require('github-api');
 const fs = require('fs-extra');
 const path = require('path');
-const OpenAI = require('openai');
 
 // 环境变量配置
 const { 
   GH_TOKEN, 
   GH_USER, 
-  GH_PROJECT_NAME, 
-  OPENAI_API_KEY, 
-  OPENAI_BASE_URL 
+  GH_PROJECT_NAME
 } = process.env;
 
 // 常量定义
@@ -36,65 +33,6 @@ if (!GH_USER || !GH_PROJECT_NAME || !OPENAI_API_KEY || !OPENAI_BASE_URL) {
 function closeImgTag(htmlString) {
   const imgTagRegex = /<img([^>]*)(?<!\/)>/g;
   return htmlString.replace(imgTagRegex, '<img$1 />');
-}
-
-/**
- * 调用AI服务生成SEO优化的标题、URL和描述
- * @param {string} content - 博客内容
- * @returns {Promise<Object>} 包含titles、url和describe的对象
- */
-async function callBlogAI(content) {
-  const client = new OpenAI({
-    apiKey: OPENAI_API_KEY,
-    baseURL: OPENAI_BASE_URL
-  });
-
-  try {
-    const completion = await client.chat.completions.create({
-      model: 'Qwen/Qwen2.5-7B-Instruct',
-      messages: [
-        {
-          role: 'system',
-          content: `
-            You are an SEO expert, skilled in analyzing content to generate SEO optimized titles、url、describe
-            
-            Title tags:
-            - Place the main keywords at the beginning of the title
-            - Keep title length between 50-60 characters
-            - Ensure the title is eye-catching
-            
-            Meta description:
-            - Provide a brief overview of the page content
-            - Use keywords naturally
-            - Keep length between 150-160 characters
-            
-            URL Structure:
-            - Keep URLs short and descriptive
-            - Include primary keywords
-            - Use hyphens (-) for word separation
-            
-            Respond in format: {"titles": "...", "url": "...", "describe": "..."}
-          `
-        },
-        {
-          role: 'user',
-          content: content
-        }
-      ],
-      temperature: 0.7,
-      max_tokens: 5000,
-      response_format: { type: 'json_object' }
-    });
-
-    if (!completion.choices[0]?.message?.content) {
-      throw new Error('AI响应内容为空');
-    }
-
-    return JSON.parse(completion.choices[0].message.content);
-  } catch (error) {
-    console.error('AI调用失败:', error.message || error, OPENAI_BASE_URL);
-    throw error; // 向上传递错误，让调用者处理
-  }
 }
 
 /**
@@ -190,7 +128,7 @@ async function main() {
           contributions: ['blog']
         });
 
-        const result = await callBlogAI(item.content);
+        const result = await callBlogAI(item.body);
         const { titles, url, describe } = result;
         const fileName = generateSafeFileName(url);
         const md = generateMdx(titles, describe, item);

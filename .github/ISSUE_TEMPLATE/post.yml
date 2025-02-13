@@ -1,0 +1,37 @@
+name: Blog Post
+description: Submit a new blog post
+title: "[Post]: "
+labels: ["blog"]
+projects: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a blog post! Please fill out the information below.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The title of your blog post
+      placeholder: ex. Add New Cursor Rules To CursorRules.org
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of your post
+      placeholder: ex. How to add new developer tools to CursorRules
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: Write your post content in Markdown format
+      placeholder: |
+        # Your Post Title
+
+        Your content here...
+    validations:
+      required: true

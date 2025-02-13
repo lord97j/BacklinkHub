@@ -1,14 +1,14 @@
 export const siteConfig = {
-    name: 'cursorrules',
-    name2: 'Cursor Rules',
-    base_url: 'https://cursorrules.org',
-    keywords: 'cursor rules, cursor ai rules, cursorrules, .cursorrules',
-    title: 'CursorRules: AI Code Standards & .cursorrules Templates Hub',
-    description: 'Generate AI-powered .cursorrules for multiple languages and frameworks. Open-source templates to enhance code quality through smart configuration standards.',
+    name: 'backlinkhub',
+    name2: 'BacklinkHub',
+    base_url: 'https://backlinkhub.pro',
+    keywords: 'backlink directory, high DR backlink sites, free guest posting sites, dofollow link building, niche relevant backlinks',
+    title: 'BacklinkHub: Premium Backlink Directory & Guest Posting Sites Hub',
+    description: 'Discover high-quality backlink opportunities with our curated directory. Filter by DR, traffic, niche, and more. Free and paid guest posting sites updated daily.',
     authors: 'GitBasePro',
-    email: 'Lord97J+support@cursorrules.org',
-    github: 'https://github.com/lord97j/cursorrules',
-    domain: 'cursorrules.org'
+    email: 'support@backlinkhub.pro',
+    github: 'https://github.com/gitbasepro/backlinkhub',
+    domain: 'backlinkhub.pro',
 } as const;
 
 export type SiteConfig = typeof siteConfig; 

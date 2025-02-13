@@ -70,7 +70,7 @@ export default async function RootLayout({
               <GoogleAdsenseScript />
               <GoogleAnalyticsScript />
               <PlausibleAnalyticsScript />
-              <CozeWebChatScript />
+              {/* <CozeWebChatScript /> */}
             </ThemeProvider>
           </NextIntlClientProvider>
         </body>
