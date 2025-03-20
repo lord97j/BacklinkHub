@@ -13,7 +13,7 @@ body:
     attributes:
       label: Title
       description: The title of your blog post
-      placeholder: ex. Add New Cursor Rules To CursorRules.org
+      placeholder: ex. Add New BacklinkHub To BacklinkHub.pro
     validations:
       required: true
   - type: textarea

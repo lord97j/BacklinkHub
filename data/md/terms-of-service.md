@@ -9,10 +9,10 @@ date: 2025-01-15T00:00:00.000Z
 # Terms of Service
 
 1. Acceptance of Terms
-By accessing and using Cursor Rules, you accept and agree to be bound by these terms and conditions of agreement.
+By accessing and using BacklinkHub, you accept and agree to be bound by these terms and conditions of agreement.
 
 2. User Registration
-To access certain features of CursorRules.org, you may need to register for an account. You agree to:
+To access certain features of BacklinkHub.pro, you may need to register for an account. You agree to:
 
 - Provide accurate and complete information
 - Maintain the security of your account
@@ -29,7 +29,7 @@ You agree not to:
 - Share inappropriate or offensive content
 
 4. Intellectual Property
-All content, features, and functionality are owned by Cursor Rules and are protected by international copyright, trademark, and other intellectual property laws.
+All content, features, and functionality are owned by BacklinkHub and are protected by international copyright, trademark, and other intellectual property laws.
 
 5. Termination
 We reserve the right to:
@@ -54,4 +54,4 @@ We reserve the right to modify these terms at any time. We will notify users of 
 9. Contact Information
 If you have any questions about these Terms of Service, please contact us at:
 
-Email: support@cursorrules.org
+Email: support@backlinkhub.pro

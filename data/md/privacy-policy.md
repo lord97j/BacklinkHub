@@ -47,7 +47,7 @@ You have the right to:
 ## 6. Contact Us
 If you have any questions about this privacy policy, please contact us at:
 
-Email: support@cursorrules.org
+Email: support@backlinkhub.pro
 
 ## 7. Policy Updates
 We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page.

@@ -1,0 +1,403 @@
+[
+    {
+      "name": "Deno Integration",
+      "description": "This project provides automation scripts and workflows tailored for the @findhow packages, adapted from the original Deno automation repository. It aims to deliver consistent and efficient automation solutions for the @findhow ecosystem.",
+      "url": "/article/deno-integration-techniques-cursorrules-prompt-fil",
+      "category": "backend",
+      "tags": [
+        "Deno",
+        "Automation",
+        "Workflow",
+        "Integration",
+        "@findhow"
+      ]
+    },
+    {
+      "name": "Elixir Engineer Guidelines",
+      "description": "Comprehensive guidelines for Elixir engineers, covering best practices, tools, and workflows for building robust and scalable applications.",
+      "url": "/article/elixir-engineer-guidelines-cursorrules-prompt-file",
+      "tags": [
+        "Elixir",
+        "Phoenix",
+        "Docker",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "LeftHook",
+        "Sobelow",
+        "Credo",
+        "Ecto",
+        "ExUnit",
+        "Plug",
+        "Phoenix LiveView",
+        "Phoenix LiveDashboard",
+        "Gettext",
+        "Jason",
+        "Swoosh",
+        "Finch",
+        "DNS Cluster",
+        "File System Watcher",
+        "Release Please",
+        "ExCoveralls"
+      ]
+    },
+    {
+      "name": "Elixir (Phoenix, Docker)",
+      "description": "Comprehensive guidelines and best practices for developing scalable and maintainable Elixir applications using Phoenix framework and Docker. Includes coding standards, preferred libraries, performance optimization, and testing strategies.",
+      "url": "/article/elixir-phoenix-docker-setup-cursorrules-prompt-fil",
+      "tags": [
+        "Elixir",
+        "Phoenix",
+        "Docker",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Testing",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "ES Module (Node.js)",
+      "description": "Guidelines and best practices for using ES Modules in Node.js, focusing on modularity, performance, and security.",
+      "url": "/article/es-module-nodejs-guidelines-cursorrules-prompt-fil",
+      "tags": [
+        "Node.js",
+        "ES Modules",
+        "JavaScript",
+        "Best Practices"
+      ]
+    },
+    {
+      "name": "Go Backend Scalability",
+      "description": "A comprehensive guide to building scalable backend systems using Go, covering best practices, performance optimization, and modern architectural patterns.",
+      "url": "/article/go-backend-scalability-cursorrules-prompt-file",
+      "tags": [
+        "Go",
+        "Backend Development",
+        "Scalability",
+        "Microservices",
+        "Performance Optimization",
+        "gRPC",
+        "Kubernetes",
+        "Docker",
+        "CI/CD",
+        "Cloud Platforms"
+      ]
+    },
+    {
+      "name": "Go ServeMux REST API",
+      "description": "Comprehensive guide for building secure, scalable, and maintainable REST APIs using Go's net/http package and the new ServeMux introduced in Go 1.22. Follow best practices for RESTful API design, error handling, input validation, and concurrency.",
+      "url": "/article/go-servemux-rest-api-cursorrules-prompt-file",
+      "tags": [
+        "Go",
+        "REST API",
+        "ServeMux",
+        "net/http",
+        "Error Handling",
+        "Input Validation",
+        "Concurrency",
+        "Middleware",
+        "Rate Limiting",
+        "Authentication",
+        "Logging",
+        "Testing"
+      ]
+    },
+    {
+      "name": "Go (Basic Setup)",
+      "description": "A comprehensive guide to setting up a Go project with HTMX, including best practices, folder structure, and additional instructions for efficient development.",
+      "url": "/article/htmx-go-basic-cursorrules-prompt-file",
+      "tags": [
+        "Go",
+        "HTMX",
+        "Basic Setup",
+        "Best Practices",
+        "Server-Side Rendering",
+        "Error Handling"
+      ]
+    },
+    {
+      "name": "Go with Fiber",
+      "description": "Best practices and guidelines for integrating HTMX with Go and Fiber, including project structure, coding standards, and performance optimization.",
+      "url": "/article/htmx-go-fiber-cursorrules-prompt-file",
+      "tags": [
+        "Go",
+        "Fiber",
+        "HTMX",
+        "Server-Side Rendering",
+        "Web Development"
+      ]
+    },
+    {
+      "name": "HTMX (Basic Setup)",
+      "description": "A comprehensive guide to setting up HTMX with best practices, folder structure, and additional instructions for optimal performance and maintainability.",
+      "url": "/article/htmx-basic-cursorrules-prompt-file",
+      "tags": [
+        "HTMX",
+        "Basic Setup",
+        "Best Practices",
+        "Frontend Development",
+        "Progressive Enhancement"
+      ]
+    },
+    {
+      "name": "HTMX (Flask)",
+      "description": "A comprehensive guide to integrating HTMX with Flask, including best practices, folder structure, and additional instructions for building modern web applications.",
+      "url": "/article/htmx-flask-cursorrules-prompt-file",
+      "tags": [
+        "Flask",
+        "HTMX",
+        "Web Development",
+        "Python",
+        "Server-Side Rendering"
+      ]
+    },
+    {
+      "name": "HTMX (Django)",
+      "description": "Best practices and guidelines for integrating HTMX with Django to build dynamic web applications efficiently.",
+      "url": "/article/htmx-django-cursorrules-prompt-file",
+      "tags": [
+        "Django",
+        "HTMX",
+        "Web Development",
+        "Backend",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Java (Springboot, JPA)",
+      "description": "A comprehensive guide for Java developers using Spring Boot and JPA, focusing on best practices, SOLID principles, and OWASP security standards.",
+      "url": "/article/java-springboot-jpa-cursorrules-prompt-file",
+      "tags": [
+        "Spring Boot",
+        "JPA",
+        "Java",
+        "Best Practices",
+        "SOLID",
+        "OWASP"
+      ]
+    },
+    {
+      "name": "Knative (Istio, Typesense, GPU)",
+      "description": "A comprehensive guide for building scalable, serverless applications using Knative, Istio, Typesense, and GPU acceleration. This project focuses on creating a robust, efficient, and secure AI-powered search application with a responsive HTMX-based frontend.",
+      "url": "/article/knative-istio-typesense-gpu-cursorrules-prompt-fil",
+      "tags": [
+        "Knative",
+        "Istio",
+        "Typesense",
+        "GPU",
+        "HTMX",
+        "Serverless",
+        "Cloud-Native",
+        "AI"
+      ]
+    },
+    {
+      "name": "Laravel (PHP 8.3)",
+      "description": "Comprehensive guide and best practices for developing Laravel packages using PHP 8.3, focusing on code quality, developer experience, and seamless integration.",
+      "url": "/article/laravel-php-83-cursorrules-prompt-file",
+      "tags": [
+        "Laravel",
+        "PHP 8.3",
+        "Package Development",
+        "Spatie",
+        "Pint",
+        "Testing",
+        "Documentation"
+      ]
+    },
+    {
+      "name": "Laravel (TALL Stack)",
+      "description": "Comprehensive guide and best practices for building modern web applications using the TALL stack: Laravel, Livewire, Alpine.js, and Tailwind CSS. This guide emphasizes Laravel and PHP best practices, performance optimization, and security measures.",
+      "url": "/article/laravel-tall-stack-best-practices-cursorrules-prom",
+      "tags": [
+        "TALL Stack",
+        "Laravel",
+        "Livewire",
+        "Alpine.js",
+        "Tailwind CSS",
+        "PHP",
+        "Web Development",
+        "Best Practices"
+      ]
+    },
+    {
+      "name": "Node.js (MongoDB)",
+      "description": "A robust backend system built with Node.js and MongoDB for managing user pools, entries, picks, and scoring in a competitive gaming environment.",
+      "url": "/article/nodejs-mongodb-cursorrules-prompt-file-tutorial",
+      "tags": [
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "RESTful API",
+        "JWT",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Node.js (MongoDB, JWT, Express, React)",
+      "description": "A comprehensive full-stack application built with Node.js, MongoDB, JWT for authentication, Express.js for the backend, and React.js for the frontend. This project includes a robust admin panel, secure authentication, and efficient data management.",
+      "url": "/article/nodejs-mongodb-jwt-express-react-cursorrules-promp",
+      "tags": [
+        "Node.js",
+        "MongoDB",
+        "JWT",
+        "Express",
+        "React",
+        "Full-Stack",
+        "Authentication",
+        "Admin Panel"
+      ]
+    },
+    {
+      "name": "Python (FastAPI)",
+      "description": "Best practices and guidelines for developing scalable APIs using Python and FastAPI.",
+      "url": "/article/py-fast-api",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "API Development",
+        "Scalability",
+        "Pydantic",
+        "Async Programming"
+      ]
+    },
+    {
+      "name": "Python (FastAPI)",
+      "description": "Comprehensive guidelines for developing scalable, maintainable, and high-performance APIs using Python and FastAPI. Includes best practices for coding standards, error handling, performance optimization, and dependency management.",
+      "url": "/article/cursorrules-file-cursor-ai-python-fastapi-api",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "API Development",
+        "Scalability",
+        "Performance Optimization",
+        "Error Handling",
+        "Pydantic",
+        "Async Programming"
+      ]
+    },
+    {
+      "name": "Python 3.12 (FastAPI Best Practices)",
+      "description": "Comprehensive best practices and guidelines for developing robust and maintainable Python 3.12 applications using FastAPI, Pydantic, SQLAlchemy, and other essential libraries.",
+      "url": "/article/python-312-fastapi-best-practices-cursorrules-prom",
+      "tags": [
+        "Python 3.12",
+        "FastAPI",
+        "Best Practices",
+        "Pydantic",
+        "SQLAlchemy",
+        "Poetry",
+        "Alembic",
+        "FastAPI-Users",
+        "FastAPI-JWT-Auth",
+        "FastAPI-Mail",
+        "FastAPI-Cache",
+        "FastAPI-Limiter",
+        "FastAPI-Pagination"
+      ]
+    },
+    {
+      "name": "Python (Django Best Practices)",
+      "description": "Comprehensive guide on best practices for developing scalable and maintainable web applications using Python and Django.",
+      "url": "/article/python-django-best-practices-cursorrules-prompt-fi",
+      "tags": [
+        "Django",
+        "Python",
+        "Web Development",
+        "Best Practices",
+        "Scalability"
+      ]
+    },
+    {
+      "name": "Python (FastAPI Best Practices)",
+      "description": "Comprehensive guide on best practices for developing scalable and efficient APIs using FastAPI, focusing on functional programming, modularization, and performance optimization.",
+      "url": "/article/python-fastapi-best-practices-cursorrules-prompt-f",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "API Development",
+        "Best Practices",
+        "Scalability",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "Python (FastAPI Scalable API)",
+      "description": "A comprehensive guide to building scalable APIs with Python and FastAPI, including best practices, project structure, and performance optimization techniques.",
+      "url": "/article/python-fastapi-scalable-api-cursorrules-prompt-fil",
+      "tags": [
+        "FastAPI",
+        "Scalable API",
+        "Python",
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Shadcn UI"
+      ]
+    },
+    {
+      "name": "Python (Flask JSON Guide)",
+      "description": "A comprehensive guide on integrating JSON data handling in Python using Flask, including examples and environment setup.",
+      "url": "/article/python-flask-json-guide-cursorrules-prompt-file",
+      "tags": [
+        "Flask",
+        "JSON",
+        "Python",
+        "API",
+        "Data Handling"
+      ]
+    },
+    {
+      "name": "TypeScript (NestJS Best Practices)",
+      "description": "Comprehensive guide and best practices for TypeScript development using the NestJS framework, focusing on clean code, design patterns, and efficient testing strategies.",
+      "url": "/article/typescript-nestjs-best-practices-cursorrules-promp",
+      "tags": [
+        "TypeScript",
+        "NestJS",
+        "Best Practices",
+        "Clean Code",
+        "Design Patterns",
+        "Testing"
+      ]
+    },
+    {
+      "name": "WordPress (PHP, Guzzle, Gutenberg)",
+      "description": "A comprehensive guide for developing WordPress plugins using PHP, Guzzle for HTTP requests, and Gutenberg for block editor integration. Follow best practices for coding standards, type hinting, and functional programming paradigms.",
+      "url": "/article/wordpress-php-guzzle-gutenberg-cursorrules-prompt-",
+      "tags": [
+        "PHP",
+        "Guzzle",
+        "Gutenberg",
+        "WordPress",
+        "Plugin Development",
+        "TypeScript",
+        "Functional Programming"
+      ]
+    },
+    {
+      "name": "WordPress (macOS)",
+      "description": "PressThat is a macOS system tray application designed to streamline the process of managing and viewing draft posts on your WordPress website. It offers a seamless connection to your WordPress site, allowing you to quickly access and manage your content directly from your desktop.",
+      "url": "/article/cursorrules-cursor-ai-wordpress-draft-macos-prompt",
+      "tags": [
+        "macOS",
+        "WordPress",
+        "System Tray App",
+        "Content Management",
+        "Draft Posts"
+      ]
+    },
+    {
+      "name": "Python LLM & ML Workflow",
+      "description": "Comprehensive guidelines and best practices for Python-based LLM (Large Language Models) and ML (Machine Learning) workflows. This document covers coding standards, technology stack, modular design, code quality, ML/AI-specific guidelines, performance optimization, and API development with FastAPI.",
+      "url": "/article/python-llm-ml-workflow-cursorrules-prompt-file",
+      "tags": [
+        "Python",
+        "LLM",
+        "Machine Learning",
+        "FastAPI",
+        "Data Science",
+        "Best Practices",
+        "Coding Standards",
+        "Performance Optimization"
+      ]
+    }
+  ]

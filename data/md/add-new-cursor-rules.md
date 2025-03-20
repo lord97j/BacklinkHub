@@ -1,16 +1,16 @@
 ---
-title: Add New Cursor Rules To CursorRules.org
+title: Add New BacklinkHub To BacklinkHub.pro
 description: How to add new developer tools to CursoRrules
 date: '2024-08-14T13:14:40.737Z'
 category: blog
 ---
 
 
-# Add New Cursor Rules to CursorRules.org
+# Add New BacklinkHub to BacklinkHub.pro
 
-Follow these steps to add new cursor rules to CursorRules.org.
+Follow these steps to add new cursor rules to BacklinkHub.pro.
 
-## Step 1: Add New Cursor Rules
+## Step 1: Add New BacklinkHub
 
 1. Open the CursorRules repository: [CursorRules](https://github.com/lord97j/cursorrules/)
 2. Open the corresponding JSONC file `/data/json/[locale]/rules/{category}.jsonc`

@@ -17,76 +17,23 @@
   // A
   // B
   {
-    "name": "Backend Development",
-    "src": "backend.jsonc",
-    "link": "backend",
-    "description": "Rules for backend development including Node.js, Python, Go, Java, etc."
+    "name": "Blog Platforms",
+    "src": "blogs.jsonc",
+    "link": "blogs",
+    "description": "High-quality blog platforms suitable for content marketing and professional knowledge sharing, including technical blogs, industry blogs, and various other types"
   },
-  // C
   {
-    "name": "CSS and Styling",
-    "src": "css.jsonc",
-    "link": "css",
-    "description": "Rules for CSS frameworks and styling solutions like Tailwind CSS"
+    "name": "Forums",
+    "src": "forums.jsonc",
+    "link": "forums",
+    "description": "High-quality forum resources ideal for content marketing and professional knowledge sharing, including technical forums, industry forums and other types"
   },
   // D
   {
-    "name": "Database and API",
-    "src": "database.jsonc",
-    "link": "database",
-    "description": "Rules for database integration and API development"
-  },
-  // E
-  // F
-  {
-    "name": "Frontend Frameworks",
-    "src": "frontend.jsonc",
-    "link": "frontend",
-    "description": "Rules for frontend frameworks like React, Vue, Angular, etc."
-  },
-  // G
-  // H
-  // I
-  // J
-  // K
-  // L
-  {
-    "name": "Language-Specific",
-    "src": "language.jsonc",
-    "link": "language",
-    "description": "Language-specific rules for TypeScript, Python, JavaScript, etc."
-  },
-  // M
-  {
-    "name": "Mobile Development",
-    "src": "mobile.jsonc",
-    "link": "mobile",
-    "description": "Rules for mobile app development with React Native, Flutter, etc."
-  },
-  // N
-  // O
-  // P
-  // Q
-  // R
-  // S
-  {
-    "name": "State Management",
-    "src": "state.jsonc",
-    "link": "state",
-    "description": "Rules for state management solutions like Redux, MobX, etc."
-  },
-  // T
-  {
-    "name": "Testing",
-    "src": "testing.jsonc",
-    "link": "testing",
-    "description": "Rules for testing frameworks and methodologies"
-  },
-  {
-    "name": "Tools and DevOps",
-    "src": "tools.jsonc",
-    "link": "tools",
-    "description": "Rules for development tools, build systems, and DevOps practices"
+    "name": "Website Directories",
+    "src": "directories.jsonc",
+    "link": "directories",
+    "description": "Professional website directories and navigation platforms that provide multi-domain resource aggregation, helping to improve website exposure and discoverability"
   },
   // U
   // V

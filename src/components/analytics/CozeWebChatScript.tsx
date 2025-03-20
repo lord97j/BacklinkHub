@@ -46,7 +46,7 @@ export function CozeWebChatScript() {
                 * @param chatBot.el - Container for setting the placement of the chat box (Element).
                 */
                 chatBot: {
-                  title: 'CursorRules.org Agent',
+                  title: 'BacklinkHub.pro Agent',
                   uploadable: true,
                   width: 390
                 }, 
@@ -64,7 +64,7 @@ export function CozeWebChatScript() {
                 */
                 footer: { 
                   isShow: true, 
-                  expressionText: 'Powered by CursorRules.org',
+                  expressionText: 'Powered by BacklinkHub.pro',
                 } 
               },
           });

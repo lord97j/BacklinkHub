@@ -166,7 +166,7 @@ export const Navigation = ({ categories }: navigationProp ) => {
                           </a>
                         </NavigationMenuLink>
                       </li>
-                      <ListItem href="/article/add-new-cursor-rules" title="Add Cursor Rules">
+                      <ListItem href="/article/add-new-cursor-rules" title="Add BacklinkHub">
                         {t('article1Title')}
                       </ListItem>
                       <ListItem href="/article/comprehensive-guide-cursorrules-optimized-ai-programming" title={siteConfig.name}>

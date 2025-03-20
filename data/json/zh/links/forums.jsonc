@@ -1,0 +1,402 @@
+[
+    {
+      "name": "Deno Integration",
+      "description": "该项目为 @findhow 包提供自动化脚本和工作流程，改编自原始的 Deno 自动化仓库。旨在为 @findhow 生态系统提供一致且高效的自动化解决方案。",
+      "url": "/article/deno-integration-techniques-cursorrules-prompt-fil",
+      "tags": [
+        "Deno",
+        "Automation",
+        "Workflow",
+        "Integration",
+        "@findhow"
+      ]
+    },
+    {
+      "name": "Elixir Engineer Guidelines",
+      "description": "面向 Elixir 工程师的综合指南，涵盖构建健壮和可扩展应用程序的最佳实践、工具和工作流程。",
+      "url": "/article/elixir-engineer-guidelines-cursorrules-prompt-file",
+      "tags": [
+        "Elixir",
+        "Phoenix",
+        "Docker",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "LeftHook",
+        "Sobelow",
+        "Credo",
+        "Ecto",
+        "ExUnit",
+        "Plug",
+        "Phoenix LiveView",
+        "Phoenix LiveDashboard",
+        "Gettext",
+        "Jason",
+        "Swoosh",
+        "Finch",
+        "DNS Cluster",
+        "File System Watcher",
+        "Release Please",
+        "ExCoveralls"
+      ]
+    },
+    {
+      "name": "Elixir (Phoenix, Docker)",
+      "description": "使用 Phoenix 框架和 Docker 开发可扩展和可维护的 Elixir 应用程序的综合指南和最佳实践。包括编码标准、首选库、性能优化和测试策略。",
+      "url": "/article/elixir-phoenix-docker-setup-cursorrules-prompt-fil",
+      "tags": [
+        "Elixir",
+        "Phoenix",
+        "Docker",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Testing",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "ES Module (Node.js)",
+      "description": "在 Node.js 中使用 ES 模块的指南和最佳实践，重点关注模块化、性能和安全性。",
+      "url": "/article/es-module-nodejs-guidelines-cursorrules-prompt-fil",
+      "tags": [
+        "Node.js",
+        "ES Modules",
+        "JavaScript",
+        "Best Practices"
+      ]
+    },
+    {
+      "name": "Go Backend Scalability",
+      "description": "使用 Go 构建可扩展后端系统的综合指南，涵盖最佳实践、性能优化和现代架构模式。",
+      "url": "/article/go-backend-scalability-cursorrules-prompt-file",
+      "tags": [
+        "Go",
+        "Backend Development",
+        "Scalability",
+        "Microservices",
+        "Performance Optimization",
+        "gRPC",
+        "Kubernetes",
+        "Docker",
+        "CI/CD",
+        "Cloud Platforms"
+      ]
+    },
+    {
+      "name": "Go ServeMux REST API",
+      "description": "使用 Go 的 net/http 包和 Go 1.22 中引入的新 ServeMux 构建安全、可扩展和可维护的 REST API 的综合指南。遵循 RESTful API 设计、错误处理、输入验证和并发的最佳实践。",
+      "url": "/article/go-servemux-rest-api-cursorrules-prompt-file",
+      "tags": [
+        "Go",
+        "REST API",
+        "ServeMux",
+        "net/http",
+        "Error Handling",
+        "Input Validation",
+        "Concurrency",
+        "Middleware",
+        "Rate Limiting",
+        "Authentication",
+        "Logging",
+        "Testing"
+      ]
+    },
+    {
+      "name": "Go (Basic Setup)",
+      "description": "使用 HTMX 设置 Go 项目的综合指南，包括最佳实践、文件夹结构和高效开发的其他说明。",
+      "url": "/article/htmx-go-basic-cursorrules-prompt-file",
+      "tags": [
+        "Go",
+        "HTMX",
+        "Basic Setup",
+        "Best Practices",
+        "Server-Side Rendering",
+        "Error Handling"
+      ]
+    },
+    {
+      "name": "Go with Fiber",
+      "description": "将 HTMX 与 Go 和 Fiber 集成的最佳实践和指南，包括项目结构、编码标准和性能优化。",
+      "url": "/article/htmx-go-fiber-cursorrules-prompt-file",
+      "tags": [
+        "Go",
+        "Fiber",
+        "HTMX",
+        "Server-Side Rendering",
+        "Web Development"
+      ]
+    },
+    {
+      "name": "HTMX (Basic Setup)",
+      "description": "HTMX 设置的综合指南，包括最佳实践、文件夹结构和实现最佳性能和可维护性的其他说明。",
+      "url": "/article/htmx-basic-cursorrules-prompt-file",
+      "tags": [
+        "HTMX",
+        "Basic Setup",
+        "Best Practices",
+        "Frontend Development",
+        "Progressive Enhancement"
+      ]
+    },
+    {
+      "name": "HTMX (Flask)",
+      "description": "将 HTMX 与 Flask 集成的综合指南，包括构建现代 Web 应用程序的最佳实践、文件夹结构和其他说明。",
+      "url": "/article/htmx-flask-cursorrules-prompt-file",
+      "tags": [
+        "Flask",
+        "HTMX",
+        "Web Development",
+        "Python",
+        "Server-Side Rendering"
+      ]
+    },
+    {
+      "name": "HTMX (Django)",
+      "description": "将 HTMX 与 Django 集成以高效构建动态 Web 应用程序的最佳实践和指南。",
+      "url": "/article/htmx-django-cursorrules-prompt-file",
+      "tags": [
+        "Django",
+        "HTMX",
+        "Web Development",
+        "Backend",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Java (Springboot, JPA)",
+      "description": "面向使用 Spring Boot 和 JPA 的 Java 开发人员的综合指南，重点关注最佳实践、SOLID 原则和 OWASP 安全标准。",
+      "url": "/article/java-springboot-jpa-cursorrules-prompt-file",
+      "tags": [
+        "Spring Boot",
+        "JPA",
+        "Java",
+        "Best Practices",
+        "SOLID",
+        "OWASP"
+      ]
+    },
+    {
+      "name": "Knative (Istio, Typesense, GPU)",
+      "description": "使用 Knative、Istio、Typesense 和 GPU 加速构建可扩展的无服务器应用程序的综合指南。该项目专注于创建一个具有响应式 HTMX 前端的强大、高效和安全的 AI 驱动搜索应用程序。",
+      "url": "/article/knative-istio-typesense-gpu-cursorrules-prompt-fil",
+      "tags": [
+        "Knative",
+        "Istio",
+        "Typesense",
+        "GPU",
+        "HTMX",
+        "Serverless",
+        "Cloud-Native",
+        "AI"
+      ]
+    },
+    {
+      "name": "Laravel (PHP 8.3)",
+      "description": "使用 PHP 8.3 开发 Laravel 包的综合指南和最佳实践，重点关注代码质量、开发者体验和无缝集成。",
+      "url": "/article/laravel-php-83-cursorrules-prompt-file",
+      "tags": [
+        "Laravel",
+        "PHP 8.3",
+        "Package Development",
+        "Spatie",
+        "Pint",
+        "Testing",
+        "Documentation"
+      ]
+    },
+    {
+      "name": "Laravel (TALL Stack)",
+      "description": "使用 TALL 技术栈（Laravel、Livewire、Alpine.js 和 Tailwind CSS）构建现代 Web 应用程序的综合指南和最佳实践。本指南强调 Laravel 和 PHP 最佳实践、性能优化和安全措施。",
+      "url": "/article/laravel-tall-stack-best-practices-cursorrules-prom",
+      "tags": [
+        "TALL Stack",
+        "Laravel",
+        "Livewire",
+        "Alpine.js",
+        "Tailwind CSS",
+        "PHP",
+        "Web Development",
+        "Best Practices"
+      ]
+    },
+    {
+      "name": "Node.js (MongoDB)",
+      "description": "使用 Node.js 和 MongoDB 构建的强大后端系统，用于管理竞技游戏环境中的用户池、条目、选择和计分。",
+      "url": "/article/nodejs-mongodb-cursorrules-prompt-file-tutorial",
+      "tags": [
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "RESTful API",
+        "JWT",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Node.js (MongoDB, JWT, Express, React)",
+      "description": "使用 Node.js、MongoDB、JWT 认证、Express.js 后端和 React.js 前端构建的综合全栈应用程序。该项目包括强大的管理面板、安全认证和高效的数据管理。",
+      "url": "/article/nodejs-mongodb-jwt-express-react-cursorrules-promp",
+      "tags": [
+        "Node.js",
+        "MongoDB",
+        "JWT",
+        "Express",
+        "React",
+        "Full-Stack",
+        "Authentication",
+        "Admin Panel"
+      ]
+    },
+    {
+      "name": "Python (FastAPI)",
+      "description": "使用 Python 和 FastAPI 开发可扩展 API 的最佳实践和指南。",
+      "url": "/article/py-fast-api",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "API Development",
+        "Scalability",
+        "Pydantic",
+        "Async Programming"
+      ]
+    },
+    {
+      "name": "Python (FastAPI)",
+      "description": "使用 Python 和 FastAPI 开发可扩展、可维护和高性能 API 的综合指南。包括编码标准、错误处理、性能优化和依赖管理的最佳实践。",
+      "url": "/article/cursorrules-file-cursor-ai-python-fastapi-api",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "API Development",
+        "Scalability",
+        "Performance Optimization",
+        "Error Handling",
+        "Pydantic",
+        "Async Programming"
+      ]
+    },
+    {
+      "name": "Python 3.12 (FastAPI Best Practices)",
+      "description": "使用 FastAPI、Pydantic、SQLAlchemy 和其他基本库开发健壮和可维护的 Python 3.12 应用程序的综合最佳实践和指南。",
+      "url": "/article/python-312-fastapi-best-practices-cursorrules-prom",
+      "tags": [
+        "Python 3.12",
+        "FastAPI",
+        "Best Practices",
+        "Pydantic",
+        "SQLAlchemy",
+        "Poetry",
+        "Alembic",
+        "FastAPI-Users",
+        "FastAPI-JWT-Auth",
+        "FastAPI-Mail",
+        "FastAPI-Cache",
+        "FastAPI-Limiter",
+        "FastAPI-Pagination"
+      ]
+    },
+    {
+      "name": "Python (Django Best Practices)",
+      "description": "使用 Python 和 Django 开发可扩展和可维护的 Web 应用程序的综合最佳实践指南。",
+      "url": "/article/python-django-best-practices-cursorrules-prompt-fi",
+      "tags": [
+        "Django",
+        "Python",
+        "Web Development",
+        "Best Practices",
+        "Scalability"
+      ]
+    },
+    {
+      "name": "Python (FastAPI Best Practices)",
+      "description": "使用 FastAPI 开发可扩展和高效 API 的综合最佳实践指南，重点关注函数式编程、模块化和性能优化。",
+      "url": "/article/python-fastapi-best-practices-cursorrules-prompt-f",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "API Development",
+        "Best Practices",
+        "Scalability",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "Python (FastAPI Scalable API)",
+      "description": "使用 Python 和 FastAPI 构建可扩展 API 的综合指南，包括最佳实践、项目结构和性能优化技术。",
+      "url": "/article/python-fastapi-scalable-api-cursorrules-prompt-fil",
+      "tags": [
+        "FastAPI",
+        "Scalable API",
+        "Python",
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Shadcn UI"
+      ]
+    },
+    {
+      "name": "Python (Flask JSON Guide)",
+      "description": "在 Python 中使用 Flask 进行 JSON 数据处理的综合指南，包括示例和环境设置。",
+      "url": "/article/python-flask-json-guide-cursorrules-prompt-file",
+      "tags": [
+        "Flask",
+        "JSON",
+        "Python",
+        "API",
+        "Data Handling"
+      ]
+    },
+    {
+      "name": "TypeScript (NestJS Best Practices)",
+      "description": "使用 NestJS 框架进行 TypeScript 开发的综合指南和最佳实践，重点关注清洁代码、设计模式和高效的测试策略。",
+      "url": "/article/typescript-nestjs-best-practices-cursorrules-promp",
+      "tags": [
+        "TypeScript",
+        "NestJS",
+        "Best Practices",
+        "Clean Code",
+        "Design Patterns",
+        "Testing"
+      ]
+    },
+    {
+      "name": "WordPress (PHP, Guzzle, Gutenberg)",
+      "description": "使用 PHP、Guzzle 进行 HTTP 请求和 Gutenberg 进行区块编辑器集成开发 WordPress 插件的综合指南。遵循编码标准、类型提示和函数式编程范式的最佳实践。",
+      "url": "/article/wordpress-php-guzzle-gutenberg-cursorrules-prompt-",
+      "tags": [
+        "PHP",
+        "Guzzle",
+        "Gutenberg",
+        "WordPress",
+        "Plugin Development",
+        "TypeScript",
+        "Functional Programming"
+      ]
+    },
+    {
+      "name": "WordPress (macOS)",
+      "description": "PressThat 是一个 macOS 系统托盘应用程序，旨在简化在 WordPress 网站上管理和查看草稿帖子的过程。它提供与 WordPress 站点的无缝连接，让您可以直接从桌面快速访问和管理内容。",
+      "url": "/article/cursorrules-cursor-ai-wordpress-draft-macos-prompt",
+      "tags": [
+        "macOS",
+        "WordPress",
+        "System Tray App",
+        "Content Management",
+        "Draft Posts"
+      ]
+    },
+    {
+      "name": "Python LLM & ML Workflow",
+      "description": "基于 Python 的 LLM（大型语言模型）和 ML（机器学习）工作流程的综合指南和最佳实践。本文档涵盖编码标准、技术栈、模块化设计、代码质量、ML/AI 特定指南、性能优化和使用 FastAPI 的 API 开发。",
+      "url": "/article/python-llm-ml-workflow-cursorrules-prompt-file",
+      "tags": [
+        "Python",
+        "LLM",
+        "Machine Learning",
+        "FastAPI",
+        "Data Science",
+        "Best Practices",
+        "Coding Standards",
+        "Performance Optimization"
+      ]
+    }
+  ]
