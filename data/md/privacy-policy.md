@@ -14,7 +14,7 @@ This privacy policy explains how we collect, use, and protect your personal info
 We collect information that you provide directly to us, including:
 
 - Basic account information (name, email)
-- CursorRules preferences and settings
+- BacklinkHub preferences and settings
 - Usage data and statistics
 - Device and browser information
 

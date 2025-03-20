@@ -166,7 +166,7 @@ export const Navigation = ({ categories }: navigationProp ) => {
                           </a>
                         </NavigationMenuLink>
                       </li>
-                      <ListItem href="/article/add-new-cursor-rules" title="Add BacklinkHub">
+                      <ListItem href="/article/add-new-backlink" title="Add BacklinkHub">
                         {t('article1Title')}
                       </ListItem>
                       <ListItem href="/article/comprehensive-guide-cursorrules-optimized-ai-programming" title={siteConfig.name}>
@@ -190,7 +190,7 @@ export const Navigation = ({ categories }: navigationProp ) => {
           </nav>
         </div>
         <div className="flex items-center gap-3">
-          <Link href="/article/add-new-cursor-rules" className='hidden md:block'>
+          <Link href="/article/add-new-backlink" className='hidden md:block'>
             <Button variant="outline" className='text-sm tracking-tight'>{t('submitToolBtn')}</Button>
           </Link>
           <div className="flex items-center gap-1">

@@ -21,7 +21,7 @@ body:
     attributes:
       label: Description
       description: A brief description of your post
-      placeholder: ex. How to add new developer tools to CursorRules
+      placeholder: ex. How to add new developer tools to BacklinkHub
     validations:
       required: true
   - type: textarea
